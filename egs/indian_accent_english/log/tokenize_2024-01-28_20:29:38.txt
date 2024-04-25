@@ -1,0 +1,53 @@
+2024-01-28 12:29:41 | INFO | fairseq.tasks.text_to_speech | Please install tensorboardX: pip install tensorboardX
+num_jobs:3
+2024-01-28 12:29:53 | INFO | root | dataset_parts: ['all'] manifests 1
+2024-01-28 12:30:00 | INFO | fairseq.tasks.hubert_pretraining | current directory is /home/v-zhijunjia/CodecGen
+2024-01-28 12:30:00 | INFO | fairseq.tasks.hubert_pretraining | HubertPretrainingTask Config {'_name': 'hubert_pretraining', 'data': '/checkpoint/wnhsu/data/librispeech/960h/iter/250K_50hz_km100_mp0_65_v2', 'fine_tuning': False, 'labels': ['layer6.km500'], 'label_dir': None, 'label_rate': 50.0, 'sample_rate': 16000, 'normalize': False, 'enable_padding': False, 'max_keep_size': None, 'max_sample_size': 250000, 'min_sample_size': 32000, 'single_target': False, 'random_crop': True, 'pad_audio': False}
+2024-01-28 12:30:00 | INFO | fairseq.models.hubert.hubert | HubertModel Config: {'_name': 'hubert', 'label_rate': 50.0, 'extractor_mode': default, 'encoder_layers': 12, 'encoder_embed_dim': 768, 'encoder_ffn_embed_dim': 3072, 'encoder_attention_heads': 12, 'activation_fn': gelu, 'layer_type': transformer, 'dropout': 0.1, 'attention_dropout': 0.1, 'activation_dropout': 0.0, 'encoder_layerdrop': 0.05, 'dropout_input': 0.1, 'dropout_features': 0.1, 'final_dim': 256, 'untie_final_proj': False, 'layer_norm_first': False, 'conv_feature_layers': '[(512,10,5)] + [(512,3,2)] * 4 + [(512,2,2)] * 2', 'conv_bias': False, 'logit_temp': 0.1, 'target_glu': False, 'feature_grad_mult': 0.1, 'mask_length': 10, 'mask_prob': 0.8, 'mask_selection': static, 'mask_other': 0.0, 'no_mask_overlap': False, 'mask_min_space': 1, 'mask_channel_length': 10, 'mask_channel_prob': 0.0, 'mask_channel_selection': static, 'mask_channel_other': 0.0, 'no_mask_channel_overlap': False, 'mask_channel_min_space': 1, 'conv_pos': 128, 'conv_pos_groups': 16, 'latent_temp': [2.0, 0.5, 0.999995], 'skip_masked': False, 'skip_nomask': False, 'checkpoint_activations': False, 'required_seq_len_multiple': 2, 'depthwise_conv_kernel_size': 31, 'attn_type': '', 'pos_enc_type': 'abs', 'fp16': True}
+/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator MiniBatchKMeans from version 0.24.0 when using version 1.2.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2024-01-28 12:30:01 | INFO | root | Processing partition: all CUDA: True
+Cut statistics:
+╒═══════════════════════════╤═══════════╕
+│ Cuts count:               │ 151640    │
+├───────────────────────────┼───────────┤
+│ Total duration (hh:mm:ss) │ 251:05:15 │
+├───────────────────────────┼───────────┤
+│ mean                      │ 6.0       │
+├───────────────────────────┼───────────┤
+│ std                       │ 3.5       │
+├───────────────────────────┼───────────┤
+│ min                       │ 0.4       │
+├───────────────────────────┼───────────┤
+│ 25%                       │ 3.9       │
+├───────────────────────────┼───────────┤
+│ 50%                       │ 5.2       │
+├───────────────────────────┼───────────┤
+│ 75%                       │ 7.1       │
+├───────────────────────────┼───────────┤
+│ 99%                       │ 19.2      │
+├───────────────────────────┼───────────┤
+│ 99.5%                     │ 24.6      │
+├───────────────────────────┼───────────┤
+│ 99.9%                     │ 39.1      │
+├───────────────────────────┼───────────┤
+│ max                       │ 71.2      │
+├───────────────────────────┼───────────┤
+│ Recordings available:     │ 151640    │
+├───────────────────────────┼───────────┤
+│ Features available:       │ 0         │
+├───────────────────────────┼───────────┤
+│ Supervisions available:   │ 151640    │
+╘═══════════════════════════╧═══════════╛
+SUPERVISION custom fields:
+Speech duration statistics:
+╒══════════════════════════════╤═══════════╤══════════════════════╕
+│ Total speech duration        │ 251:05:15 │ 100.00% of recording │
+├──────────────────────────────┼───────────┼──────────────────────┤
+│ Total speaking time duration │ 251:05:15 │ 100.00% of recording │
+├──────────────────────────────┼───────────┼──────────────────────┤
+│ Total silence duration       │ 00:00:01  │ 0.00% of recording   │
+╘══════════════════════════════╧═══════════╧══════════════════════╛
+  0%|          | 0/151640 [00:00<?, ?it/s]2024-01-28 12:30:09 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+  0%|          | 0/151640 [00:00<?, ?it/s]

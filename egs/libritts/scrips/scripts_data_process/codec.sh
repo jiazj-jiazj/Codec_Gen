@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python egs/libritts/bin/codec_gt.py --wav-dir /dev_huaying/zhijun/data/test_vc/test_real_voice/bef --codec tfcodec

@@ -1,0 +1,1410 @@
+Current working directory: /home/v-zhijunjia/CodecGen
+2024-01-31 14:56:10 | INFO | fairseq.tasks.text_to_speech | Please install tensorboardX: pip install tensorboardX
+/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator MiniBatchKMeans from version 0.24.0 when using version 1.2.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+only_antoregressive is True
+add_prenet is False
+self.ar_text_prenet : Identity()
+add_prenet：False
+  0%|          | 0/100 [00:00<?, ?it/s]processing 0th semantic_sys file
+0
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_04430_20240131_145622.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([542], dtype=torch.int32)
+tensor([542], device='cuda:0', dtype=torch.int32)
+text_len:542
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为191（包含终止符）
+所有序列终止
+189
+sys_file:bdl_arctic_a0299
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_04430_20240131_145622_sys2_bdl_arctic_a0299_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+  1%|          | 1/100 [00:15<25:02, 15.17s/it]processing 1th semantic_sys file
+1
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_03938_20240131_145637.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([524], dtype=torch.int32)
+tensor([524], device='cuda:0', dtype=torch.int32)
+text_len:524
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为172（包含终止符）
+所有序列终止
+170
+sys_file:clb_arctic_a0006
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_03938_20240131_145637_sys2_clb_arctic_a0006_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+  2%|▏         | 2/100 [00:27<21:53, 13.40s/it]processing 2th semantic_sys file
+2
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_04057_20240131_145649.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([449], dtype=torch.int32)
+tensor([449], device='cuda:0', dtype=torch.int32)
+text_len:449
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为97（包含终止符）
+所有序列终止
+95
+sys_file:clb_arctic_b0261
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_04057_20240131_145649_sys2_clb_arctic_b0261_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+  3%|▎         | 3/100 [00:33<15:59,  9.89s/it]processing 3th semantic_sys file
+3
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_01170_20240131_145655.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([492], dtype=torch.int32)
+tensor([492], device='cuda:0', dtype=torch.int32)
+text_len:492
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为140（包含终止符）
+所有序列终止
+138
+sys_file:bdl_arctic_a0344
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_01170_20240131_145655_sys2_bdl_arctic_a0344_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+  4%|▍         | 4/100 [00:41<15:03,  9.41s/it]processing 4th semantic_sys file
+4
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST183U4_20240131_145704.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([469], dtype=torch.int32)
+tensor([469], device='cuda:0', dtype=torch.int32)
+text_len:469
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为117（包含终止符）
+所有序列终止
+115
+sys_file:clb_arctic_a0590
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST183U4_20240131_145704_sys2_clb_arctic_a0590_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+  5%|▌         | 5/100 [00:48<13:39,  8.63s/it]processing 5th semantic_sys file
+5
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST163U6_20240131_145711.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([468], dtype=torch.int32)
+tensor([468], device='cuda:0', dtype=torch.int32)
+text_len:468
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为116（包含终止符）
+所有序列终止
+114
+sys_file:clb_arctic_b0339
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST163U6_20240131_145711_sys2_clb_arctic_b0339_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+  6%|▌         | 6/100 [00:55<12:36,  8.05s/it]processing 6th semantic_sys file
+6
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_04068_20240131_145718.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([486], dtype=torch.int32)
+tensor([486], device='cuda:0', dtype=torch.int32)
+text_len:486
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为135（包含终止符）
+所有序列终止
+133
+sys_file:bdl_arctic_b0405
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_04068_20240131_145718_sys2_bdl_arctic_b0405_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+  7%|▋         | 7/100 [01:06<13:37,  8.79s/it]processing 7th semantic_sys file
+7
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_01167_20240131_145728.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([545], dtype=torch.int32)
+tensor([545], device='cuda:0', dtype=torch.int32)
+text_len:545
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为193（包含终止符）
+所有序列终止
+191
+sys_file:clb_arctic_a0253
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_01167_20240131_145728_sys2_clb_arctic_a0253_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+  8%|▊         | 8/100 [01:18<15:19,  9.99s/it]processing 8th semantic_sys file
+8
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_01914_20240131_145741.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([505], dtype=torch.int32)
+tensor([505], device='cuda:0', dtype=torch.int32)
+text_len:505
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为153（包含终止符）
+所有序列终止
+151
+sys_file:clb_arctic_a0419
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_01914_20240131_145741_sys2_clb_arctic_a0419_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+  9%|▉         | 9/100 [01:29<15:30, 10.22s/it]processing 9th semantic_sys file
+9
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_02504_20240131_145752.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([539], dtype=torch.int32)
+tensor([539], device='cuda:0', dtype=torch.int32)
+text_len:539
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为188（包含终止符）
+所有序列终止
+186
+sys_file:clb_arctic_b0411
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_02504_20240131_145752_sys2_clb_arctic_b0411_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 10%|█         | 10/100 [01:41<16:11, 10.79s/it]processing 10th semantic_sys file
+10
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_04807_20240131_145804.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([463], dtype=torch.int32)
+tensor([463], device='cuda:0', dtype=torch.int32)
+text_len:463
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为111（包含终止符）
+所有序列终止
+109
+sys_file:bdl_arctic_b0390
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_04807_20240131_145804_sys2_bdl_arctic_b0390_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 11%|█         | 11/100 [01:49<14:47,  9.97s/it]processing 11th semantic_sys file
+11
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_01038_20240131_145812.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([475], dtype=torch.int32)
+tensor([475], device='cuda:0', dtype=torch.int32)
+text_len:475
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为124（包含终止符）
+所有序列终止
+122
+sys_file:bdl_arctic_a0313
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_01038_20240131_145812_sys2_bdl_arctic_a0313_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 12%|█▏        | 12/100 [01:59<14:25,  9.84s/it]processing 12th semantic_sys file
+12
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST113U19_20240131_145821.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([582], dtype=torch.int32)
+tensor([582], device='cuda:0', dtype=torch.int32)
+text_len:582
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为231（包含终止符）
+所有序列终止
+229
+sys_file:clb_arctic_a0277
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST113U19_20240131_145821_sys2_clb_arctic_a0277_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 13%|█▎        | 13/100 [02:15<16:53, 11.65s/it]processing 13th semantic_sys file
+13
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_06786_20240131_145837.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([436], dtype=torch.int32)
+tensor([436], device='cuda:0', dtype=torch.int32)
+text_len:436
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为85（包含终止符）
+所有序列终止
+83
+sys_file:bdl_arctic_b0088
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_06786_20240131_145837_sys2_bdl_arctic_b0088_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 14%|█▍        | 14/100 [02:20<13:49,  9.64s/it]processing 14th semantic_sys file
+14
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_03509_20240131_145842.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([530], dtype=torch.int32)
+tensor([530], device='cuda:0', dtype=torch.int32)
+text_len:530
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为179（包含终止符）
+所有序列终止
+177
+sys_file:clb_arctic_b0251
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_03509_20240131_145842_sys2_clb_arctic_b0251_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 15%|█▌        | 15/100 [02:31<14:18, 10.10s/it]processing 15th semantic_sys file
+15
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST271U49_20240131_145853.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([585], dtype=torch.int32)
+tensor([585], device='cuda:0', dtype=torch.int32)
+text_len:585
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为234（包含终止符）
+所有序列终止
+232
+sys_file:clb_arctic_a0245
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST271U49_20240131_145853_sys2_clb_arctic_a0245_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 16%|█▌        | 16/100 [02:47<16:34, 11.84s/it]processing 16th semantic_sys file
+16
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_04663_20240131_145909.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([580], dtype=torch.int32)
+tensor([580], device='cuda:0', dtype=torch.int32)
+text_len:580
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为229（包含终止符）
+所有序列终止
+227
+sys_file:clb_arctic_a0299
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_04663_20240131_145909_sys2_clb_arctic_a0299_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 17%|█▋        | 17/100 [03:02<17:49, 12.89s/it]processing 17th semantic_sys file
+17
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_03686_20240131_145924.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([433], dtype=torch.int32)
+tensor([433], device='cuda:0', dtype=torch.int32)
+text_len:433
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为81（包含终止符）
+所有序列终止
+79
+sys_file:bdl_arctic_b0054
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_03686_20240131_145924_sys2_bdl_arctic_b0054_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 18%|█▊        | 18/100 [03:08<14:47, 10.82s/it]processing 18th semantic_sys file
+18
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_04388_20240131_145930.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([544], dtype=torch.int32)
+tensor([544], device='cuda:0', dtype=torch.int32)
+text_len:544
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为193（包含终止符）
+所有序列终止
+191
+sys_file:bdl_arctic_a0024
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_04388_20240131_145930_sys2_bdl_arctic_a0024_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 19%|█▉        | 19/100 [03:20<15:00, 11.11s/it]processing 19th semantic_sys file
+19
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_03424_20240131_145942.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([592], dtype=torch.int32)
+tensor([592], device='cuda:0', dtype=torch.int32)
+text_len:592
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为240（包含终止符）
+所有序列终止
+238
+sys_file:clb_arctic_b0206
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_03424_20240131_145942_sys2_clb_arctic_b0206_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 20%|██        | 20/100 [03:39<17:57, 13.47s/it]processing 20th semantic_sys file
+20
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST113U7_20240131_150001.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([500], dtype=torch.int32)
+tensor([500], device='cuda:0', dtype=torch.int32)
+text_len:500
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为149（包含终止符）
+所有序列终止
+147
+sys_file:bdl_arctic_b0106
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST113U7_20240131_150001_sys2_bdl_arctic_b0106_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 21%|██        | 21/100 [03:48<16:13, 12.33s/it]processing 21th semantic_sys file
+21
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_04874_20240131_150011.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([541], dtype=torch.int32)
+tensor([541], device='cuda:0', dtype=torch.int32)
+text_len:541
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为190（包含终止符）
+所有序列终止
+188
+sys_file:clb_arctic_b0106
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_04874_20240131_150011_sys2_clb_arctic_b0106_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 22%|██▏       | 22/100 [04:01<16:10, 12.45s/it]processing 22th semantic_sys file
+22
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_04084_20240131_150024.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([542], dtype=torch.int32)
+tensor([542], device='cuda:0', dtype=torch.int32)
+text_len:542
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为191（包含终止符）
+所有序列终止
+189
+sys_file:bdl_arctic_a0245
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_04084_20240131_150024_sys2_bdl_arctic_a0245_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 23%|██▎       | 23/100 [04:13<15:41, 12.23s/it]processing 23th semantic_sys file
+23
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_04271_20240131_150035.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([472], dtype=torch.int32)
+tensor([472], device='cuda:0', dtype=torch.int32)
+text_len:472
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为121（包含终止符）
+所有序列终止
+119
+sys_file:clb_arctic_b0517
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_04271_20240131_150035_sys2_clb_arctic_b0517_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 24%|██▍       | 24/100 [04:20<13:31, 10.68s/it]processing 24th semantic_sys file
+24
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_02123_20240131_150042.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([465], dtype=torch.int32)
+tensor([465], device='cuda:0', dtype=torch.int32)
+text_len:465
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为114（包含终止符）
+所有序列终止
+112
+sys_file:bdl_arctic_b0050
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_02123_20240131_150042_sys2_bdl_arctic_b0050_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 25%|██▌       | 25/100 [04:29<12:45, 10.21s/it]processing 25th semantic_sys file
+25
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_01744_20240131_150051.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([532], dtype=torch.int32)
+tensor([532], device='cuda:0', dtype=torch.int32)
+text_len:532
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为181（包含终止符）
+所有序列终止
+179
+sys_file:clb_arctic_a0156
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_01744_20240131_150051_sys2_clb_arctic_a0156_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 26%|██▌       | 26/100 [04:40<13:04, 10.60s/it]processing 26th semantic_sys file
+26
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_01909_20240131_150103.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([436], dtype=torch.int32)
+tensor([436], device='cuda:0', dtype=torch.int32)
+text_len:436
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为85（包含终止符）
+所有序列终止
+83
+sys_file:bdl_arctic_b0339
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_01909_20240131_150103_sys2_bdl_arctic_b0339_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 27%|██▋       | 27/100 [04:46<10:55,  8.99s/it]processing 27th semantic_sys file
+27
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST138U28_20240131_150108.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([540], dtype=torch.int32)
+tensor([540], device='cuda:0', dtype=torch.int32)
+text_len:540
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为189（包含终止符）
+所有序列终止
+187
+sys_file:bdl_arctic_a0277
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST138U28_20240131_150108_sys2_bdl_arctic_a0277_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 28%|██▊       | 28/100 [04:58<12:04, 10.06s/it]processing 28th semantic_sys file
+28
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST133U15_20240131_150121.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([577], dtype=torch.int32)
+tensor([577], device='cuda:0', dtype=torch.int32)
+text_len:577
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为225（包含终止符）
+所有序列终止
+223
+sys_file:clb_arctic_a0024
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST133U15_20240131_150121_sys2_clb_arctic_a0024_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 29%|██▉       | 29/100 [05:13<13:34, 11.47s/it]processing 29th semantic_sys file
+29
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST174U17_20240131_150136.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([480], dtype=torch.int32)
+tensor([480], device='cuda:0', dtype=torch.int32)
+text_len:480
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为129（包含终止符）
+所有序列终止
+127
+sys_file:bdl_arctic_b0251
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST174U17_20240131_150136_sys2_bdl_arctic_b0251_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 30%|███       | 30/100 [05:21<12:09, 10.42s/it]processing 30th semantic_sys file
+30
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_01473_20240131_150144.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([437], dtype=torch.int32)
+tensor([437], device='cuda:0', dtype=torch.int32)
+text_len:437
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为86（包含终止符）
+所有序列终止
+84
+sys_file:bdl_arctic_a0590
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_01473_20240131_150144_sys2_bdl_arctic_a0590_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 31%|███       | 31/100 [05:28<10:44,  9.35s/it]processing 31th semantic_sys file
+31
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_03711_20240131_150150.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([491], dtype=torch.int32)
+tensor([491], device='cuda:0', dtype=torch.int32)
+text_len:491
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为140（包含终止符）
+所有序列终止
+138
+sys_file:bdl_arctic_a0513
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_03711_20240131_150150_sys2_bdl_arctic_a0513_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 32%|███▏      | 32/100 [05:38<10:44,  9.48s/it]processing 32th semantic_sys file
+32
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_04540_20240131_150200.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([463], dtype=torch.int32)
+tensor([463], device='cuda:0', dtype=torch.int32)
+text_len:463
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为112（包含终止符）
+所有序列终止
+110
+sys_file:clb_arctic_b0093
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_04540_20240131_150200_sys2_clb_arctic_b0093_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 33%|███▎      | 33/100 [05:46<10:03,  9.01s/it]processing 33th semantic_sys file
+33
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST63U19_20240131_150208.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([506], dtype=torch.int32)
+tensor([506], device='cuda:0', dtype=torch.int32)
+text_len:506
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为155（包含终止符）
+所有序列终止
+153
+sys_file:bdl_arctic_a0253
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST63U19_20240131_150208_sys2_bdl_arctic_a0253_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 34%|███▍      | 34/100 [05:55<10:12,  9.27s/it]processing 34th semantic_sys file
+34
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_03748_20240131_150218.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([459], dtype=torch.int32)
+tensor([459], device='cuda:0', dtype=torch.int32)
+text_len:459
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为108（包含终止符）
+所有序列终止
+106
+sys_file:bdl_arctic_a0223
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_03748_20240131_150218_sys2_bdl_arctic_a0223_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 35%|███▌      | 35/100 [06:02<09:05,  8.40s/it]processing 35th semantic_sys file
+35
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_04130_20240131_150224.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([562], dtype=torch.int32)
+tensor([562], device='cuda:0', dtype=torch.int32)
+text_len:562
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为210（包含终止符）
+所有序列终止
+208
+sys_file:clb_arctic_b0073
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_04130_20240131_150224_sys2_clb_arctic_b0073_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 36%|███▌      | 36/100 [06:16<10:47, 10.12s/it]processing 36th semantic_sys file
+36
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST200U16_20240131_150238.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([435], dtype=torch.int32)
+tensor([435], device='cuda:0', dtype=torch.int32)
+text_len:435
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为84（包含终止符）
+所有序列终止
+82
+sys_file:bdl_arctic_b0517
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST200U16_20240131_150238_sys2_bdl_arctic_b0517_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 37%|███▋      | 37/100 [06:22<09:17,  8.85s/it]processing 37th semantic_sys file
+37
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_02070_20240131_150244.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([492], dtype=torch.int32)
+tensor([492], device='cuda:0', dtype=torch.int32)
+text_len:492
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为140（包含终止符）
+所有序列终止
+138
+sys_file:clb_arctic_b0050
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_02070_20240131_150244_sys2_clb_arctic_b0050_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 38%|███▊      | 38/100 [06:32<09:41,  9.39s/it]processing 38th semantic_sys file
+38
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_07346_20240131_150255.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([478], dtype=torch.int32)
+tensor([478], device='cuda:0', dtype=torch.int32)
+text_len:478
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为127（包含终止符）
+所有序列终止
+125
+sys_file:clb_arctic_b0117
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_07346_20240131_150255_sys2_clb_arctic_b0117_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 39%|███▉      | 39/100 [06:40<09:04,  8.93s/it]processing 39th semantic_sys file
+39
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_07157_20240131_150303.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([538], dtype=torch.int32)
+tensor([538], device='cuda:0', dtype=torch.int32)
+text_len:538
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为187（包含终止符）
+所有序列终止
+185
+sys_file:clb_arctic_b0310
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_07157_20240131_150303_sys2_clb_arctic_b0310_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 40%|████      | 40/100 [06:51<09:32,  9.54s/it]processing 40th semantic_sys file
+40
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST121U17_20240131_150314.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([450], dtype=torch.int32)
+tensor([450], device='cuda:0', dtype=torch.int32)
+text_len:450
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为99（包含终止符）
+所有序列终止
+97
+sys_file:bdl_arctic_b0117
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST121U17_20240131_150314_sys2_bdl_arctic_b0117_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 41%|████      | 41/100 [07:01<09:34,  9.73s/it]processing 41th semantic_sys file
+41
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_02618_20240131_150324.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([486], dtype=torch.int32)
+tensor([486], device='cuda:0', dtype=torch.int32)
+text_len:486
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为134（包含终止符）
+所有序列终止
+132
+sys_file:clb_arctic_b0110
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_02618_20240131_150324_sys2_clb_arctic_b0110_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 42%|████▏     | 42/100 [07:10<09:00,  9.32s/it]processing 42th semantic_sys file
+42
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_03860_20240131_150332.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([486], dtype=torch.int32)
+tensor([486], device='cuda:0', dtype=torch.int32)
+text_len:486
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为135（包含终止符）
+所有序列终止
+133
+sys_file:bdl_arctic_a0548
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_03860_20240131_150332_sys2_bdl_arctic_a0548_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 43%|████▎     | 43/100 [07:18<08:36,  9.06s/it]processing 43th semantic_sys file
+43
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST116U8_20240131_150341.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([517], dtype=torch.int32)
+tensor([517], device='cuda:0', dtype=torch.int32)
+text_len:517
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为166（包含终止符）
+所有序列终止
+164
+sys_file:clb_arctic_a0469
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST116U8_20240131_150341_sys2_clb_arctic_a0469_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 44%|████▍     | 44/100 [07:29<08:50,  9.47s/it]processing 44th semantic_sys file
+44
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST186U35_20240131_150351.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([488], dtype=torch.int32)
+tensor([488], device='cuda:0', dtype=torch.int32)
+text_len:488
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为137（包含终止符）
+所有序列终止
+135
+sys_file:bdl_arctic_b0016
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST186U35_20240131_150351_sys2_bdl_arctic_b0016_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 45%|████▌     | 45/100 [07:38<08:37,  9.40s/it]processing 45th semantic_sys file
+45
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_02300_20240131_150400.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([512], dtype=torch.int32)
+tensor([512], device='cuda:0', dtype=torch.int32)
+text_len:512
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为160（包含终止符）
+所有序列终止
+158
+sys_file:clb_arctic_a0406
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_02300_20240131_150400_sys2_clb_arctic_a0406_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 46%|████▌     | 46/100 [07:48<08:39,  9.61s/it]processing 46th semantic_sys file
+46
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST153U28_20240131_150411.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([520], dtype=torch.int32)
+tensor([520], device='cuda:0', dtype=torch.int32)
+text_len:520
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为168（包含终止符）
+所有序列终止
+166
+sys_file:clb_arctic_a0344
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST153U28_20240131_150411_sys2_clb_arctic_a0344_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 47%|████▋     | 47/100 [07:59<08:43,  9.88s/it]processing 47th semantic_sys file
+47
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST111U14_20240131_150421.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([480], dtype=torch.int32)
+tensor([480], device='cuda:0', dtype=torch.int32)
+text_len:480
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为129（包含终止符）
+所有序列终止
+127
+sys_file:bdl_arctic_a0469
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST111U14_20240131_150421_sys2_bdl_arctic_a0469_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 48%|████▊     | 48/100 [08:07<08:04,  9.31s/it]processing 48th semantic_sys file
+48
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_02425_20240131_150429.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([468], dtype=torch.int32)
+tensor([468], device='cuda:0', dtype=torch.int32)
+text_len:468
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为117（包含终止符）
+所有序列终止
+115
+sys_file:bdl_arctic_b0216
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_02425_20240131_150429_sys2_bdl_arctic_b0216_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 49%|████▉     | 49/100 [08:10<06:31,  7.68s/it]processing 49th semantic_sys file
+49
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_02439_20240131_150433.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([466], dtype=torch.int32)
+tensor([466], device='cuda:0', dtype=torch.int32)
+text_len:466
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为114（包含终止符）
+所有序列终止
+112
+sys_file:bdl_arctic_a0222
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_02439_20240131_150433_sys2_bdl_arctic_a0222_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 50%|█████     | 50/100 [08:14<05:26,  6.53s/it]processing 50th semantic_sys file
+50
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_02251_20240131_150437.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([481], dtype=torch.int32)
+tensor([481], device='cuda:0', dtype=torch.int32)
+text_len:481
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为130（包含终止符）
+所有序列终止
+128
+sys_file:bdl_arctic_a0406
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_02251_20240131_150437_sys2_bdl_arctic_a0406_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 51%|█████     | 51/100 [08:18<04:45,  5.82s/it]processing 51th semantic_sys file
+51
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_03362_20240131_150441.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([534], dtype=torch.int32)
+tensor([534], device='cuda:0', dtype=torch.int32)
+text_len:534
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为182（包含终止符）
+所有序列终止
+180
+sys_file:bdl_arctic_b0374
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_03362_20240131_150441_sys2_bdl_arctic_b0374_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 52%|█████▏    | 52/100 [08:25<04:47,  5.99s/it]processing 52th semantic_sys file
+52
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_01146_20240131_150447.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([498], dtype=torch.int32)
+tensor([498], device='cuda:0', dtype=torch.int32)
+text_len:498
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为147（包含终止符）
+所有序列终止
+145
+sys_file:clb_arctic_a0223
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_01146_20240131_150447_sys2_clb_arctic_a0223_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 53%|█████▎    | 53/100 [08:32<04:51,  6.21s/it]processing 53th semantic_sys file
+53
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_02541_20240131_150454.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([488], dtype=torch.int32)
+tensor([488], device='cuda:0', dtype=torch.int32)
+text_len:488
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为137（包含终止符）
+所有序列终止
+135
+sys_file:bdl_arctic_a0085
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_02541_20240131_150454_sys2_bdl_arctic_a0085_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 54%|█████▍    | 54/100 [08:36<04:21,  5.69s/it]processing 54th semantic_sys file
+54
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_03819_20240131_150459.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([455], dtype=torch.int32)
+tensor([455], device='cuda:0', dtype=torch.int32)
+text_len:455
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为104（包含终止符）
+所有序列终止
+102
+sys_file:bdl_arctic_b0110
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_03819_20240131_150459_sys2_bdl_arctic_b0110_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 55%|█████▌    | 55/100 [08:39<03:41,  4.92s/it]processing 55th semantic_sys file
+55
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_01410_20240131_150502.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([475], dtype=torch.int32)
+tensor([475], device='cuda:0', dtype=torch.int32)
+text_len:475
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为123（包含终止符）
+所有序列终止
+121
+sys_file:clb_arctic_b0054
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_01410_20240131_150502_sys2_clb_arctic_b0054_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 56%|█████▌    | 56/100 [08:43<03:22,  4.59s/it]processing 56th semantic_sys file
+56
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_05435_20240131_150505.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([488], dtype=torch.int32)
+tensor([488], device='cuda:0', dtype=torch.int32)
+text_len:488
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为137（包含终止符）
+所有序列终止
+135
+sys_file:clb_arctic_b0363
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_05435_20240131_150505_sys2_clb_arctic_b0363_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 57%|█████▋    | 57/100 [08:48<03:20,  4.66s/it]processing 57th semantic_sys file
+57
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST146U30_20240131_150510.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([471], dtype=torch.int32)
+tensor([471], device='cuda:0', dtype=torch.int32)
+text_len:471
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为120（包含终止符）
+所有序列终止
+118
+sys_file:bdl_arctic_b0099
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST146U30_20240131_150510_sys2_bdl_arctic_b0099_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 58%|█████▊    | 58/100 [08:52<03:04,  4.39s/it]processing 58th semantic_sys file
+58
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST212U27_20240131_150514.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([511], dtype=torch.int32)
+tensor([511], device='cuda:0', dtype=torch.int32)
+text_len:511
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为160（包含终止符）
+所有序列终止
+158
+sys_file:bdl_arctic_a0156
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST212U27_20240131_150514_sys2_bdl_arctic_a0156_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 59%|█████▉    | 59/100 [08:58<03:29,  5.12s/it]processing 59th semantic_sys file
+59
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_04763_20240131_150521.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([461], dtype=torch.int32)
+tensor([461], device='cuda:0', dtype=torch.int32)
+text_len:461
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为110（包含终止符）
+所有序列终止
+108
+sys_file:bdl_arctic_b0208
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_04763_20240131_150521_sys2_bdl_arctic_b0208_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 60%|██████    | 60/100 [09:02<03:06,  4.67s/it]processing 60th semantic_sys file
+60
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_01839_20240131_150524.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([459], dtype=torch.int32)
+tensor([459], device='cuda:0', dtype=torch.int32)
+text_len:459
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为107（包含终止符）
+所有序列终止
+105
+sys_file:bdl_arctic_b0363
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_01839_20240131_150524_sys2_bdl_arctic_b0363_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 61%|██████    | 61/100 [09:05<02:48,  4.31s/it]processing 61th semantic_sys file
+61
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_02197_20240131_150528.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([486], dtype=torch.int32)
+tensor([486], device='cuda:0', dtype=torch.int32)
+text_len:486
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为135（包含终止符）
+所有序列终止
+133
+sys_file:bdl_arctic_b0348
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_02197_20240131_150528_sys2_bdl_arctic_b0348_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 62%|██████▏   | 62/100 [09:10<02:46,  4.37s/it]processing 62th semantic_sys file
+62
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_00362_20240131_150532.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([536], dtype=torch.int32)
+tensor([536], device='cuda:0', dtype=torch.int32)
+text_len:536
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为185（包含终止符）
+所有序列终止
+183
+sys_file:bdl_arctic_b0206
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_00362_20240131_150532_sys2_bdl_arctic_b0206_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 63%|██████▎   | 63/100 [09:16<03:03,  4.96s/it]processing 63th semantic_sys file
+63
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_02586_20240131_150539.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([472], dtype=torch.int32)
+tensor([472], device='cuda:0', dtype=torch.int32)
+text_len:472
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为121（包含终止符）
+所有序列终止
+119
+sys_file:bdl_arctic_b0146
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_02586_20240131_150539_sys2_bdl_arctic_b0146_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 64%|██████▍   | 64/100 [09:23<03:17,  5.48s/it]processing 64th semantic_sys file
+64
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_01040_20240131_150546.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([531], dtype=torch.int32)
+tensor([531], device='cuda:0', dtype=torch.int32)
+text_len:531
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为179（包含终止符）
+所有序列终止
+177
+sys_file:clb_arctic_a0316
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_01040_20240131_150546_sys2_clb_arctic_a0316_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 65%|██████▌   | 65/100 [09:29<03:17,  5.65s/it]processing 65th semantic_sys file
+65
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_03357_20240131_150552.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([506], dtype=torch.int32)
+tensor([506], device='cuda:0', dtype=torch.int32)
+text_len:506
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为155（包含终止符）
+所有序列终止
+153
+sys_file:bdl_arctic_a0011
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_03357_20240131_150552_sys2_bdl_arctic_a0011_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 66%|██████▌   | 66/100 [09:35<03:11,  5.64s/it]processing 66th semantic_sys file
+66
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_03777_20240131_150557.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([528], dtype=torch.int32)
+tensor([528], device='cuda:0', dtype=torch.int32)
+text_len:528
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为177（包含终止符）
+所有序列终止
+175
+sys_file:clb_arctic_a0548
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_03777_20240131_150557_sys2_clb_arctic_a0548_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 67%|██████▋   | 67/100 [09:41<03:10,  5.76s/it]processing 67th semantic_sys file
+67
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_01308_20240131_150603.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([507], dtype=torch.int32)
+tensor([507], device='cuda:0', dtype=torch.int32)
+text_len:507
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为156（包含终止符）
+所有序列终止
+154
+sys_file:clb_arctic_a0085
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_01308_20240131_150603_sys2_clb_arctic_a0085_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 68%|██████▊   | 68/100 [09:46<02:58,  5.58s/it]processing 68th semantic_sys file
+68
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_02263_20240131_150608.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([531], dtype=torch.int32)
+tensor([531], device='cuda:0', dtype=torch.int32)
+text_len:531
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为180（包含终止符）
+所有序列终止
+178
+sys_file:clb_arctic_a0011
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_02263_20240131_150608_sys2_clb_arctic_a0011_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 69%|██████▉   | 69/100 [09:52<02:57,  5.72s/it]processing 69th semantic_sys file
+69
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_05025_20240131_150614.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([438], dtype=torch.int32)
+tensor([438], device='cuda:0', dtype=torch.int32)
+text_len:438
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为87（包含终止符）
+所有序列终止
+85
+sys_file:bdl_arctic_b0093
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_05025_20240131_150614_sys2_bdl_arctic_b0093_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 70%|███████   | 70/100 [09:54<02:22,  4.76s/it]processing 70th semantic_sys file
+70
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_01819_20240131_150617.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([504], dtype=torch.int32)
+tensor([504], device='cuda:0', dtype=torch.int32)
+text_len:504
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为153（包含终止符）
+所有序列终止
+151
+sys_file:bdl_arctic_a0316
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_01819_20240131_150617_sys2_bdl_arctic_a0316_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 71%|███████   | 71/100 [10:00<02:28,  5.13s/it]processing 71th semantic_sys file
+71
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_02775_20240131_150623.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([502], dtype=torch.int32)
+tensor([502], device='cuda:0', dtype=torch.int32)
+text_len:502
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为151（包含终止符）
+所有序列终止
+149
+sys_file:clb_arctic_a0222
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_02775_20240131_150623_sys2_clb_arctic_a0222_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 72%|███████▏  | 72/100 [10:05<02:23,  5.12s/it]processing 72th semantic_sys file
+72
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_04311_20240131_150628.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([514], dtype=torch.int32)
+tensor([514], device='cuda:0', dtype=torch.int32)
+text_len:514
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为163（包含终止符）
+所有序列终止
+161
+sys_file:bdl_arctic_b0073
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_04311_20240131_150628_sys2_bdl_arctic_b0073_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 73%|███████▎  | 73/100 [10:11<02:21,  5.26s/it]processing 73th semantic_sys file
+73
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_03574_20240131_150634.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([491], dtype=torch.int32)
+tensor([491], device='cuda:0', dtype=torch.int32)
+text_len:491
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为140（包含终止符）
+所有序列终止
+138
+sys_file:clb_arctic_b0273
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_03574_20240131_150634_sys2_clb_arctic_b0273_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 74%|███████▍  | 74/100 [10:16<02:10,  5.04s/it]processing 74th semantic_sys file
+74
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_03369_20240131_150638.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([475], dtype=torch.int32)
+tensor([475], device='cuda:0', dtype=torch.int32)
+text_len:475
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为124（包含终止符）
+所有序列终止
+122
+sys_file:clb_arctic_a0557
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_03369_20240131_150638_sys2_clb_arctic_a0557_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 75%|███████▌  | 75/100 [10:20<01:58,  4.73s/it]processing 75th semantic_sys file
+75
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_01861_20240131_150642.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([495], dtype=torch.int32)
+tensor([495], device='cuda:0', dtype=torch.int32)
+text_len:495
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为144（包含终止符）
+所有序列终止
+142
+sys_file:bdl_arctic_b0411
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_01861_20240131_150642_sys2_bdl_arctic_b0411_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 76%|███████▌  | 76/100 [10:25<01:58,  4.93s/it]processing 76th semantic_sys file
+76
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_02865_20240131_150648.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([465], dtype=torch.int32)
+tensor([465], device='cuda:0', dtype=torch.int32)
+text_len:465
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为113（包含终止符）
+所有序列终止
+111
+sys_file:clb_arctic_b0262
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_02865_20240131_150648_sys2_clb_arctic_b0262_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 77%|███████▋  | 77/100 [10:28<01:43,  4.48s/it]processing 77th semantic_sys file
+77
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_04055_20240131_150651.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([530], dtype=torch.int32)
+tensor([530], device='cuda:0', dtype=torch.int32)
+text_len:530
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为179（包含终止符）
+所有序列终止
+177
+sys_file:clb_arctic_b0405
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_04055_20240131_150651_sys2_clb_arctic_b0405_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 78%|███████▊  | 78/100 [10:35<01:50,  5.00s/it]processing 78th semantic_sys file
+78
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST109U7_20240131_150657.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([503], dtype=torch.int32)
+tensor([503], device='cuda:0', dtype=torch.int32)
+text_len:503
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为152（包含终止符）
+所有序列终止
+150
+sys_file:bdl_arctic_a0006
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST109U7_20240131_150657_sys2_bdl_arctic_a0006_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 79%|███████▉  | 79/100 [10:40<01:44,  4.99s/it]processing 79th semantic_sys file
+79
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_03783_20240131_150702.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([492], dtype=torch.int32)
+tensor([492], device='cuda:0', dtype=torch.int32)
+text_len:492
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为141（包含终止符）
+所有序列终止
+139
+sys_file:clb_arctic_a0359
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_03783_20240131_150702_sys2_clb_arctic_a0359_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 80%|████████  | 80/100 [10:44<01:37,  4.87s/it]processing 80th semantic_sys file
+80
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_02090_20240131_150707.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([443], dtype=torch.int32)
+tensor([443], device='cuda:0', dtype=torch.int32)
+text_len:443
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为92（包含终止符）
+所有序列终止
+90
+sys_file:bdl_arctic_b0262
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_02090_20240131_150707_sys2_bdl_arctic_b0262_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 81%|████████  | 81/100 [10:47<01:21,  4.30s/it]processing 81th semantic_sys file
+81
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_01020_20240131_150710.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([557], dtype=torch.int32)
+tensor([557], device='cuda:0', dtype=torch.int32)
+text_len:557
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为206（包含终止符）
+所有序列终止
+204
+sys_file:clb_arctic_b0131
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_01020_20240131_150710_sys2_clb_arctic_b0131_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 82%|████████▏ | 82/100 [10:54<01:33,  5.18s/it]processing 82th semantic_sys file
+82
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_08655_20240131_150717.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([494], dtype=torch.int32)
+tensor([494], device='cuda:0', dtype=torch.int32)
+text_len:494
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为143（包含终止符）
+所有序列终止
+141
+sys_file:bdl_arctic_b0310
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_08655_20240131_150717_sys2_bdl_arctic_b0310_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 83%|████████▎ | 83/100 [10:59<01:26,  5.07s/it]processing 83th semantic_sys file
+83
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_04406_20240131_150722.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([590], dtype=torch.int32)
+tensor([590], device='cuda:0', dtype=torch.int32)
+text_len:590
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为238（包含终止符）
+所有序列终止
+236
+sys_file:clb_arctic_b0374
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_04406_20240131_150722_sys2_clb_arctic_b0374_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 84%|████████▍ | 84/100 [11:08<01:40,  6.27s/it]processing 84th semantic_sys file
+84
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST237U23_20240131_150731.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([527], dtype=torch.int32)
+tensor([527], device='cuda:0', dtype=torch.int32)
+text_len:527
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为176（包含终止符）
+所有序列终止
+174
+sys_file:clb_arctic_b0099
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST237U23_20240131_150731_sys2_clb_arctic_b0099_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 85%|████████▌ | 85/100 [11:14<01:32,  6.18s/it]processing 85th semantic_sys file
+85
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_02415_20240131_150737.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([515], dtype=torch.int32)
+tensor([515], device='cuda:0', dtype=torch.int32)
+text_len:515
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为163（包含终止符）
+所有序列终止
+161
+sys_file:clb_arctic_b0146
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_02415_20240131_150737_sys2_clb_arctic_b0146_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 86%|████████▌ | 86/100 [11:21<01:30,  6.44s/it]processing 86th semantic_sys file
+86
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_02305_20240131_150744.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([470], dtype=torch.int32)
+tensor([470], device='cuda:0', dtype=torch.int32)
+text_len:470
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为119（包含终止符）
+所有序列终止
+117
+sys_file:bdl_arctic_a0419
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_02305_20240131_150744_sys2_bdl_arctic_a0419_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 87%|████████▋ | 87/100 [11:26<01:15,  5.80s/it]processing 87th semantic_sys file
+87
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_02791_20240131_150748.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([527], dtype=torch.int32)
+tensor([527], device='cuda:0', dtype=torch.int32)
+text_len:527
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为176（包含终止符）
+所有序列终止
+174
+sys_file:clb_arctic_b0216
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_02791_20240131_150748_sys2_clb_arctic_b0216_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 88%|████████▊ | 88/100 [11:32<01:10,  5.84s/it]processing 88th semantic_sys file
+88
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_07684_20240131_150754.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([507], dtype=torch.int32)
+tensor([507], device='cuda:0', dtype=torch.int32)
+text_len:507
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为155（包含终止符）
+所有序列终止
+153
+sys_file:clb_arctic_a0513
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_07684_20240131_150754_sys2_clb_arctic_a0513_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 89%|████████▉ | 89/100 [11:37<01:01,  5.62s/it]processing 89th semantic_sys file
+89
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_06829_20240131_150759.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([535], dtype=torch.int32)
+tensor([535], device='cuda:0', dtype=torch.int32)
+text_len:535
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为184（包含终止符）
+所有序列终止
+182
+sys_file:clb_arctic_b0016
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_06829_20240131_150759_sys2_clb_arctic_b0016_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 90%|█████████ | 90/100 [11:43<00:58,  5.82s/it]processing 90th semantic_sys file
+90
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_05304_20240131_150805.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([466], dtype=torch.int32)
+tensor([466], device='cuda:0', dtype=torch.int32)
+text_len:466
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为115（包含终止符）
+所有序列终止
+113
+sys_file:bdl_arctic_a0359
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_05304_20240131_150805_sys2_bdl_arctic_a0359_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 91%|█████████ | 91/100 [11:47<00:46,  5.14s/it]processing 91th semantic_sys file
+91
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_assamesemale_02363_20240131_150809.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([505], dtype=torch.int32)
+tensor([505], device='cuda:0', dtype=torch.int32)
+text_len:505
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为154（包含终止符）
+所有序列终止
+152
+sys_file:clb_arctic_b0390
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_assamesemale_02363_20240131_150809_sys2_clb_arctic_b0390_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 92%|█████████▏| 92/100 [11:53<00:45,  5.66s/it]processing 92th semantic_sys file
+92
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_04694_20240131_150816.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([493], dtype=torch.int32)
+tensor([493], device='cuda:0', dtype=torch.int32)
+text_len:493
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为141（包含终止符）
+所有序列终止
+139
+sys_file:clb_arctic_a0313
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_04694_20240131_150816_sys2_clb_arctic_a0313_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 93%|█████████▎| 93/100 [11:58<00:37,  5.31s/it]processing 93th semantic_sys file
+93
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalimale_03690_20240131_150820.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([460], dtype=torch.int32)
+tensor([460], device='cuda:0', dtype=torch.int32)
+text_len:460
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为109（包含终止符）
+所有序列终止
+107
+sys_file:clb_arctic_b0088
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalimale_03690_20240131_150820_sys2_clb_arctic_b0088_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 94%|█████████▍| 94/100 [12:01<00:28,  4.74s/it]processing 94th semantic_sys file
+94
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_02040_20240131_150824.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([481], dtype=torch.int32)
+tensor([481], device='cuda:0', dtype=torch.int32)
+text_len:481
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为130（包含终止符）
+所有序列终止
+128
+sys_file:bdl_arctic_b0131
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_02040_20240131_150824_sys2_bdl_arctic_b0131_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 95%|█████████▌| 95/100 [12:06<00:22,  4.59s/it]processing 95th semantic_sys file
+95
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/ASF001-EN-ST140U2_20240131_150828.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([439], dtype=torch.int32)
+tensor([439], device='cuda:0', dtype=torch.int32)
+text_len:439
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为88（包含终止符）
+所有序列终止
+86
+sys_file:bdl_arctic_a0557
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_ASF001-EN-ST140U2_20240131_150828_sys2_bdl_arctic_a0557_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 96%|█████████▌| 96/100 [12:08<00:15,  3.98s/it]processing 96th semantic_sys file
+96
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_04815_20240131_150831.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([452], dtype=torch.int32)
+tensor([452], device='cuda:0', dtype=torch.int32)
+text_len:452
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为101（包含终止符）
+所有序列终止
+99
+sys_file:bdl_arctic_b0273
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_04815_20240131_150831_sys2_bdl_arctic_b0273_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 97%|█████████▋| 97/100 [12:11<00:11,  3.74s/it]processing 97th semantic_sys file
+97
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bengalifemale_01859_20240131_150834.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([540], dtype=torch.int32)
+tensor([540], device='cuda:0', dtype=torch.int32)
+text_len:540
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为189（包含终止符）
+所有序列终止
+187
+sys_file:clb_arctic_b0348
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bengalifemale_01859_20240131_150834_sys2_clb_arctic_b0348_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 98%|█████████▊| 98/100 [12:18<00:09,  4.59s/it]processing 98th semantic_sys file
+98
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_05094_20240131_150840.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([503], dtype=torch.int32)
+tensor([503], device='cuda:0', dtype=torch.int32)
+text_len:503
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为152（包含终止符）
+所有序列终止
+150
+sys_file:clb_arctic_b0208
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_05094_20240131_150840_sys2_clb_arctic_b0208_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+ 99%|█████████▉| 99/100 [12:23<00:04,  4.80s/it]processing 99th semantic_sys file
+99
+Trimmed audio saved to: /home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/prompt_indian_wavs_7s_larger_temp/train_bodofullfemale_04130_20240131_150846.wav
+audio_propts shape:torch.Size([1, 351, 16])
+semantic_tokens_lens:tensor([416], dtype=torch.int32)
+tensor([416], device='cuda:0', dtype=torch.int32)
+text_len:416
+prefix_len:351
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为65（包含终止符）
+所有序列终止
+63
+sys_file:bdl_arctic_b0261
+/home/v-zhijunjia/data/accent_icml/100pairs_accent_classifier/converted_test_can_del/length_test_7s_prompt_indian_vc_icml_accent_pass_top_10_topp_1_2024-01-31_22:56:07/prompt1_train_bodofullfemale_04130_20240131_150846_sys2_bdl_arctic_b0261_model3_ar_epoch-40pt_nar_checkpoint-100000pt_2024_01_31_14_56_09_0.wav
+100%|██████████| 100/100 [12:25<00:00,  3.96s/it]100%|██████████| 100/100 [12:25<00:00,  7.46s/it]

@@ -1,0 +1,190 @@
+Current working directory: /home/v-zhijunjia/CodecGen
+Failure while loading azureml_run_type_providers. Failed to load entrypoint automl = azureml.train.automl.run:AutoMLRun._from_run_dto with exception (numpy 1.24.0 (/home/v-zhijunjia/.local/lib/python3.10/site-packages), Requirement.parse('numpy!=1.19.3,<1.24; sys_platform == "linux"'), {'azureml-dataset-runtime'}).
+2024-04-05 05:19:27 | INFO | fairseq.tasks.text_to_speech | Please install tensorboardX: pip install tensorboardX
+/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator MiniBatchKMeans from version 0.24.0 when using version 1.2.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+only_antoregressive is True
+add_prenet is False
+self.ar_text_prenet : Identity()
+add_prenet：False
+self.encoder_layers:6
+self.decoder_layers：6
+only_antoregressive is True
+add_prenet is False
+self.ar_text_prenet : None
+add_prenet：False
+[]
+  0%|          | 0/1232 [00:00<?, ?it/s]processing 0th semantic_sys file
+0
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SHE IS UNDER SAIL BUT SHE IS COUNT TIMASCHEFF'S YACHT HE WAS RIGHT
+2024-04-05 05:20:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:20:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0003.json
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+torch.Size([1, 275, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/onlymask_update_gp_i_mask_True_g_in_m_rep_p_0.15_g_in_m_rep_al_p_0.3/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_16_known_token_update_False_2024-04-05_13:19:23
+sys_file:gen_5105-28240-0003
+generate
+  0%|          | 1/1232 [00:18<6:21:09, 18.58s/it]processing 1th semantic_sys file
+1
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SERVADAC TOOK IT FOR GRANTED THAT THE DOBRYNA WAS ENDEAVORING TO PUT IN
+2024-04-05 05:20:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:20:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([48], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0007.json
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+torch.Size([1, 253, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/onlymask_update_gp_i_mask_True_g_in_m_rep_p_0.15_g_in_m_rep_al_p_0.3/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_16_known_token_update_False_2024-04-05_13:19:23
+sys_file:gen_5105-28240-0007
+generate
+  0%|          | 2/1232 [00:22<3:18:55,  9.70s/it]processing 2th semantic_sys file
+2
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IT WAS ON THE LAST DAY OF JANUARY THAT THE REPAIRS OF THE SCHOONER WERE COMPLETED
+2024-04-05 05:20:22 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:20:22 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([39], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0022.json
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+top_k_know_token:None
+known_token_update:False
+torch.Size([1, 302, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/onlymask_update_gp_i_mask_True_g_in_m_rep_p_0.15_g_in_m_rep_al_p_0.3/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_16_known_token_update_False_2024-04-05_13:19:23
+sys_file:gen_5105-28240-0022
+generate
+  0%|          | 3/1232 [00:26<2:27:37,  7.21s/it]processing 3th semantic_sys file
+3
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: FAST AS HIS LEGS COULD CARRY HIM SERVADAC HAD MADE HIS WAY TO THE TOP OF THE CLIFF
+2024-04-05 05:20:26 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:20:26 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0000.json
+  0%|          | 3/1232 [00:26<3:01:13,  8.85s/it]
+Traceback (most recent call last):
+  File "/home/v-zhijunjia/CodecGen/egs/libritts/bin/combine_ar_nar_vc_dir_onlyar.py", line 1700, in <module>
+    main()
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/v-zhijunjia/CodecGen/egs/libritts/bin/combine_ar_nar_vc_dir_onlyar.py", line 1557, in main
+    encoded_frames = tokenize_audio(audio_tokenizer, acoustic_prompts_file)
+  File "/home/v-zhijunjia/CodecGen/valle/data/tokenizer.py", line 366, in tokenize_audio
+    encoded_frames = tokenizer.encode(wav)
+  File "/home/v-zhijunjia/CodecGen/valle/data/tokenizer.py", line 345, in encode
+    _, indices, _ = self.codec(wav.to(self.device))
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-zhijunjia/CodecGen/tfnet/tfnet_models_mp/tfnet_v2i_vqvae.py", line 132, in forward
+    vq_result = self.vq_bottleneck(enc_feat, loss_mask=loss_mask if self.add_packet_loss else None, epo=epo)
+  File "/home/v-zhijunjia/CodecGen/tfnet/tfnet_models_mp/multiframe_vq_bottleneck.py", line 943, in vq_bottleneck
+    vq_out = self.quantize(enc_feat_r, bitrate=bitrate, epo=epo)
+  File "/home/v-zhijunjia/CodecGen/tfnet/tfnet_models_mp/multiframe_vq_bottleneck.py", line 1081, in quantize
+    vq_out = vq_layer(vq_in, target_entropy_per_vqlayer, fuzz_entropy_per_vqlayer)
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-zhijunjia/CodecGen/tfnet/tfnet_models_mp/layers/vq_layer_gumbel.py", line 187, in forward
+    distances_map = distances_map.unsqueeze(-1) * vars  # [BT, M, D]
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 72.00 MiB (GPU 0; 79.10 GiB total capacity; 5.42 GiB already allocated; 81.38 MiB free; 5.53 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

@@ -1,0 +1,389 @@
+Failure while loading azureml_run_type_providers. Failed to load entrypoint automl = azureml.train.automl.run:AutoMLRun._from_run_dto with exception (numpy 1.24.0 (/home/v-zhijunjia/.local/lib/python3.10/site-packages), Requirement.parse('numpy!=1.19.3,<1.24; sys_platform == "linux"'), {'azureml-dataset-runtime'}).
+2024-03-25 03:07:11 | INFO | fairseq.tasks.text_to_speech | Please install tensorboardX: pip install tensorboardX
+/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator MiniBatchKMeans from version 0.24.0 when using version 1.2.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Current working directory: /home/v-zhijunjia/CodecGen
+only_antoregressive is True
+add_prenet is False
+self.ar_text_prenet : Identity()
+add_prenet：False
+self.encoder_layers:6
+self.decoder_layers：6
+only_antoregressive is True
+add_prenet is False
+self.ar_text_prenet : None
+add_prenet：False
+[]
+  0%|          | 0/64 [00:00<?, ?it/s]2024-03-25 03:07:30 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-03-25 03:07:30 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+  2%|▏         | 1/64 [00:08<08:52,  8.45s/it]2024-03-25 03:07:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-03-25 03:07:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+  3%|▎         | 2/64 [00:30<17:02, 16.49s/it]2024-03-25 03:07:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-03-25 03:07:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+processing 0th semantic_sys file
+0
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: BUT WAS THAT ALL HER REWARD ONE OF THE LADIES ASKED
+enroll_x_lens:tensor([43], dtype=torch.int32)
+txt2semantic need not prompprocessing 0th semantic_sys file
+0
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: BUT WAS THAT ALL HER REWARD ONE OF THE LADIES ASKED
+enroll_x_lens:tensor([43], dtype=torch.int32)
+txt2semantic need not prompt
+before_semantic:
+after is :
+248
+[17, 296, 296, 159, 159, 159, 159, 159, 159, 385, 385, 35, 35, 197, 197, 197, 197, 197, 80, 80, 244, 244, 244, 321, 7, 7, 364, 364, 364, 276, 276, 346, 346, 141, 141, 141, 141, 141, 141, 141, 141, 120, 282, 282, 282, 37, 37, 185, 185, 185, 269, 269, 390, 390, 390, 18, 18, 112, 112, 56, 56, 244, 47, 47, 244, 244, 73, 73, 244, 321, 320, 127, 45, 45, 45, 45, 45, 45, 385, 457, 14, 14, 411, 411, 411, 297, 297, 297, 297, 297, 297, 297, 297, 297, 297, 293, 293, 293, 293, 497, 58, 58, 72, 72, 156, 156, 156, 156, 156, 156, 59, 245, 42, 42, 42, 147, 147, 456, 456, 456, 456, 301, 301, 43, 43, 364, 364, 276, 276, 153, 153, 153, 153, 153, 153, 153, 153, 153, 372, 372, 372, 59, 59, 37, 24, 24, 131, 404, 404, 439, 439, 78, 78, 170, 244, 47, 47, 47, 47, 47, 47, 244, 244, 73, 73, 73, 244, 321, 7, 7, 364, 276, 174, 174, 174, 174, 174, 348, 94, 199, 223, 223, 223, 130, 198, 198, 22, 22, 283, 283, 455, 455, 251, 251, 241, 431, 431, 431, 403, 403, 171, 171, 171, 252, 325, 325, 41, 324, 324, 324, 318, 368, 453, 9, 168, 483, 483, 411, 145, 145, 145, 145, 376, 376, 376, 376, 376, 376, 376, 376, 376, 376, 282, 282, 169, 169, 150, 39, 54, 390, 390, 238, 6, 6, 75, 227, 419, 427]
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+torch.Size([1, 246, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts/baseline/update_all_nar_mask_t_0_nar_mask_r_0.5_gp_i_mask_True_knowtoken_topk_update/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_10_steps_16_2024-03-25_11:07:07
+sys_file:gen_121-127105-0036
+generate
+processing 1th semantic_sys file
+1
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THERE WAS A UNANIMOUS GROAN AT THIS AND MUCH REPROACH AFTER WHICH IN HIS PREOCCUPIED WAY HE EXPLAINED
+enroll_x_lens:tensor([52], dtype=torch.int32)
+txt2semantic need not prompt
+before_semantic:
+after is :
+371
+[17, 17, 296, 127, 114, 222, 222, 245, 378, 43, 345, 141, 141, 141, 141, 141, 141, 281, 453, 453, 168, 44, 44, 44, 219, 219, 219, 485, 485, 121, 121, 10, 10, 479, 331, 331, 365, 365, 365, 365, 330, 94, 199, 469, 469, 203, 53, 473, 459, 459, 459, 271, 31, 54, 54, 142, 142, 221, 336, 336, 336, 208, 79, 79, 380, 380, 499, 499, 84, 496, 496, 496, 274, 274, 413, 413, 94, 94, 199, 415, 415, 415, 415, 35, 401, 401, 401, 20, 127, 114, 114, 258, 258, 258, 258, 120, 120, 271, 271, 271, 39, 39, 433, 433, 433, 433, 160, 160, 160, 160, 112, 112, 56, 56, 20, 20, 312, 312, 292, 292, 292, 292, 23, 23, 23, 408, 408, 408, 149, 149, 20, 20, 412, 83, 83, 55, 55, 322, 67, 67, 250, 217, 70, 70, 383, 383, 383, 383, 383, 383, 35, 35, 310, 107, 447, 447, 397, 397, 456, 456, 456, 456, 456, 129, 129, 259, 74, 190, 190, 190, 487, 488, 499, 499, 496, 496, 496, 496, 496, 496, 274, 274, 358, 233, 233, 233, 310, 107, 107, 447, 483, 226, 226, 226, 209, 83, 145, 145, 460, 460, 460, 460, 169, 402, 402, 402, 96, 6, 272, 272, 300, 382, 382, 245, 43, 43, 364, 364, 345, 407, 407, 407, 407, 407, 407, 385, 385, 233, 36, 310, 107, 447, 447, 483, 440, 188, 188, 340, 340, 340, 94, 199, 257, 257, 257, 31, 342, 142, 221, 336, 336, 74, 190, 190, 488, 488, 488, 324, 464, 464, 180, 106, 405, 405, 405, 206, 178, 178, 35, 192, 445, 485, 485, 485, 469, 215, 129, 259, 74, 74, 437, 437, 265, 265, 265, 265, 265, 265, 265, 265, 265, 85, 85, 85, 299, 37, 24, 131, 131, 404, 225, 225, 225, 225, 225, 80, 20, 20, 7, 7, 364, 276, 109, 109, 109, 403, 403, 403, 403, 207, 246, 3, 3, 183, 451, 30, 30, 30, 30, 464, 464, 154, 154, 154, 154, 458, 96, 96, 66, 68, 68, 68, 105, 105, 336, 336, 354, 386, 386, 386, 386, 431, 290, 290, 290, 290, 290, 290, 290, 434, 434, 434, 434, 339, 303, 303, 243, 212, 227, 419, 439]
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+torch.Size([1, 369, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts/baseline/update_all_nar_mask_t_0_nar_mask_r_0.5_gp_i_mask_True_knowtoken_topk_update/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_10_steps_16_2024-03-25_11:07:07
+sys_file:gen_121-127105-0003
+generate
+processing 2th semantic_sys file
+2
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE AWKWARD THING WAS THAT THEY HAD PRACTICALLY NO OTHER RELATIONS AND THAT HIS OWN AFFAIRS TOOK UP ALL HIS TIME
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+before_semantic:
+after is :
+316
+[17, 296, 5, 448, 448, 448, 14, 14, 14, 411, 411, 284, 284, 405, 405, 206, 178, 178, 35, 458, 208, 441, 441, 109, 372, 313, 313, 314, 314, 401, 164, 164, 164, 164, 214, 214, 214, 214, 214, 328, 328, 200, 200, 248, 250, 250, 364, 345, 141, 141, 141, 141, 141, 281, 453, 9, 198, 198, 45, 45, 45, 45, 45, 35, 401, 82, 127, 114, 0, 0, 0, 0, 0, 3, 3, 58, 58, 110, 254, 254, 254, 254, 254, 314, 129, 401, 82, 74, 190, 190, 488, 488, 488, 488, 460, 178, 178, 96, 96, 36, 272, 469, 469, 469, 143, 458, 208, 26, 359, 359, 166, 166, 166, 166, 301, 10, 10, 309, 479, 331, 231, 231, 231, 231, 88, 88, 88, 493, 493, 493, 493, 216, 300, 300, 382, 245, 42, 42, 147, 456, 456, 456, 251, 251, 241, 431, 431, 171, 171, 418, 252, 99, 99, 436, 436, 60, 298, 298, 298, 275, 379, 471, 471, 471, 471, 49, 269, 390, 390, 18, 18, 112, 112, 78, 56, 140, 140, 312, 312, 187, 187, 12, 12, 1, 1, 1, 408, 408, 149, 149, 140, 140, 412, 83, 83, 55, 55, 322, 322, 466, 466, 45, 45, 45, 45, 45, 325, 325, 183, 183, 183, 257, 257, 257, 257, 257, 453, 9, 9, 168, 483, 14, 14, 411, 411, 350, 350, 350, 350, 350, 413, 413, 94, 199, 255, 255, 255, 349, 349, 234, 261, 25, 25, 470, 264, 264, 264, 468, 468, 304, 304, 304, 185, 49, 54, 238, 6, 272, 377, 295, 295, 295, 295, 458, 458, 192, 180, 230, 230, 230, 215, 215, 35, 82, 354, 106, 297, 297, 297, 297, 297, 293, 293, 58, 183, 257, 257, 257, 257, 257, 31, 54, 86, 238, 6, 108, 119, 119, 437, 103, 103, 103, 103, 85, 85, 299, 299, 203, 381, 381, 381, 381, 48, 48, 48, 417]
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+top_k_know_token:10
+torch.Size([1, 314, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts/baseline/update_all_nar_mask_t_0_nar_mask_r_0.5_gp_i_mask_True_knowtoken_topk_update/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_10_steps_16_2024-03-25_11:07:07
+sys_file:gen_121-127105-0028
+generate
+processing 3th semantic_sys file
+3  8%|▊         | 5/64 [00:52<11:09, 11.35s/it]2024-03-25 03:08:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-03-25 03:08:21 | WARNING | phonemizer | words count m  8%|▊         | 5/64 [00:57<12:33  9%|▉         | 6/64 [01:04<11:10, 11.55s/it]2024-03-25 03:08:33 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-03-25 03:08:33 | WARNING | phonemizer | words count m[17, 17, 296, 287, 111, 111, 111, 111, 438, 143, 458, 192, 389, 389, 314, 314, 42, 147, 147, 380, 499, 428, 428, 146, 146, 252, 143, 35, 36, 108, 377, 377, 123, 123, 399, 70, 46, 46, 46, 46, 46, 438, 399, 217, 473, 473, 136, 136, 136, 136, 136, 136, 136, 282, 282, 282, 388, 94, 199, 89, 89, 322, 94, 199, 199, 12[17, 296, 296, 287, 111, 11[17, 17, 296, 287, 111, 111, 438, 143, 458, 144, 389, 389, 389, 314, 314, 133, 42, 147, 380, 499, 499, 428, 428, 146, 252, 143, 35, 401, 401, 401, 82, 108, 377, 123, 123, 123, 399, 70, 46, 46, 46, 46, 438, 399, 217, 217, 217, 473, 136, 136, 136, 136, 136, 136, 136, 136, 282, 388, 94, 199, 89, 89, 446, 116, 94, 199, 89, 121, 121, 116, 33, 90, 90, 465, 208, 208, 386, 386, 386, 386, 496, 496, 496, 496, 274, 274, 368, 49, 9, 9, 198, 198, 198, 22, 283, 283, 455, 143, 458, 458, 445, 445, 445, 351, 213, 213, 213, 213, 246, 246, 246, 246, 19, 19, 19, 454, 454, 229, 20, 247, 312, 126, 126, 292, 292, 292, 292, 292, 292, 292, 292, 21, 21, 21, 21, 21, 21, 408, 408, 408, 408, 391, 20, 20, 20, 373, 451, 451, 30, 30, 30, 143, 458, 144, 389, 389, 389, 389, 314, 314, 478, 478, 232, 232, 172, 172, 115, 273, 432, 432, 432, 330, 330, 348, 64, 64, 64, 212, 384, 371, 180, 180, 315, 315, 315, 315, 315, 450, 450, 450, 413, 413, 348, 466, 466, 466, 22, 283, 455, 455, 129, 259, 74, 74, 437, 351, 486, 486, 486, 460, 178, 178, 458, 458, 192, 192, 277, 277, 277, 385, 325, 34, 253, 253, 253, 253, 253, 342, 342, 224, 451, 30, 30, 30, 30, 422, 349, 349, 234, 234, 261, 25, 25, 480, 480, 480, 480, 480, 85, 299, 299, 299, 339, 339, 33, 471, 49, 453, 9, 9, 168, 106, 106, 428, 428, 146, 146, 252, 252, 143, 401, 401, 401, 20, 75, 108, 119, 119, 351, 351, 213, 213, 213, 213, 246, 246, 246, 19, 19, 19, 454, 454]
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+torch.Size([1, 290, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts/baseline/update_all_nar_mask_t_0_nar_mask_r_0.5_gp_i_mask_True_knowtoken_topk_update/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_50_steps_16_2024-03-25_11:07:07
+sys_file:gen_121-127105-0005
+generate
+processing 4th semantic_sys file
+4
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IT SOUNDED DULL IT SOUNDED STRANGE AND ALL THE MORE SO BECAUSE OF HIS MAIN CONDITION WHICH WAS
+enroll_x_lens:tensor([50], dtype=torch.int32)
+txt2semantic need not prompt
+before_semantic:
+after is :
+320
+[17, 17, 296, 287, 287, 111, 111, 111, 438, 438, 143, 35, 36, 449, 371, 490, 422, 31, 162, 68, 68, 115, 273, 273, 315, 315, 315, 450, 413, 348, 212, 34, 191, 191, 236, 314, 239, 384, 180, 180, 106, 481, 293, 175, 175, 81, 81, 428, 146, 146, 252, 143, 35, 36, 449, 371, 324, 324, 422, 186, 162, 342, 172, 115, 273, 273, 315, 315, 450, 413, 348, 212, 325, 34, 191, 191, 236, 36, 36, 478, 482, 482, 482, 482, 482, 238, 238, 6, 336, 161, 161, 79, 487, 288, 290, 290, 290, 434, 434, 434, 339, 339, 64, 243, 243, 310, 107, 107, 107, 18, 112, 427, 427, 56, 56, 56, 56, 56, 56, 187, 187, 187, 187, 187, 187, 187, 12, 12, 163, 163, 163, 20, 20, 20, 20, 73, 20, 20, 20, 83, 83, 55, 55, 322, 67, 67, 212, 335, 14, 411, 411, 297, 297, 297, 297, 297, 297, 293, 122, 122, 22, 283, 283, 455, 399, 70, 138, 138, 138, 138, 138, 372, 396, 313, 186, 162, 54, 172, 224, 273, 273, 344, 84, 84, 16, 274, 274, 98, 98, 98, 98, 13, 414, 414, 414, 414, 20, 47, 47, 20, 47, 47, 20, 20, 73, 73, 20, 20, 320, 354, 420, 420, 143, 458, 144, 27, 106, 151, 151, 368, 281, 453, 168, 168, 223, 223, 223, 130, 280, 257, 257, 257, 257, 453, 9, 9, 142, 196, 196, 217, 217, 217, 473, 65, 290, 290, 360, 434, 339, 33, 90, 90, 465, 144, 27, 27, 370, 370, 348, 33, 64, 212, 384, 371, 278, 278, 278, 99, 436, 436, 60, 60, 298, 298, 116, 33, 250, 250, 345, 407, 407, 407, 407, 310, 107, 107, 447, 447, 397, 397, 397, 364, 276, 276, 141, 141, 141, 141, 141, 120, 120, 355, 355, 37, 185, 185, 185, 269, 269, 390, 390, 390, 18, 18, 112, 112, 56, 56, 56, 56]
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+top_k_know_token:50
+torch.Size([1, 318, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts/baseline/update_all_nar_mask_t_0_nar_mask_r_0.5_gp_i_mask_True_knowtoken_topk_update/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_50_steps_16_2024-03-25_11:07:07
+sys_file:gen_121-127105-0034
+generate
+processing 5th semantic_sys file
+5
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THERE WERE PLENTY OF PEOPLE TO HELP BUT OF COURSE THE YOUNG LADY WHO SHOULD GO DOWN AS GOVERNESS WOULD BE IN SUPREME AUTHORITY
+enroll_x_lens:tensor([33], dtype=torch.int32)
+txt2semantic need not prompt
+before_semantic:
+after is :
+424
+[17, 296, 296, 114, 0, 222, 468, 378, 345, 347, 347, 347, 245, 129, 259, 74, 74, 425, 386, 386, 431, 432, 330, 330, 64, 76, 449, 449, 41, 41, 324, 464, 464, 462, 462, 462, 402, 402, 221, 259, 75, 74, 351, 351, 213, 213, 213, 213, 215, 215, 259, 354, 29, 100, 100, 100, 100, 100, 375, 375, 375, 98, 98, 98, 98, 13, 225, 225, 225, 225, 225, 225, 225, 80, 80, 140, 80, 140, 321, 75, 108, 377, 377, 344, 374, 374, 374, 132, 132, 58, 58, 72, 72, 72, 110, 110, 443, 139, 139, 139, 139, 293, 293, 375, 215, 215, 233, 233, 233, 75, 419, 419, 419, 439, 439, 439, 78, 78, 170, 140, 28, 140, 28, 28, 140, 2, 2, 2, 140, 2, 2, 2, 140, 2, 140, 163, 163, 163, 140, 163, 163, 163, 316, 140, 73, 140, 73, 140, 320, 159, 159, 159, 285, 34, 255, 130, 402, 402, 402, 221, 458, 208, 441, 441, 153, 153, 372, 372, 396, 186, 186, 54, 86, 238, 198, 22, 5, 5, 448, 219, 219, 219, 180, 180, 319, 319, 319, 348, 200, 248, 248, 248, 251, 241, 431, 431, 171, 171, 171, 171, 171, 252, 252, 325, 41, 41, 41, 41, 246, 246, 19, 19, 19, 19, 19, 454, 454, 225, 225, 225, 225, 225, 225, 225, 225, 489, 489, 489, 489, 489, 186, 99, 338, 338, 395, 389, 389, 389, 389, 314, 314, 90, 90, 144, 27, 180, 84, 84, 496, 496, 274, 274, 236, 239, 384, 371, 180, 180, 315, 315, 315, 315, 315, 315, 450, 450, 450, 450, 413, 413, 413, 413, 195, 195, 195, 195, 117, 117, 117, 117, 117, 117, 225, 225, 225, 225, 225, 225, 83, 83, 253, 253, 253, 253, 281, 453, 9, 221, 221, 144, 180, 180, 151, 151, 173, 173, 280, 29, 382, 313, 313, 94, 94, 199, 459, 459, 459, 271, 271, 271, 39, 39, 390, 390, 390, 390, 390, 390, 18, 18, 112, 112, 56, 56, 56, 56, 56, 56, 56, 47, 47, 140, 47, 140, 47, 47, 316, 140, 73, 289, 320, 320, 345, 389, 389, 389, 314, 314, 239, 354, 420, 420, 420, 324, 464, 340, 340, 340, 33, 394, 478, 54, 54, 224, 494, 494, 236, 129, 259, 74, 190, 190, 487, 288, 288, 360, 360, 434, 434, 203, 53, 53, 65, 255, 255, 255, 38, 164, 164, 164, 106, 106, 106, 499, 306, 306, 306, 372, 372, 396, 469, 469, 469, 325, 41, 41, 41, 41, 19, 19, 19, 19, 454, 454]
+top_k_know_token:50
+top_k_kno  9%|▉         | 6/64 [01:24<13:36, 14.08s/it]2024-03-25 03:08:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-03-25 03:08:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+ 11%|█         | 7/64 [01:42<14:36, 15.38s/it]2024-03-25 03:09:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-03-25 03:09:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+ 12%|█▎        | 8/64 [01:52<12:38, 13.55s/it]2024-03-25 03:09:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-03-25 03:09:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+[17, 17, 296, 127, 0, 0, 378, 378, 347, 347, 347, 347, 245, 129, 129, 259, 74, 74, 425, 386, 386, 431, 432, 432, 330, 330, 64, 76, 36, 108, 449, 41, 41, 324, 464, 462, 462, 462, 130, 402, 221, 401, 82, 74, 74, 351, 213, 213, 213, 252, 215, 129, 259, 29, 100, 497, 497, 122, 129, 36, 108, 377, 344, 344, 374, 132, 132, 58, 58, 72, 110, 110, 139, 139, 139, 139, 139, 293, 293, 215, 215, 233, 233, 233, 419, 419, 439, 78, 78, 140, 140, 140, 312, 187, 187, 187, 187, 12, 12, 260, 260, 260, 391, 391, 391, 228, 140, 140, 140, 159, 159, 159, 159, 285, 255, 255, 402, 129, 259, 144, 208, 441, 441, 441, 153, 153, 372, 372, 396, 186, 186, 54, 54, 238, 198, 22, 5, 5, 448, 448, 219, 464, 464, 180, 319, 319, 319, 348, 200, 248, 248, 251, 241, 431, 431, 171, 171, 171, 171, 252, 325, 41, 41, 324, 324, 3, 183, 489, 489, 489, 489, 186, 99, 338, 338, 389, 389, 389, 389, 416, 416, 144, 180, 180, 84, 496, 496, 274, 274, 236, 239, 384, 371, 180, 180, 315, 315, 315, 315, 450, 450, 450, 413, 94, 199, 253, 253, 281, 9, 142, 221, 336, 144, 27, 180, 180, 151, 151, 173, 173, 29, 29, 396, 313, 94, 94, 199, 459, 459, 459, 271, 271, 150, 54, 54, 390, 18, 97, 397, 397, 345, 345, 389, 389, 389, 314, 314, 32, 239, 354, 420, 420, 420, 420, 246, 246, 246, 246, 246, 246, 246, 246, 246, 3, 3, 3, 440, 188, 188, 340, 340, 116, 33, 478, 478, 232, 172, 224, 494, 494, 494, 236, 129, 259, 74, 190, 487, 288, 288, 360, 360, 434, 203, 53, 53, 65, 255, 255, 255, 349, 164, 164, 164, 106, 106, 153, 153, 153, 372, 372, 372, 467, 469, 469, 469, 325, 41, 41, 41, 19, 19, 19, 454, 454]
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+torch.Size([1, 322, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts/baseline/update_all_nar_mask_t_0_nar_mask_r_0.5_gp_i_mask_True_knowtoken_topk_update/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_20_steps_16_2024-03-25_11:07:07
+sys_file:gen_121-127105-0029
+generate
+processing 6th semantic_sys file
+6
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE FIRST OF THESE TOUCHES CONVEYED THAT THE WRITTEN STATEMENT TOOK UP THE TALE AT A POINT AFTER IT HAD IN A MANNER BEGUN
+enroll_x_lens:tensor([34], dtype=torch.int32)
+txt2semantic need not prompt
+before_semantic:
+after is :
+477
+[17, 296, 22, 5, 455, 38, 349, 205, 205, 261, 25, 498, 498, 498, 498, 498, 498, 169, 186, 150, 54, 86, 86, 238, 6, 272, 272, 69, 69, 223, 223, 130, 198, 198, 127, 124, 124, 124, 124, 124, 124, 318, 31, 342, 86, 86, 221, 336, 75, 108, 119, 351, 351, 151, 151, 151, 240, 178, 35, 310, 310, 107, 107, 395, 50, 50, 50, 50, 50, 50, 50, 50, 185, 185, 49, 342, 342, 142, 221, 336, 75, 27, 121, 121, 116, 33, 394, 394, 4, 280, 280, 470, 403, 403, 403, 171, 171, 171, 171, 246, 246, 246, 252, 37, 24, 24, 131, 404, 427, 229, 247, 247, 126, 126, 292, 292, 292, 292, 23, 23, 23, 23, 23, 23, 23, 101, 101, 149, 149, 228, 228, 321, 320, 127, 45, 45, 45, 45, 35, 198, 22, 5, 5, 455, 42, 42, 147, 380, 288, 278, 278, 278, 457, 242, 242, 242, 33, 33, 394, 478, 478, 232, 232, 232, 238, 6, 272, 371, 470, 470, 171, 171, 171, 252, 252, 457, 457, 196, 217, 291, 291, 291, 291, 291, 291, 379, 379, 243, 457, 197, 197, 197, 197, 197, 47, 47, 140, 47, 140, 140, 80, 80, 80, 80, 321, 321, 108, 108, 295, 295, 295, 295, 295, 295, 458, 192, 192, 230, 230, 230, 230, 215, 215, 35, 401, 401, 198, 22, 283, 455, 236, 129, 259, 108, 119, 119, 351, 351, 171, 171, 171, 171, 464, 139, 139, 139, 302, 375, 375, 98, 98, 13, 229, 229, 247, 312, 312, 126, 292, 292, 292, 292, 23, 23, 23, 23, 23, 408, 408, 408, 149, 149, 228, 228, 289, 321, 321, 209, 415, 415, 415, 415, 285, 34, 44, 44, 44, 129, 129, 259, 74, 74, 441, 441, 153, 153, 153, 387, 387, 387, 299, 299, 299, 339, 243, 243, 75, 227, 227, 419, 419, 439, 439, 78, 78, 140, 170, 28, 28, 140, 2, 2, 140, 2, 140, 2, 2, 140, 2, 2, 140, 163, 163, 163, 316, 140, 316, 73, 289, 289, 321, 209, 83, 145, 460, 460, 460, 460, 402, 402, 96, 272, 272, 300, 382, 495, 406, 467, 467, 499, 428, 428, 428, 146, 146, 252, 143, 143, 36, 75, 108, 119, 119, 213, 213, 213, 213, 213, 246, 246, 246, 246, 19, 19, 454, 454, 454, 78, 170, 170, 140, 28, 28, 28, 140, 2, 2, 140, 140, 2, 2, 2, 140, 163, 163, 163, 163, 163, 316, 140, 316, 316, 73, 289, 321, 373, 373, 110, 110, 254, 254, 254, 254, 325, 34, 340, 340, 116, 94, 199, 44, 44, 399, 217, 217, 473, 65, 136, 365, 365, 330, 388, 94, 199, 300, 382, 382, 245, 245, 8, 354, 420, 420, 420, 422, 416, 458, 144, 180, 180, 180, 319, 319, 319, 319, 282, 282, 388, 388, 303, 303, 303, 117, 48, 48, 417, 417]
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+torch.Size([1, 475, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts/baseline/update_all_nar_mask_t_0_nar_mask_r_0.5_gp_i_mask_True_knowtoken_topk_update/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_20_steps_16_2024-03-25_11:07:07
+sys_file:gen_121-127105-0026
+generate
+processing 7th semantic_sys file
+7
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: YOU'LL EASILY JUDGE WHY WHEN YOU HEAR BECAUSE THE THING HAD BEEN SUCH A SCARE HE CONTINUED TO FIX ME
+enroll_x_lens:tensor([51], dtype=torch.int32)
+txt2semantic need not prompt
+before_semantic:
+after is :
+292
+[17, 17, 296, 152, 152, 152, 378, 88, 88, 88, 14, 14, 411, 411, 213, 213, 213, 213, 213, 213, 318, 368, 453, 453, 168, 134, 134, 359, 175, 81, 166, 166, 166, 324, 422, 236, 32, 239, 310, 107, 395, 395, 180, 151, 151, 151, 240, 240, 314, 314, 310, 107, 447, 397, 133, 364, 276, 276, 346, 346, 346, 265, 265, 85, 85, 85, 146, 438, 378, 43, 345, 409, 409, 409, 116, 33, 219, 152, 152, 152, 152, 58, 58, 183, 183, 286, 286, 286, 286, 468, 468, 245, 245, 8, 8, 354, 420, 255, 143, 458, 144, 27, 351, 151, 151, 368, 368, 453, 198, 198, 22, 5, 5, 455, 38, 349, 164, 164, 164, 214, 214, 214, 214, 214, 214, 200, 200, 248, 58, 58, 254, 254, 254, 254, 314, 314, 32, 239, 354, 137, 137, 137, 137, 116, 33, 394, 478, 478, 232, 232, 172, 115, 273, 344, 344, 344, 344, 35, 310, 107, 395, 44, 44, 44, 38, 162, 54, 232, 482, 105, 105, 336, 336, 445, 470, 470, 264, 264, 264, 264, 264, 264, 468, 468, 59, 59, 59, 59, 452, 263, 263, 229, 82, 247, 126, 126, 292, 326, 326, 326, 408, 408, 408, 228, 140, 140, 373, 451, 451, 30, 30, 30, 30, 422, 143, 458, 144, 27, 121, 121, 121, 33, 394, 76, 465, 108, 108, 119, 351, 278, 278, 360, 339, 33, 398, 398, 398, 398, 374, 374, 314, 314, 314, 32, 32, 401, 401, 140, 140, 108, 108, 377, 377, 374, 374, 374, 374, 132, 132, 349, 349, 349, 234, 234, 261, 25, 470, 278, 278, 178, 178, 458, 96, 96, 54, 86, 142, 196, 217, 473, 429, 429, 429, 429, 429, 19, 19, 19, 19, 454, 454, 454]
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+torch.Size([1, 290, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts/baseline/update_all_nar_mask_t_0_nar_mask_r_0.5_gp_i_mask_True_knowtoken_topk_update/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_20_steps_16_2024-03-25_11:07:07
+sys_file:gen_121-127105-0013
+generate
+processing 8th semantic_sys file
+8
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SHE WAS THE MOST AGREEABLE WOMAN I'VE EVER KNOWN IN HER POSITION SHE WOULD HAVE BEEN WORTHY OF ANY WHATEVER
+enroll_x_lens:tensor([58], dtype=torch.int32)
+txt2semantic need not prompt
+ 14%|█▍        | 9/64 [02:02<11:17, 12.32s/it]2024-03-25 03:09:31 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-03-25 03:09:31 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+ 16%|█▌        | 10/64 [02:16<11:32, 12.83s/it]2024-03-25 03:09:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-03-25 03:09:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+before_semantic:
+after is :
+277
+[17, 17, 296, 373, 338, 400, 400, 400, 30, 301, 378, 378, 141, 141, 141, 281, 453, 198, 198, 22, 283, 455, 399, 217, 70, 65, 65, 496, 496, 496, 169, 186, 54, 86, 238, 6, 272, 255, 255, 416, 416, 208, 79, 79, 288, 288, 288, 288, 464, 464, 134, 134, 8, 354, 100, 100, 100, 497, 43, 43, 364, 276, 276, 109, 109, 174, 174, 399, 53, 473, 242, 242, 116, 94, 199, 106, 111, 111, 111, 111, 111, 202, 202, 202, 280, 280, 180, 463, 463, 463, 173, 280, 29, 29, 242, 116, 10, 10, 10, 309, 479, 331, 331, 84, 84, 350, 350, 350, 413, 413, 94, 199, 340, 340, 340, 116, 199, 58, 58, 156, 156, 156, 156, 156, 355, 215, 129, 82, 74, 492, 492, 492, 368, 368, 453, 9, 168, 168, 418, 418, 418, 418, 99, 99, 436, 436, 60, 60, 298, 298, 116, 195, 117, 404, 229, 247, 126, 126, 126, 326, 326, 326, 326, 326, 326, 326, 326, 101, 101, 149, 149, 20, 20, 373, 338, 400, 400, 400, 400, 378, 378, 345, 389, 389, 389, 389, 285, 202, 202, 202, 402, 221, 20, 354, 137, 137, 137, 137, 137, 339, 33, 33, 250, 250, 364, 364, 276, 276, 109, 498, 498, 498, 498, 498, 498, 498, 498, 498, 498, 498, 498, 134, 216, 216, 216, 114, 41, 41, 324, 324, 464, 464, 69, 223, 130, 130, 280, 180, 475, 475, 475, 475, 475, 475, 475, 301, 378, 345, 181, 181, 181, 181, 181, 449, 449, 34, 145, 463, 463, 463, 463, 463, 173, 280, 29, 355, 355, 355, 355, 355, 452, 263, 263, 13, 20, 20, 20]
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+torch.Size([1, 275, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts/baseline/update_all_nar_mask_t_0_nar_mask_r_0.5_gp_i_mask_True_knowtoken_topk_update/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_20_steps_16_2024-03-25_11:07:07
+sys_file:gen_121-127105-0011
+generate
+processing 9th semantic_sys file
+9
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IT WASN'T SIMPLY THAT SHE SAID SO BUT THAT I KNEW SHE HADN'T I WAS SURE I COULD SEE
+enroll_x_lens:tensor([35], dtype=torch.int32)
+txt2semantic need not prompt
+before_semantic:
+after is :
+337
+[17, 17, 296, 287, 111, 111, 111, 111, 438, 438, 143, 36, 36, 108, 119, 119, 351, 213, 213, 213, 213, 301, 301, 378, 43, 364, 276, 141, 141, 141, 141, 141, 281, 453, 168, 168, 242, 242, 379, 379, 478, 478, 162, 68, 68, 68, 115, 273, 273, 278, 278, 278, 53, 53, 76, 76, 259, 26, 359, 359, 474, 474, 474, 474, 474, 474, 19, 19, 19, 454, 454, 229, 229, 247, 312, 312, 126, 292, 292, 292, 292, 23, 23, 408, 408, 408, 391, 228, 140, 140, 320, 45, 45, 45, 45, 45, 36, 310, 338, 338, 400, 400, 400, 30, 30, 30, 422, 186, 162, 68, 68, 115, 273, 470, 470, 120, 240, 240, 314, 478, 478, 478, 66, 482, 68, 115, 273, 273, 84, 84, 84, 84, 84, 16, 16, 375, 98, 98, 98, 98, 13, 13, 78, 170, 140, 28, 140, 140, 140, 28, 28, 140, 2, 2, 2, 2, 2, 140, 140, 369, 369, 369, 369, 21, 21, 21, 21, 408, 408, 149, 228, 289, 140, 320, 159, 159, 159, 159, 314, 239, 127, 127, 114, 45, 45, 45, 92, 92, 240, 240, 285, 34, 111, 111, 111, 111, 438, 438, 10, 309, 398, 398, 398, 398, 398, 398, 374, 132, 132, 186, 186, 99, 338, 338, 400, 400, 400, 400, 30, 30, 3, 58, 58, 110, 110, 254, 254, 254, 254, 254, 240, 240, 314, 196, 242, 242, 195, 195, 195, 117, 117, 197, 197, 197, 226, 226, 226, 209, 209, 287, 287, 111, 111, 111, 111, 111, 438, 378, 43, 43, 364, 345, 141, 141, 141, 141, 281, 99, 99, 338, 338, 338, 338, 338, 338, 395, 395, 487, 498, 498, 498, 498, 468, 468, 59, 59, 59, 59, 452, 335, 14, 226, 226, 226, 209, 287, 287, 111, 111, 111, 111, 438, 438, 143, 143, 458, 458, 144, 389, 389, 389, 389, 389, 314, 478, 478, 478, 66, 68, 68, 68, 68, 115, 267, 267, 267, 267, 267, 267, 246, 246, 246, 19, 19, 19, 454, 454]
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+torch.Size([1, 335, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts/baseline/update_all_nar_mask_t_0_nar_mask_r_0.5_gp_i_mask_True_knowtoken_topk_update/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_20_steps_16_2024-03-25_11:07:07
+sys_file:gen_121-127105-0012
+generate
+processing 10th semantic_sys file
+10
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IT WAS THIS OBSERVATION THAT DREW FROM DOUGLAS NOT IMMEDIATELY BUT LATER IN THE EVENING A REPLY THAT HAD THE INTERESTING CONSEQUENCE TO WHICH I CALL ATTENTION
+enroll_x_lens:tensor([49], dtype=torch.int32)
+txt2semantic need not prompt
+before_semantic:
+after is :
+620
+[17, 17, 296, 296, 287, 111, 111, 111, 438, 438, 143, 36, 108, 119, 351, 213, 213, 213, 301, 301, 378, 43, 345, 141, 141, 141, 141, 281, 281, 453, 9, 9, 198, 198, 127, 114, 258, 258, 258, 258, 258, 31, 39, 342, 342, 342, 97, 483, 226, 226, 226, 226, 226, 226, 20, 209, 287, 284, 284, 405, 405, 206, 215, 215, 96, 368, 453, 9, 224, 494, 494, 494, 173, 173, 280, 280, 418, 418, 418, 418, 418, 418, 418, 99, 99, 436, 436, 436, 60, 298, 298, 298, 298, 116, 303, 195, 117, 117, 117, 117, 117, 197, 197, 197, 197, 197, 7, 7, 7, 127, 114, 45, 45, 45, 45, 45, 385, 457, 457, 32, 239, 310, 161, 161, 79, 79, 487, 487, 189, 374, 374, 374, 132, 132, 132, 132, 132, 132, 349, 393, 205, 205, 155, 165, 165, 165, 165, 165, 53, 53, 394, 394, 212, 239, 384, 371, 180, 180, 151, 151, 151, 416, 416, 416, 96, 359, 359, 81, 459, 459, 271, 31, 31, 54, 86, 86, 221, 196, 309, 309, 479, 331, 307, 307, 307, 307, 61, 61, 167, 167, 457, 335, 440, 440, 188, 121, 121, 121, 399, 217, 217, 217, 473, 65, 485, 213, 213, 213, 252, 325, 34, 485, 485, 485, 485, 134, 457, 457, 457, 457, 359, 359, 359, 359, 474, 474, 474, 474, 474, 474, 246, 19, 19, 19, 19, 454, 229, 229, 20, 247, 312, 126, 292, 292, 292, 292, 23, 23, 23, 23, 101, 101, 149, 391, 228, 20, 20, 20, 20, 320, 159, 159, 159, 159, 167, 457, 457, 251, 251, 251, 241, 431, 431, 171, 171, 171, 171, 171, 252, 325, 34, 334, 334, 334, 59, 59, 59, 59, 452, 335, 335, 440, 440, 188, 188, 188, 340, 340, 340, 466, 466, 22, 22, 283, 448, 448, 14, 14, 411, 411, 213, 213, 213, 213, 213, 213, 173, 173, 402, 196, 196, 94, 176, 176, 328, 328, 200, 200, 200, 335, 335, 440, 440, 44, 44, 44, 42, 42, 42, 147, 147, 380, 288, 278, 278, 278, 215, 215, 129, 259, 74, 74, 386, 386, 386, 265, 265, 265, 265, 265, 265, 85, 85, 85, 207, 207, 19, 19, 454, 454, 229, 20, 20, 312, 312, 312, 292, 292, 292, 292, 292, 23, 23, 23, 23, 408, 408, 391, 391, 228, 20, 20, 20, 127, 127, 45, 45, 45, 45, 45, 240, 325, 58, 72, 72, 110, 110, 110, 254, 254, 254, 254, 240, 314, 314, 198, 22, 22, 448, 448, 448, 448, 3, 3, 14, 411, 188, 121, 121, 121, 116, 76, 36, 161, 161, 487, 487, 487, 469, 186, 31, 54, 86, 238, 6, 272, 176, 176, 176, 328, 200, 248, 76, 465, 144, 144, 27, 27, 437, 370, 370, 370, 370, 370, 370, 370, 77, 77, 77, 342, 224, 494, 494, 469, 469, 458, 208, 208, 441, 441, 11, 11, 11, 11, 11, 11, 379, 379, 243, 243, 77, 270, 433, 390, 390, 390, 390, 390, 18, 18, 112, 112, 56, 20, 56, 312, 187, 187, 187, 391, 391, 391, 20, 20, 289, 289, 20, 108, 377, 377, 377, 374, 374, 374, 374, 132, 132, 132, 132, 43, 43, 364, 364, 345, 407, 407, 407, 407, 407, 407, 385, 385, 233, 310, 310, 107, 107, 107, 447, 97, 97, 225, 226, 226, 226, 226, 226, 20, 209, 287, 111, 111, 111, 438, 438, 143, 458, 144, 144, 27, 437, 437, 481, 481, 481, 481, 481, 481, 481, 293, 293, 175, 335, 440, 440, 255, 255, 255, 236, 129, 36, 108, 119, 119, 432, 432, 432, 432, 432, 330, 33, 64, 76, 99, 436, 436, 60, 60, 298, 298, 298, 275, 275, 303, 303, 303, 303, 48, 48, 48]
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+top_k_know_token:20
+ 17%|█▋        | 11/64 [02:43<15:10, 17.18s/it]2024-03-25 03:10:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-03-25 03:10:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+89, 132, 132, 132, 58, 183, 183, 451, 451, 30, 30, 30, 30, 30, 301, 378, 378, 43, 364, 364, 276, 276, 346, 141, 141, 141, 141, 141, 141, 120, 120, 120, 120, 282, 37, 37, 37, 185, 185, 185, 269, 433, 433, 433, 433, 160, 160, 160, 112, 112]
+top_k_know_token:30
+top_k_know_token:30
+top_k_know_token:30
+top_k_know_token:30
+top_k_know_token:30
+top_k_know_token:30
+top_k_know_token:30
+top_k_know_token:30
+top_k_know_token:30
+top_k_know_token:30
+top_k_know_token:30
+top_k_know_token:30
+top_k_know_token:30
+top_k_know_token:30
+top_k_know_token:30
+top_k_know_token:30
+torch.Size([1, 368, 16])
+ 19%|█▉        | 12/64 [02:37<12:46, 14.74s/it]2024-03-25 03:10:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-03-25 03:10:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)

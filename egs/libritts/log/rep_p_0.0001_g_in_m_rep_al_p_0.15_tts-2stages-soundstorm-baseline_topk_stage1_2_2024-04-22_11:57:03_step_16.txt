@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/v-zhijunjia/CodecGen/egs/libritts/bin/combine_ar_nar_vc_dir_onlyar.py", line 33, in <module>
+    import librosa  
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/librosa/__init__.py", line 211, in <module>
+    from . import core
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/librosa/core/__init__.py", line 5, in <module>
+    from .convert import *  # pylint: disable=wildcard-import
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/librosa/core/convert.py", line 7, in <module>
+    from . import notation
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/librosa/core/notation.py", line 8, in <module>
+    from ..util.exceptions import ParameterError
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/librosa/util/__init__.py", line 83, in <module>
+    from .utils import *  # pylint: disable=wildcard-import
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/librosa/util/utils.py", line 10, in <module>
+    import numba
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/numba/__init__.py", line 55, in <module>
+    _ensure_critical_deps()
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/numba/__init__.py", line 42, in _ensure_critical_deps
+    raise ImportError("Numba needs NumPy 1.24 or less")
+ImportError: Numba needs NumPy 1.24 or less

@@ -1,0 +1,3200 @@
+2024-01-28 12:22:04 | INFO | fairseq.tasks.text_to_speech | Please install tensorboardX: pip install tensorboardX
+num_jobs:3
+2024-01-28 12:22:11 | INFO | root | dataset_parts: ['all'] manifests 1
+2024-01-28 12:22:16 | INFO | fairseq.tasks.hubert_pretraining | current directory is /home/v-zhijunjia/CodecGen
+2024-01-28 12:22:16 | INFO | fairseq.tasks.hubert_pretraining | HubertPretrainingTask Config {'_name': 'hubert_pretraining', 'data': '/checkpoint/wnhsu/data/librispeech/960h/iter/250K_50hz_km100_mp0_65_v2', 'fine_tuning': False, 'labels': ['layer6.km500'], 'label_dir': None, 'label_rate': 50.0, 'sample_rate': 16000, 'normalize': False, 'enable_padding': False, 'max_keep_size': None, 'max_sample_size': 250000, 'min_sample_size': 32000, 'single_target': False, 'random_crop': True, 'pad_audio': False}
+2024-01-28 12:22:16 | INFO | fairseq.models.hubert.hubert | HubertModel Config: {'_name': 'hubert', 'label_rate': 50.0, 'extractor_mode': default, 'encoder_layers': 12, 'encoder_embed_dim': 768, 'encoder_ffn_embed_dim': 3072, 'encoder_attention_heads': 12, 'activation_fn': gelu, 'layer_type': transformer, 'dropout': 0.1, 'attention_dropout': 0.1, 'activation_dropout': 0.0, 'encoder_layerdrop': 0.05, 'dropout_input': 0.1, 'dropout_features': 0.1, 'final_dim': 256, 'untie_final_proj': False, 'layer_norm_first': False, 'conv_feature_layers': '[(512,10,5)] + [(512,3,2)] * 4 + [(512,2,2)] * 2', 'conv_bias': False, 'logit_temp': 0.1, 'target_glu': False, 'feature_grad_mult': 0.1, 'mask_length': 10, 'mask_prob': 0.8, 'mask_selection': static, 'mask_other': 0.0, 'no_mask_overlap': False, 'mask_min_space': 1, 'mask_channel_length': 10, 'mask_channel_prob': 0.0, 'mask_channel_selection': static, 'mask_channel_other': 0.0, 'no_mask_channel_overlap': False, 'mask_channel_min_space': 1, 'conv_pos': 128, 'conv_pos_groups': 16, 'latent_temp': [2.0, 0.5, 0.999995], 'skip_masked': False, 'skip_nomask': False, 'checkpoint_activations': False, 'required_seq_len_multiple': 2, 'depthwise_conv_kernel_size': 31, 'attn_type': '', 'pos_enc_type': 'abs', 'fp16': True}
+/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator MiniBatchKMeans from version 0.24.0 when using version 1.2.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2024-01-28 12:22:18 | INFO | root | Processing partition: all CUDA: True
+Cut statistics:
+╒═══════════════════════════╤═══════════╕
+│ Cuts count:               │ 151640    │
+├───────────────────────────┼───────────┤
+│ Total duration (hh:mm:ss) │ 251:05:15 │
+├───────────────────────────┼───────────┤
+│ mean                      │ 6.0       │
+├───────────────────────────┼───────────┤
+│ std                       │ 3.5       │
+├───────────────────────────┼───────────┤
+│ min                       │ 0.4       │
+├───────────────────────────┼───────────┤
+│ 25%                       │ 3.9       │
+├───────────────────────────┼───────────┤
+│ 50%                       │ 5.2       │
+├───────────────────────────┼───────────┤
+│ 75%                       │ 7.1       │
+├───────────────────────────┼───────────┤
+│ 99%                       │ 19.2      │
+├───────────────────────────┼───────────┤
+│ 99.5%                     │ 24.6      │
+├───────────────────────────┼───────────┤
+│ 99.9%                     │ 39.1      │
+├───────────────────────────┼───────────┤
+│ max                       │ 71.2      │
+├───────────────────────────┼───────────┤
+│ Recordings available:     │ 151640    │
+├───────────────────────────┼───────────┤
+│ Features available:       │ 0         │
+├───────────────────────────┼───────────┤
+│ Supervisions available:   │ 151640    │
+╘═══════════════════════════╧═══════════╛
+SUPERVISION custom fields:
+Speech duration statistics:
+╒══════════════════════════════╤═══════════╤══════════════════════╕
+│ Total speech duration        │ 251:05:15 │ 100.00% of recording │
+├──────────────────────────────┼───────────┼──────────────────────┤
+│ Total speaking time duration │ 251:05:15 │ 100.00% of recording │
+├──────────────────────────────┼───────────┼──────────────────────┤
+│ Total silence duration       │ 00:00:01  │ 0.00% of recording   │
+╘══════════════════════════════╧═══════════╧══════════════════════╛
+  0%|          | 0/151640 [00:00<?, ?it/s]2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 1/151640 [00:10<434:45:09, 10.32s/it]2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 5/151640 [00:10<65:47:44,  1.56s/it] 2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 500.0% of the lines (5/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 9/151640 [00:10<30:27:02,  1.38it/s]2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 14/151640 [00:10<15:52:47,  2.65it/s]2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 18/151640 [00:10<10:34:22,  3.98it/s]2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 22/151640 [00:10<7:27:22,  5.65it/s] 2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  0%|          | 27/151640 [00:11<4:59:46,  8.43it/s]2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 32/151640 [00:11<3:37:12, 11.63it/s]2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 36/151640 [00:11<2:53:11, 14.59it/s]2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 42/151640 [00:11<2:07:18, 19.85it/s]2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 47/151640 [00:11<1:48:01, 23.39it/s]2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 52/151640 [00:11<1:42:04, 24.75it/s]2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 56/151640 [00:11<1:33:29, 27.02it/s]2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 60/151640 [00:11<1:26:39, 29.15it/s]2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 64/151640 [00:12<1:29:39, 28.18it/s]2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 68/151640 [00:12<1:27:32, 28.85it/s]2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:37 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 73/151640 [00:12<1:17:16, 32.69it/s]2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 77/151640 [00:12<1:17:22, 32.64it/s]2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 500.0% of the lines (5/1)
+here
+  0%|          | 81/151640 [00:12<1:21:04, 31.16it/s]2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 85/151640 [00:12<1:18:16, 32.27it/s]2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 90/151640 [00:12<1:11:05, 35.53it/s]2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 94/151640 [00:12<1:15:51, 33.30it/s]2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 98/151640 [00:13<1:20:22, 31.42it/s]2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 102/151640 [00:13<1:18:29, 32.18it/s]2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:38 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 106/151640 [00:13<1:16:53, 32.84it/s]2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  0%|          | 111/151640 [00:13<1:12:04, 35.04it/s]2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 115/151640 [00:13<1:15:55, 33.26it/s]2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 119/151640 [00:13<1:13:50, 34.20it/s]2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 123/151640 [00:13<1:25:54, 29.39it/s]2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 127/151640 [00:13<1:21:24, 31.02it/s]2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 132/151640 [00:14<1:14:36, 33.85it/s]2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 137/151640 [00:14<1:10:08, 36.00it/s]2024-01-28 12:22:39 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 141/151640 [00:14<1:12:43, 34.72it/s]2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 145/151640 [00:14<1:13:30, 34.35it/s]2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 150/151640 [00:14<1:10:37, 35.75it/s]2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 154/151640 [00:14<1:16:50, 32.85it/s]2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 500.0% of the lines (5/1)
+here
+  0%|          | 159/151640 [00:14<1:12:38, 34.76it/s]2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 163/151640 [00:14<1:10:35, 35.77it/s]2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 167/151640 [00:15<1:10:37, 35.74it/s]2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 172/151640 [00:15<1:04:40, 39.03it/s]2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:40 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  0%|          | 176/151640 [00:15<1:06:50, 37.76it/s]2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 180/151640 [00:15<1:19:44, 31.66it/s]2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 184/151640 [00:15<1:26:07, 29.31it/s]2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 188/151640 [00:15<1:28:53, 28.40it/s]2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 193/151640 [00:15<1:17:13, 32.69it/s]2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 198/151640 [00:16<1:09:01, 36.57it/s]2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 203/151640 [00:16<1:04:08, 39.35it/s]2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 208/151640 [00:16<1:02:24, 40.44it/s]2024-01-28 12:22:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 213/151640 [00:16<1:00:46, 41.53it/s]2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  0%|          | 218/151640 [00:16<1:07:03, 37.63it/s]2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 222/151640 [00:16<1:06:39, 37.86it/s]2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 226/151640 [00:16<1:12:03, 35.02it/s]2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 230/151640 [00:16<1:09:43, 36.19it/s]2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 234/151640 [00:17<1:15:37, 33.37it/s]2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 238/151640 [00:17<1:24:50, 29.74it/s]2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 243/151640 [00:17<1:15:01, 33.63it/s]2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 247/151640 [00:17<1:13:21, 34.39it/s]2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 251/151640 [00:17<1:13:44, 34.22it/s]2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 255/151640 [00:17<1:25:33, 29.49it/s]2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 259/151640 [00:17<1:22:32, 30.57it/s]2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 264/151640 [00:17<1:14:54, 33.68it/s]2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 268/151640 [00:18<1:13:11, 34.47it/s]2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 272/151640 [00:18<1:10:47, 35.64it/s]2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:43 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 276/151640 [00:18<1:16:02, 33.18it/s]2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 281/151640 [00:18<1:12:53, 34.61it/s]2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 286/151640 [00:18<1:09:26, 36.32it/s]2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 291/151640 [00:18<1:03:41, 39.60it/s]2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 296/151640 [00:18<1:03:52, 39.49it/s]2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 1000.0% of the lines (10/1)
+here
+  0%|          | 301/151640 [00:19<1:22:16, 30.66it/s]2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 306/151640 [00:19<1:15:54, 33.23it/s]2024-01-28 12:22:44 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 310/151640 [00:19<1:34:25, 26.71it/s]2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 314/151640 [00:19<1:32:16, 27.33it/s]2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 318/151640 [00:19<1:28:32, 28.48it/s]2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 322/151640 [00:19<1:32:13, 27.35it/s]2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  0%|          | 325/151640 [00:19<1:32:20, 27.31it/s]2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 500.0% of the lines (5/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 329/151640 [00:20<1:26:38, 29.10it/s]2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 333/151640 [00:20<1:21:50, 30.81it/s]2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 700.0% of the lines (7/1)
+here
+  0%|          | 338/151640 [00:20<1:30:14, 27.94it/s]2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 342/151640 [00:20<1:26:21, 29.20it/s]2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 346/151640 [00:20<1:20:21, 31.38it/s]2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 350/151640 [00:20<1:17:09, 32.68it/s]2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 355/151640 [00:20<1:11:53, 35.07it/s]2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 359/151640 [00:20<1:10:26, 35.79it/s]2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 364/151640 [00:21<1:08:18, 36.91it/s]2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 368/151640 [00:21<1:08:20, 36.90it/s]here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 373/151640 [00:21<1:02:47, 40.15it/s]2024-01-28 12:22:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 378/151640 [00:21<59:56, 42.05it/s]  2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 383/151640 [00:21<1:02:24, 40.39it/s]2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 388/151640 [00:21<1:01:58, 40.67it/s]2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 800.0% of the lines (8/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 393/151640 [00:21<1:09:18, 36.37it/s]2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 397/151640 [00:21<1:11:02, 35.48it/s]2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 402/151640 [00:22<1:05:42, 38.37it/s]2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 500.0% of the lines (5/1)
+here
+  0%|          | 406/151640 [00:22<1:10:17, 35.86it/s]2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 410/151640 [00:22<1:10:10, 35.92it/s]2024-01-28 12:22:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 414/151640 [00:22<1:11:31, 35.24it/s]2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  0%|          | 418/151640 [00:22<1:10:42, 35.64it/s]2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 422/151640 [00:22<1:08:34, 36.75it/s]2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 427/151640 [00:22<1:02:48, 40.12it/s]2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 432/151640 [00:22<1:02:14, 40.49it/s]2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 437/151640 [00:22<1:02:55, 40.04it/s]2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 442/151640 [00:23<1:13:55, 34.09it/s]2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 446/151640 [00:23<1:13:14, 34.41it/s]2024-01-28 12:22:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 450/151640 [00:23<1:22:26, 30.57it/s]2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 454/151640 [00:23<1:17:57, 32.32it/s]2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 459/151640 [00:23<1:11:43, 35.13it/s]2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 465/151640 [00:23<1:03:16, 39.82it/s]2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 470/151640 [00:23<1:01:14, 41.14it/s]2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 475/151640 [00:24<1:06:19, 37.98it/s]2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 481/151640 [00:24<1:00:32, 41.61it/s]2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 486/151640 [00:24<58:48, 42.84it/s]  2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 491/151640 [00:24<1:07:17, 37.44it/s]2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 496/151640 [00:24<1:05:42, 38.34it/s]2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 500/151640 [00:24<1:07:47, 37.16it/s]2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  0%|          | 504/151640 [00:24<1:12:30, 34.74it/s]2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 508/151640 [00:24<1:12:15, 34.86it/s]2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 512/151640 [00:25<1:16:30, 32.92it/s]2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 517/151640 [00:25<1:09:43, 36.13it/s]2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 521/151640 [00:25<1:08:22, 36.84it/s]2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 526/151640 [00:25<1:06:58, 37.60it/s]2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 530/151640 [00:25<1:07:33, 37.28it/s]2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 534/151640 [00:25<1:07:31, 37.29it/s]2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 1800.0% of the lines (18/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 538/151640 [00:25<1:26:18, 29.18it/s]2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 542/151640 [00:25<1:23:18, 30.23it/s]2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 1100.0% of the lines (11/1)
+here
+  0%|          | 546/151640 [00:26<1:40:19, 25.10it/s]2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:51 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 552/151640 [00:26<1:20:43, 31.19it/s]2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 556/151640 [00:26<1:17:03, 32.68it/s]2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 561/151640 [00:26<1:10:08, 35.90it/s]2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 565/151640 [00:26<1:10:19, 35.81it/s]2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 569/151640 [00:26<1:09:33, 36.20it/s]2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 573/151640 [00:26<1:08:06, 36.96it/s]2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 577/151640 [00:26<1:08:13, 36.90it/s]2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 581/151640 [00:27<1:08:15, 36.88it/s]2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 586/151640 [00:27<1:05:41, 38.33it/s]2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 590/151640 [00:27<1:04:57, 38.76it/s]2024-01-28 12:22:52 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 594/151640 [00:27<1:04:28, 39.05it/s]2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 599/151640 [00:27<1:00:25, 41.66it/s]2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 604/151640 [00:27<1:04:06, 39.26it/s]2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 608/151640 [00:27<1:12:13, 34.85it/s]2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 613/151640 [00:27<1:08:32, 36.73it/s]2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 617/151640 [00:27<1:08:22, 36.81it/s]2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 622/151640 [00:28<1:05:26, 38.47it/s]2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 626/151640 [00:28<1:05:30, 38.42it/s]2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 630/151640 [00:28<1:06:24, 37.90it/s]2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 635/151640 [00:28<1:04:22, 39.09it/s]2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 639/151640 [00:28<1:09:45, 36.08it/s]2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 643/151640 [00:28<1:11:56, 34.98it/s]2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 648/151640 [00:28<1:10:47, 35.55it/s]2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 653/151640 [00:28<1:08:26, 36.77it/s]2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 657/151640 [00:29<1:09:37, 36.14it/s]2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 661/151640 [00:29<1:09:47, 36.06it/s]2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 900.0% of the lines (9/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 665/151640 [00:29<1:15:08, 33.48it/s]2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 669/151640 [00:29<1:11:44, 35.08it/s]2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 674/151640 [00:29<1:06:25, 37.88it/s]2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 679/151640 [00:29<1:02:48, 40.06it/s]2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 700.0% of the lines (7/1)
+here
+  0%|          | 684/151640 [00:29<1:07:09, 37.46it/s]2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 688/151640 [00:29<1:06:44, 37.70it/s]2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 692/151640 [00:30<1:12:07, 34.88it/s]2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 697/151640 [00:30<1:06:48, 37.65it/s]2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  0%|          | 701/151640 [00:30<1:07:20, 37.35it/s]2024-01-28 12:22:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 706/151640 [00:30<1:05:22, 38.48it/s]2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 710/151640 [00:30<1:04:48, 38.81it/s]2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 715/151640 [00:30<1:05:15, 38.54it/s]2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 719/151640 [00:30<1:06:45, 37.67it/s]2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 723/151640 [00:30<1:10:34, 35.64it/s]2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 727/151640 [00:30<1:12:31, 34.68it/s]2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 732/151640 [00:31<1:05:09, 38.60it/s]2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 737/151640 [00:31<1:03:13, 39.78it/s]2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 742/151640 [00:31<1:06:23, 37.88it/s]2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 746/151640 [00:31<1:06:37, 37.75it/s]2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  0%|          | 751/151640 [00:31<1:02:07, 40.49it/s]2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 600.0% of the lines (6/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  0%|          | 756/151640 [00:31<1:10:55, 35.46it/s]2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 760/151640 [00:31<1:11:59, 34.93it/s]2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 764/151640 [00:31<1:10:37, 35.61it/s]2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 769/151640 [00:32<1:08:15, 36.84it/s]2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 773/151640 [00:32<1:08:19, 36.80it/s]2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:57 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 777/151640 [00:32<1:11:44, 35.05it/s]2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 500.0% of the lines (5/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 781/151640 [00:32<1:16:33, 32.84it/s]2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 1000.0% of the lines (10/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 785/151640 [00:32<1:29:18, 28.15it/s]2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 790/151640 [00:32<1:18:19, 32.10it/s]2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 794/151640 [00:32<1:15:32, 33.28it/s]2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 799/151640 [00:32<1:08:44, 36.57it/s]2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 803/151640 [00:33<1:08:00, 36.96it/s]2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 807/151640 [00:33<1:09:31, 36.16it/s]2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:58 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 811/151640 [00:33<1:10:35, 35.61it/s]2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 816/151640 [00:33<1:04:20, 39.07it/s]2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 821/151640 [00:33<1:02:55, 39.95it/s]2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 826/151640 [00:33<59:00, 42.60it/s]  2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 831/151640 [00:33<1:02:49, 40.00it/s]2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 836/151640 [00:33<1:00:46, 41.36it/s]2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 841/151640 [00:34<1:04:40, 38.86it/s]2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 845/151640 [00:34<1:04:31, 38.95it/s]2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:22:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 849/151640 [00:34<1:08:23, 36.75it/s]2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 853/151640 [00:34<1:10:49, 35.49it/s]2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 858/151640 [00:34<1:04:41, 38.85it/s]2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 900.0% of the lines (9/1)
+here
+  1%|          | 862/151640 [00:34<1:51:54, 22.45it/s]2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 800.0% of the lines (8/1)
+here
+  1%|          | 867/151640 [00:35<1:43:24, 24.30it/s]2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 872/151640 [00:35<1:29:39, 28.03it/s]2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:00 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 876/151640 [00:35<1:28:34, 28.37it/s]2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 880/151640 [00:35<1:21:52, 30.69it/s]2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 885/151640 [00:35<1:16:06, 33.02it/s]2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 889/151640 [00:35<1:26:11, 29.15it/s]2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 893/151640 [00:35<1:25:29, 29.39it/s]2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 898/151640 [00:35<1:14:08, 33.89it/s]2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 904/151640 [00:36<1:04:55, 38.70it/s]2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 909/151640 [00:36<1:03:56, 39.29it/s]2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:01 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 914/151640 [00:36<1:02:42, 40.06it/s]2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 919/151640 [00:36<1:01:04, 41.13it/s]2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 924/151640 [00:36<1:06:15, 37.91it/s]2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 928/151640 [00:36<1:08:53, 36.46it/s]2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 933/151640 [00:36<1:05:53, 38.12it/s]2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 937/151640 [00:36<1:07:00, 37.49it/s]2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 942/151640 [00:37<1:05:07, 38.57it/s]2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 947/151640 [00:37<1:03:11, 39.75it/s]2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:02 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 952/151640 [00:37<1:02:28, 40.20it/s]2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 957/151640 [00:37<1:05:43, 38.21it/s]2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 961/151640 [00:37<1:06:14, 37.91it/s]2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 965/151640 [00:37<1:09:14, 36.27it/s]2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 970/151640 [00:37<1:07:12, 37.36it/s]2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 974/151640 [00:37<1:06:18, 37.87it/s]2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 978/151640 [00:38<1:09:36, 36.07it/s]2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 982/151640 [00:38<1:10:34, 35.58it/s]2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 987/151640 [00:38<1:06:17, 37.88it/s]2024-01-28 12:23:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 993/151640 [00:38<58:27, 42.95it/s]  2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 998/151640 [00:38<58:04, 43.23it/s]2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1003/151640 [00:38<1:05:09, 38.53it/s]2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1007/151640 [00:38<1:06:33, 37.72it/s]2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 900.0% of the lines (9/1)
+here
+  1%|          | 1011/151640 [00:38<1:18:08, 32.13it/s]2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1016/151640 [00:39<1:10:37, 35.55it/s]2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1020/151640 [00:39<1:11:15, 35.23it/s]2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:04 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1024/151640 [00:39<1:12:08, 34.80it/s]2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1028/151640 [00:39<1:10:29, 35.61it/s]2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1032/151640 [00:39<1:12:47, 34.48it/s]2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1036/151640 [00:39<1:12:33, 34.59it/s]2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1041/151640 [00:39<1:08:24, 36.69it/s]2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 500.0% of the lines (5/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1045/151640 [00:39<1:16:26, 32.83it/s]2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1049/151640 [00:40<1:18:34, 31.94it/s]2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:05 | WARNING | phonemizer | words count mismatch on 2300.0% of the lines (23/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1053/151640 [00:40<1:49:59, 22.82it/s]2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1056/151640 [00:40<1:46:46, 23.51it/s]2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1061/151640 [00:40<1:29:56, 27.90it/s]2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1066/151640 [00:40<1:17:42, 32.30it/s]2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1070/151640 [00:40<1:43:44, 24.19it/s]2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1073/151640 [00:41<1:43:13, 24.31it/s]2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1077/151640 [00:41<1:34:13, 26.63it/s]2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:06 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1081/151640 [00:41<1:26:39, 28.96it/s]2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1085/151640 [00:41<1:22:07, 30.55it/s]2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1089/151640 [00:41<1:19:09, 31.70it/s]2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1093/151640 [00:41<1:24:37, 29.65it/s]2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1097/151640 [00:41<1:22:51, 30.28it/s]2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1101/151640 [00:41<1:19:43, 31.47it/s]2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 1300.0% of the lines (13/1)
+here
+2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1105/151640 [00:42<1:42:58, 24.36it/s]2024-01-28 12:23:07 | WARNING | phonemizer | words count mismatch on 800.0% of the lines (8/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1108/151640 [00:42<2:00:08, 20.88it/s]2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1111/151640 [00:42<1:50:51, 22.63it/s]2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1115/151640 [00:42<1:37:09, 25.82it/s]2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1118/151640 [00:42<1:40:53, 24.87it/s]2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 1300.0% of the lines (13/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1121/151640 [00:42<1:50:04, 22.79it/s]2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1125/151640 [00:42<1:35:21, 26.31it/s]2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1129/151640 [00:43<1:27:13, 28.76it/s]2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1133/151640 [00:43<1:33:50, 26.73it/s]2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1137/151640 [00:43<1:27:46, 28.58it/s]2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  1%|          | 1140/151640 [00:43<1:29:19, 28.08it/s]2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  1%|          | 1145/151640 [00:43<1:26:40, 28.94it/s]2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1148/151640 [00:43<1:43:01, 24.35it/s]2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 600.0% of the lines (6/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1151/151640 [00:44<1:53:18, 22.14it/s]2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 600.0% of the lines (6/1)
+here
+  1%|          | 1155/151640 [00:44<1:47:49, 23.26it/s]2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1159/151640 [00:44<1:38:22, 25.50it/s]2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1162/151640 [00:44<1:35:36, 26.23it/s]2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1165/151640 [00:44<1:43:24, 24.25it/s]2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1168/151640 [00:44<1:39:09, 25.29it/s]2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1172/151640 [00:44<1:27:29, 28.66it/s]2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1175/151640 [00:44<1:33:02, 26.95it/s]2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1179/151640 [00:45<1:28:00, 28.50it/s]2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1183/151640 [00:45<1:20:46, 31.05it/s]2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1187/151640 [00:45<1:16:48, 32.65it/s]2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:10 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1191/151640 [00:45<1:13:23, 34.17it/s]2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1196/151640 [00:45<1:08:02, 36.85it/s]2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1200/151640 [00:45<1:07:38, 37.07it/s]2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1204/151640 [00:45<1:06:42, 37.58it/s]2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1208/151640 [00:45<1:09:17, 36.18it/s]2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1212/151640 [00:45<1:10:53, 35.37it/s]2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  1%|          | 1216/151640 [00:46<1:11:29, 35.07it/s]2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1221/151640 [00:46<1:10:31, 35.55it/s]2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1225/151640 [00:46<1:13:33, 34.08it/s]2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1230/151640 [00:46<1:11:55, 34.85it/s]2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1235/151640 [00:46<1:09:40, 35.97it/s]2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1239/151640 [00:46<1:11:04, 35.27it/s]2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  1%|          | 1243/151640 [00:46<1:12:24, 34.62it/s]2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  1%|          | 1247/151640 [00:46<1:14:41, 33.56it/s]2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1251/151640 [00:47<1:11:36, 35.00it/s]2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1255/151640 [00:47<1:09:33, 36.03it/s]2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1259/151640 [00:47<1:16:52, 32.60it/s]2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1263/151640 [00:47<1:18:17, 32.01it/s]2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1267/151640 [00:47<1:18:30, 31.92it/s]2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1272/151640 [00:47<1:10:33, 35.52it/s]2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1276/151640 [00:47<1:08:46, 36.44it/s]2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1280/151640 [00:47<1:08:42, 36.48it/s]2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 600.0% of the lines (6/1)
+here
+  1%|          | 1285/151640 [00:47<1:07:53, 36.91it/s]2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1289/151640 [00:48<1:09:11, 36.22it/s]2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1294/151640 [00:48<1:03:30, 39.46it/s]2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1299/151640 [00:48<1:02:54, 39.83it/s]2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1304/151640 [00:48<1:04:53, 38.62it/s]2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1309/151640 [00:48<1:02:15, 40.24it/s]2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1314/151640 [00:48<1:00:10, 41.64it/s]2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1319/151640 [00:48<59:36, 42.03it/s]  2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1324/151640 [00:48<1:00:45, 41.23it/s]2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1329/151640 [00:49<1:01:33, 40.70it/s]2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1334/151640 [00:49<1:01:36, 40.66it/s]2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:14 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1339/151640 [00:49<1:08:39, 36.48it/s]2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1344/151640 [00:49<1:03:37, 39.37it/s]2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1349/151640 [00:49<1:05:58, 37.97it/s]2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1354/151640 [00:49<1:04:48, 38.65it/s]2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 1000.0% of the lines (10/1)
+here
+  1%|          | 1358/151640 [00:49<1:17:15, 32.42it/s]2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1362/151640 [00:50<1:17:16, 32.41it/s]2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1366/151640 [00:50<1:17:48, 32.19it/s]2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1370/151640 [00:50<1:14:42, 33.52it/s]2024-01-28 12:23:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1375/151640 [00:50<1:09:25, 36.08it/s]2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1380/151640 [00:50<1:07:27, 37.13it/s]2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1385/151640 [00:50<1:03:20, 39.54it/s]2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1390/151640 [00:50<1:02:40, 39.95it/s]2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  1%|          | 1395/151640 [00:50<1:02:12, 40.25it/s]2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1401/151640 [00:50<57:07, 43.83it/s]  2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1406/151640 [00:51<56:49, 44.07it/s]2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1411/151640 [00:51<56:49, 44.06it/s]2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:16 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1416/151640 [00:51<1:00:24, 41.44it/s]2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  1%|          | 1421/151640 [00:51<1:06:22, 37.72it/s]2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1426/151640 [00:51<1:04:08, 39.04it/s]2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1430/151640 [00:51<1:04:31, 38.80it/s]2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1434/151640 [00:51<1:06:12, 37.81it/s]2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 1400.0% of the lines (14/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1438/151640 [00:51<1:17:26, 32.32it/s]2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1442/151640 [00:52<1:14:27, 33.62it/s]2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1446/151640 [00:52<1:13:05, 34.25it/s]2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:17 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1451/151640 [00:52<1:07:58, 36.82it/s]2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1455/151640 [00:52<1:10:13, 35.64it/s]2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1459/151640 [00:52<1:08:37, 36.47it/s]2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1463/151640 [00:52<1:07:09, 37.27it/s]2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1468/151640 [00:52<1:07:20, 37.17it/s]2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1473/151640 [00:52<1:02:02, 40.34it/s]2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1478/151640 [00:53<1:02:24, 40.10it/s]2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1483/151640 [00:53<1:02:59, 39.72it/s]2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1488/151640 [00:53<1:07:37, 37.00it/s]2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1493/151640 [00:53<1:06:53, 37.41it/s]2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1497/151640 [00:53<1:14:38, 33.53it/s]2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1501/151640 [00:53<1:15:00, 33.36it/s]2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1505/151640 [00:53<1:13:29, 34.05it/s]2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1510/151640 [00:53<1:07:38, 36.99it/s]2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1514/151640 [00:54<1:14:59, 33.37it/s]2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1518/151640 [00:54<1:13:30, 34.04it/s]2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1523/151640 [00:54<1:08:20, 36.61it/s]2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1528/151640 [00:54<1:03:51, 39.18it/s]2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1533/151640 [00:54<1:03:00, 39.70it/s]2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1538/151640 [00:54<1:05:53, 37.96it/s]2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1542/151640 [00:54<1:07:16, 37.18it/s]2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1546/151640 [00:54<1:07:34, 37.02it/s]2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 400.0% of the lines (4/1)
+here
+  1%|          | 1550/151640 [00:55<1:06:54, 37.38it/s]2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+  1%|          | 1554/151640 [00:55<1:08:01, 36.77it/s]2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1558/151640 [00:55<1:09:42, 35.88it/s]2024-01-28 12:23:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+  1%|          | 1563/151640 [00:55<1:05:27, 38.21it/s]2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1568/151640 [00:55<1:00:38, 41.25it/s]2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here
+2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+here
+  1%|          | 1573/151640 [00:55<1:03:21, 39.47it/s]2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 300.0% of the lines (3/1)
+here
+2024-01-28 12:23:21 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+here

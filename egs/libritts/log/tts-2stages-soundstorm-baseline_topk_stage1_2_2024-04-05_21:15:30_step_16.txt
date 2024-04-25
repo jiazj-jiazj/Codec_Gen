@@ -1,0 +1,41 @@
+Current working directory: /home/v-zhijunjia/CodecGen
+Failure while loading azureml_run_type_providers. Failed to load entrypoint automl = azureml.train.automl.run:AutoMLRun._from_run_dto with exception (numpy 1.24.0 (/home/v-zhijunjia/.local/lib/python3.10/site-packages), Requirement.parse('numpy!=1.19.3,<1.24; sys_platform == "linux"'), {'azureml-dataset-runtime'}).
+2024-04-05 13:15:33 | INFO | fairseq.tasks.text_to_speech | Please install tensorboardX: pip install tensorboardX
+/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator MiniBatchKMeans from version 0.24.0 when using version 1.2.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+only_antoregressive is True
+add_prenet is True
+self.ar_text_prenet : Sequential(
+  (0): Transpose()
+  (1): Conv1d(1024, 1024, kernel_size=(5,), stride=(1,), padding=same)
+  (2): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (3): ReLU()
+  (4): Dropout(p=0.5, inplace=False)
+  (5): Conv1d(1024, 1024, kernel_size=(5,), stride=(1,), padding=same)
+  (6): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (7): ReLU()
+  (8): Dropout(p=0.5, inplace=False)
+  (9): Conv1d(1024, 1024, kernel_size=(5,), stride=(1,), padding=same)
+  (10): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (11): ReLU()
+  (12): Dropout(p=0.5, inplace=False)
+  (13): Transpose()
+  (14): Linear(in_features=1024, out_features=1024, bias=True)
+)
+add_prenet：True
+self.encoder_layers:6
+self.decoder_layers：6
+only_antoregressive is True
+add_prenet is True
+self.ar_text_prenet : None
+add_prenet：True
+['ar_text_prenet.1.weight', 'ar_text_prenet.1.bias', 'ar_text_prenet.2.weight', 'ar_text_prenet.2.bias', 'ar_text_prenet.2.running_mean', 'ar_text_prenet.2.running_var', 'ar_text_prenet.5.weight', 'ar_text_prenet.5.bias', 'ar_text_prenet.6.weight', 'ar_text_prenet.6.bias', 'ar_text_prenet.6.running_mean', 'ar_text_prenet.6.running_var', 'ar_text_prenet.9.weight', 'ar_text_prenet.9.bias', 'ar_text_prenet.10.weight', 'ar_text_prenet.10.bias', 'ar_text_prenet.10.running_mean', 'ar_text_prenet.10.running_var', 'ar_text_prenet.14.weight', 'ar_text_prenet.14.bias', 'ar_audio_prenet.0.weight', 'ar_audio_prenet.0.bias', 'ar_audio_prenet.3.weight', 'ar_audio_prenet.3.bias', 'ar_audio_prenet.6.weight', 'ar_audio_prenet.6.bias']
+Traceback (most recent call last):
+  File "/home/v-zhijunjia/CodecGen/egs/libritts/bin/combine_ar_nar_vc_dir_onlyar.py", line 1700, in <module>
+    main()
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/v-zhijunjia/CodecGen/egs/libritts/bin/combine_ar_nar_vc_dir_onlyar.py", line 999, in main
+    assert not missing_keys1
+AssertionError

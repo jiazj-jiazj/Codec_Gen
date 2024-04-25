@@ -1,0 +1,1 @@
+python /home/v-zhijunjia/CodecGen/egs/libritts/bin/codec_gt.py /home/v-zhijunjia/zhijundata_small_v2/data_local/data/check_less_bright_voice/source_native tfcodec

@@ -1,0 +1,16 @@
+Current working directory: /home/v-zhijunjia/CodecGen
+Failure while loading azureml_run_type_providers. Failed to load entrypoint automl = azureml.train.automl.run:AutoMLRun._from_run_dto with exception (numpy 1.24.0 (/home/v-zhijunjia/.local/lib/python3.10/site-packages), Requirement.parse('numpy!=1.19.3,<1.24; sys_platform == "linux"'), {'azureml-dataset-runtime'}).
+2024-04-07 10:42:31 | INFO | fairseq.tasks.text_to_speech | Please install tensorboardX: pip install tensorboardX
+Traceback (most recent call last):
+  File "/home/v-zhijunjia/CodecGen/egs/libritts/bin/combine_ar_nar_vc_dir_onlyar.py", line 64, in <module>
+    from valle.data import (
+  File "/home/v-zhijunjia/CodecGen/valle/__init__.py", line 1, in <module>
+    from . import data, models, modules, utils
+  File "/home/v-zhijunjia/CodecGen/valle/models/__init__.py", line 13, in <module>
+    from .transformer import Transformer
+  File "/home/v-zhijunjia/CodecGen/valle/models/transformer.py", line 24, in <module>
+    from valle.models.valle import Transpose
+  File "/home/v-zhijunjia/CodecGen/valle/models/valle.py", line 3300
+    offsets = [0:self.quantizers//2]
+                ^
+SyntaxError: invalid syntax

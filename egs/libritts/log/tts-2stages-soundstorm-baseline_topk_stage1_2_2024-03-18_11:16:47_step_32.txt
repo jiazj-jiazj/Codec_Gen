@@ -1,0 +1,43 @@
+Current working directory: /home/v-zhijunjia/CodecGen
+Failure while loading azureml_run_type_providers. Failed to load entrypoint automl = azureml.train.automl.run:AutoMLRun._from_run_dto with exception (numpy 1.24.0 (/home/v-zhijunjia/.local/lib/python3.10/site-packages), Requirement.parse('numpy!=1.19.3,<1.24; sys_platform == "linux"'), {'azureml-dataset-runtime'}).
+2024-03-18 03:16:50 | INFO | fairseq.tasks.text_to_speech | Please install tensorboardX: pip install tensorboardX
+/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator MiniBatchKMeans from version 0.24.0 when using version 1.2.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+only_antoregressive is True
+add_prenet is False
+self.ar_text_prenet : Identity()
+add_prenet：False
+self.encoder_layers:6
+self.decoder_layers：6
+only_antoregressive is True
+add_prenet is False
+self.ar_text_prenet : None
+add_prenet：False
+[]
+  0%|          | 0/64 [00:00<?, ?it/s]processing 0th semantic_sys file
+0
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: BUT WAS THAT ALL HER REWARD ONE OF THE LADIES ASKED
+2024-03-18 03:17:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-03-18 03:17:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([43], dtype=torch.int32)
+txt2semantic need not prompt
+before_semantic:
+after is :
+151
+[17, 17, 296, 159, 159, 159, 457, 457, 345, 345, 141, 141, 281, 281, 342, 198, 198, 127, 114, 92, 92, 92, 240, 285, 285, 106, 106, 297, 297, 297, 297, 297, 293, 293, 293, 58, 58, 72, 72, 156, 156, 156, 156, 156, 245, 42, 147, 147, 456, 456, 456, 301, 378, 43, 364, 276, 276, 153, 153, 153, 153, 153, 387, 372, 372, 396, 396, 313, 24, 131, 133, 133, 364, 364, 276, 174, 174, 174, 174, 348, 94, 199, 199, 69, 223, 223, 223, 130, 402, 198, 198, 198, 22, 283, 455, 455, 251, 241, 431, 431, 403, 171, 171, 171, 171, 252, 325, 325, 34, 41, 41, 324, 324, 318, 368, 453, 342, 168, 483, 14, 411, 145, 145, 145, 145, 376, 376, 376, 376, 376, 376, 460, 460, 169, 169, 150, 150, 433, 433, 433, 86, 105, 233, 140, 96, 96, 140, 140, 227, 227, 419]
+total_token:300
+prompt_token:151
+  0%|          | 0/64 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/v-zhijunjia/CodecGen/egs/libritts/bin/combine_ar_nar_vc_dir_onlyar.py", line 1644, in <module>
+    main()
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/v-zhijunjia/CodecGen/egs/libritts/bin/combine_ar_nar_vc_dir_onlyar.py", line 1520, in main
+    encoded_frames = model_acoustic.inference(
+  File "/home/v-zhijunjia/CodecGen/valle/models/valle.py", line 3506, in inference
+    f.write(f"mask token len:{str(len(mask_len))}")
+NameError: name 'f' is not defined. Did you mean: 'F'?

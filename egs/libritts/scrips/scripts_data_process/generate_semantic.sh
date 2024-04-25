@@ -1,0 +1,1 @@
+python egs/libritts/bin/generate_semantic.py /home/v-zhijunjia/zhijundata_small_v2/data/l1_l2_arctic/data/Accents/arctic_more_native

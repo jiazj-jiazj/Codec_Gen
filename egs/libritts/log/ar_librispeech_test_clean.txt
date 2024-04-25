@@ -1,0 +1,2572 @@
+Current working directory: /home/v-zhijunjia/CodecGen
+Failure while loading azureml_run_type_providers. Failed to load entrypoint automl = azureml.train.automl.run:AutoMLRun._from_run_dto with exception (numpy 1.24.0 (/home/v-zhijunjia/.local/lib/python3.10/site-packages), Requirement.parse('numpy!=1.19.3,<1.24; sys_platform == "linux"'), {'azureml-dataset-runtime'}).
+2024-04-01 05:25:55 | INFO | fairseq.tasks.text_to_speech | Please install tensorboardX: pip install tensorboardX
+/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator MiniBatchKMeans from version 0.24.0 when using version 1.2.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+only_antoregressive is True
+add_prenet is False
+self.ar_text_prenet : Identity()
+add_prenet：False
+self.encoder_layers:6
+self.decoder_layers：6
+only_antoregressive is True
+add_prenet is False
+self.ar_text_prenet : Identity()
+add_prenet：False
+[]
+  0%|          | 0/1232 [00:00<?, ?it/s]processing 0th semantic_sys file
+0
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SHE IS UNDER SAIL BUT SHE IS COUNT TIMASCHEFF'S YACHT HE WAS RIGHT
+2024-04-01 05:26:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:26:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0003.json
+tensor([428], device='cuda:0', dtype=torch.int32)
+text_len:428
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为277（包含终止符）
+所有序列终止
+275
+torch.Size([1, 275, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28240-0003
+generate
+  0%|          | 1/1232 [00:06<2:23:13,  6.98s/it]processing 1th semantic_sys file
+1
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SERVADAC TOOK IT FOR GRANTED THAT THE DOBRYNA WAS ENDEAVORING TO PUT IN
+2024-04-01 05:26:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:26:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([48], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0007.json
+tensor([406], device='cuda:0', dtype=torch.int32)
+text_len:406
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为255（包含终止符）
+所有序列终止
+253
+torch.Size([1, 253, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28240-0007
+generate
+  0%|          | 2/1232 [00:12<2:06:26,  6.17s/it]processing 2th semantic_sys file
+2
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IT WAS ON THE LAST DAY OF JANUARY THAT THE REPAIRS OF THE SCHOONER WERE COMPLETED
+2024-04-01 05:26:25 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:26:25 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([39], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0022.json
+tensor([455], device='cuda:0', dtype=torch.int32)
+text_len:455
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为304（包含终止符）
+所有序列终止
+302
+torch.Size([1, 302, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28240-0022
+generate
+  0%|          | 3/1232 [00:19<2:17:51,  6.73s/it]processing 3th semantic_sys file
+3
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: FAST AS HIS LEGS COULD CARRY HIM SERVADAC HAD MADE HIS WAY TO THE TOP OF THE CLIFF
+2024-04-01 05:26:32 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:26:32 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0000.json
+tensor([371], device='cuda:0', dtype=torch.int32)
+text_len:371
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为220（包含终止符）
+所有序列终止
+218
+torch.Size([1, 218, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28240-0000
+generate
+  0%|          | 4/1232 [00:24<1:58:48,  5.80s/it]processing 4th semantic_sys file
+4
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: NEVER MIND NOW INTERPOSED THE CAPTAIN WE WILL TALK OF THAT BY AND BY
+2024-04-01 05:26:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:26:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0012.json
+tensor([504], device='cuda:0', dtype=torch.int32)
+text_len:504
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为353（包含终止符）
+所有序列终止
+351
+torch.Size([1, 351, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28240-0012
+generate
+  0%|          | 5/1232 [00:34<2:27:15,  7.20s/it]processing 5th semantic_sys file
+5
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IF THE COUNT WERE ON BOARD A STRANGE FATALITY WAS BRINGING HIM TO THE PRESENCE OF HIS RIVAL
+2024-04-01 05:26:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:26:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0004.json
+tensor([424], device='cuda:0', dtype=torch.int32)
+text_len:424
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为273（包含终止符）
+所有序列终止
+271
+torch.Size([1, 271, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28240-0004
+generate
+  0%|          | 6/1232 [00:40<2:20:00,  6.85s/it]processing 6th semantic_sys file
+6
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: TO ALL THESE INQUIRIES THE COUNT RESPONDED IN THE AFFIRMATIVE
+2024-04-01 05:26:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:26:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([39], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0016.json
+tensor([370], device='cuda:0', dtype=torch.int32)
+text_len:370
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为219（包含终止符）
+所有序列终止
+217
+torch.Size([1, 217, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28240-0016
+generate
+  1%|          | 7/1232 [00:44<2:03:31,  6.05s/it]processing 7th semantic_sys file
+7
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HE RECKONED THEREFORE NOT ONLY UPON ASCERTAINING THE EXTENT OF THE LATE CATASTROPHE BUT UPON LEARNING ITS CAUSE
+2024-04-01 05:26:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:26:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([40], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0005.json
+tensor([467], device='cuda:0', dtype=torch.int32)
+text_len:467
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为316（包含终止符）
+所有序列终止
+314
+torch.Size([1, 314, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28240-0005
+generate
+  1%|          | 8/1232 [00:52<2:16:12,  6.68s/it]processing 8th semantic_sys file
+8
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SOME MYSTERIOUS FORCE SEEMED TO HAVE BROUGHT ABOUT A CONVULSION OF THE ELEMENTS
+2024-04-01 05:27:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:27:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([52], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0017.json
+tensor([417], device='cuda:0', dtype=torch.int32)
+text_len:417
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为266（包含终止符）
+所有序列终止
+264
+torch.Size([1, 264, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28240-0017
+generate
+  1%|          | 9/1232 [00:58<2:11:02,  6.43s/it]processing 9th semantic_sys file
+9
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: MY YACHT IS AT YOUR SERVICE SIR EVEN SHOULD YOU REQUIRE TO MAKE A TOUR ROUND THE WORLD
+2024-04-01 05:27:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:27:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0019.json
+tensor([387], device='cuda:0', dtype=torch.int32)
+text_len:387
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为236（包含终止符）
+所有序列终止
+234
+torch.Size([1, 234, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28240-0019
+generate
+  1%|          | 10/1232 [01:03<2:01:16,  5.95s/it]processing 10th semantic_sys file
+10
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I LEFT YOU ON A CONTINENT AND HERE I HAVE THE HONOR OF FINDING YOU ON AN ISLAND
+2024-04-01 05:27:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:27:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([57], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0011.json
+tensor([745], device='cuda:0', dtype=torch.int32)
+text_len:745
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为594（包含终止符）
+所有序列终止
+592
+torch.Size([1, 592, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28240-0011
+generate
+  1%|          | 11/1232 [01:27<3:56:23, 11.62s/it]processing 11th semantic_sys file
+11
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: EXCLAIMED SERVADAC KEEPING HIS EYE UNMOVED AT HIS TELESCOPE
+2024-04-01 05:27:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:27:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([43], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0002.json
+tensor([387], device='cuda:0', dtype=torch.int32)
+text_len:387
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为236（包含终止符）
+所有序列终止
+234
+torch.Size([1, 234, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28240-0002
+generate
+  1%|          | 12/1232 [01:32<3:14:42,  9.58s/it]processing 12th semantic_sys file
+12
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: DOUBTS NOW AROSE AND SOME DISCUSSION FOLLOWED WHETHER OR NOT IT WAS DESIRABLE FOR BEN ZOOF TO ACCOMPANY HIS MASTER
+2024-04-01 05:27:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:27:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0024.json
+tensor([625], device='cuda:0', dtype=torch.int32)
+text_len:625
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为474（包含终止符）
+所有序列终止
+472
+torch.Size([1, 472, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28240-0024
+generate
+  1%|          | 13/1232 [01:49<3:57:15, 11.68s/it]processing 13th semantic_sys file
+13
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: FOR SOME MOMENTS HE SEEMED PERFECTLY STUPEFIED THEN RECOVERING HIMSELF HE BEGAN TO OVERWHELM THE COUNT WITH A TORRENT OF QUESTIONS
+2024-04-01 05:28:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:28:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0015.json
+tensor([627], device='cuda:0', dtype=torch.int32)
+text_len:627
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为475（包含终止符）
+所有序列终止
+473
+torch.Size([1, 473, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28240-0015
+generate
+  1%|          | 14/1232 [02:05<4:25:46, 13.09s/it]processing 14th semantic_sys file
+14
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE EARTH HAS UNDOUBTEDLY ENTERED UPON A NEW ORBIT BUT SHE IS NOT INCURRING ANY PROBABLE RISK OF BEING PRECIPITATED ONTO THE SUN
+2024-04-01 05:28:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:28:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([51], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0008.json
+tensor([644], device='cuda:0', dtype=torch.int32)
+text_len:644
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为493（包含终止符）
+所有序列终止
+491
+torch.Size([1, 491, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28241-0008
+generate
+  1%|          | 15/1232 [02:23<4:53:26, 14.47s/it]processing 15th semantic_sys file
+15
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: AND WHAT DEMONSTRATION DO YOU OFFER ASKED SERVADAC EAGERLY THAT IT WILL NOT HAPPEN
+2024-04-01 05:28:35 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:28:35 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0009.json
+tensor([439], device='cuda:0', dtype=torch.int32)
+text_len:439
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为288（包含终止符）
+所有序列终止
+286
+torch.Size([1, 286, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28241-0009
+generate
+  1%|▏         | 16/1232 [02:30<4:06:16, 12.15s/it]processing 16th semantic_sys file
+16
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: WOULD NOT THE LOFTIEST EMINENCES OF THE CITY AT LEAST BE VISIBLE
+2024-04-01 05:28:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:28:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([46], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0013.json
+tensor([361], device='cuda:0', dtype=torch.int32)
+text_len:361
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为210（包含终止符）
+所有序列终止
+208
+torch.Size([1, 208, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28241-0013
+generate
+  1%|▏         | 17/1232 [02:34<3:17:26,  9.75s/it]processing 17th semantic_sys file
+17
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE LOG AND THE COMPASS THEREFORE WERE ABLE TO BE CALLED UPON TO DO THE WORK OF THE SEXTANT WHICH HAD BECOME UTTERLY USELESS
+2024-04-01 05:28:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:28:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([25], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0006.json
+tensor([738], device='cuda:0', dtype=torch.int32)
+text_len:738
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为586（包含终止符）
+所有序列终止
+584
+torch.Size([1, 584, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28241-0006
+generate
+  1%|▏         | 18/1232 [02:58<4:44:07, 14.04s/it]processing 18th semantic_sys file
+18
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: FOR A FEW MILES SHE FOLLOWED THE LINE HITHERTO PRESUMABLY OCCUPIED BY THE COAST OF ALGERIA BUT NO LAND APPEARED TO THE SOUTH
+2024-04-01 05:29:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:29:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([37], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0005.json
+tensor([680], device='cuda:0', dtype=torch.int32)
+text_len:680
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为529（包含终止符）
+所有序列终止
+527
+torch.Size([1, 527, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28241-0005
+generate
+  2%|▏         | 19/1232 [03:26<6:09:24, 18.27s/it]processing 19th semantic_sys file
+19
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IS IT NOT IMPOSSIBLE HE MURMURED ALOUD THAT ANY CITY SHOULD DISAPPEAR SO COMPLETELY
+2024-04-01 05:29:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:29:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([40], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0012.json
+tensor([438], device='cuda:0', dtype=torch.int32)
+text_len:438
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为287（包含终止符）
+所有序列终止
+285
+torch.Size([1, 285, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28241-0012
+generate
+  2%|▏         | 20/1232 [03:36<5:19:47, 15.83s/it]processing 20th semantic_sys file
+20
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: YOU MUST SEE LIEUTENANT I SHOULD THINK THAT WE ARE NOT SO NEAR THE COAST OF ALGERIA AS YOU IMAGINED
+2024-04-01 05:29:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:29:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([49], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0016.json
+tensor([438], device='cuda:0', dtype=torch.int32)
+text_len:438
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为287（包含终止符）
+所有序列终止
+285
+torch.Size([1, 285, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28241-0016
+generate
+  2%|▏         | 21/1232 [03:47<4:47:57, 14.27s/it]processing 21th semantic_sys file
+21
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: NOTHING WAS TO BE DONE BUT TO PUT ABOUT AND RETURN IN DISAPPOINTMENT TOWARDS THE NORTH
+2024-04-01 05:29:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:29:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0019.json
+tensor([442], device='cuda:0', dtype=torch.int32)
+text_len:442
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为290（包含终止符）
+所有序列终止
+288
+torch.Size([1, 288, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28241-0019
+generate
+  2%|▏         | 22/1232 [03:57<4:24:17, 13.11s/it]processing 22th semantic_sys file
+22
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HER SEA GOING QUALITIES WERE EXCELLENT AND WOULD HAVE AMPLY SUFFICED FOR A CIRCUMNAVIGATION OF THE GLOBE
+2024-04-01 05:30:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:30:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([40], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0000.json
+tensor([491], device='cuda:0', dtype=torch.int32)
+text_len:491
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为340（包含终止符）
+所有序列终止
+338
+torch.Size([1, 338, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28241-0000
+generate
+  2%|▏         | 23/1232 [04:11<4:26:58, 13.25s/it]processing 23th semantic_sys file
+23
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: LENGTH OF SERVICE FOURTEEN YEARS THREE MONTHS AND FIVE DAYS
+2024-04-01 05:30:23 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:30:23 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([51], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28233-0000.json
+tensor([360], device='cuda:0', dtype=torch.int32)
+text_len:360
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为209（包含终止符）
+所有序列终止
+207
+torch.Size([1, 207, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28233-0000
+generate
+  2%|▏         | 24/1232 [04:17<3:45:10, 11.18s/it]processing 24th semantic_sys file
+24
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HE SEEMED BORN TO PLEASE WITHOUT BEING CONSCIOUS OF THE POWER HE POSSESSED
+2024-04-01 05:30:30 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:30:30 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([45], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28233-0001.json
+tensor([512], device='cuda:0', dtype=torch.int32)
+text_len:512
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为361（包含终止符）
+所有序列终止
+359
+torch.Size([1, 359, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28233-0001
+generate
+  2%|▏         | 25/1232 [04:32<4:09:19, 12.39s/it]processing 25th semantic_sys file
+25
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: ONCE IN ACTION HE WAS LEADING A DETACHMENT OF INFANTRY THROUGH AN INTRENCHMENT
+2024-04-01 05:30:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:30:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([35], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28233-0004.json
+tensor([363], device='cuda:0', dtype=torch.int32)
+text_len:363
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为212（包含终止符）
+所有序列终止
+210
+torch.Size([1, 210, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28233-0004
+generate
+  2%|▏         | 26/1232 [04:39<3:34:00, 10.65s/it]processing 26th semantic_sys file
+26
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IT MUST BE OWNED AND NO ONE WAS MORE READY TO CONFESS IT THAN HIMSELF THAT HIS LITERARY ATTAINMENTS WERE BY NO MEANS OF A HIGH ORDER
+2024-04-01 05:30:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:30:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([38], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28233-0002.json
+tensor([795], device='cuda:0', dtype=torch.int32)
+text_len:795
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为643（包含终止符）
+所有序列终止
+641
+torch.Size([1, 641, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28233-0002
+generate
+  2%|▏         | 27/1232 [05:22<6:49:50, 20.41s/it]processing 27th semantic_sys file
+27
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: NO CATHEDRAL NOT EVEN BURGOS ITSELF COULD VIE WITH THE CHURCH AT MONTMARTRE
+2024-04-01 05:31:35 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:31:35 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([50], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28233-0006.json
+tensor([351], device='cuda:0', dtype=torch.int32)
+text_len:351
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为199（包含终止符）
+所有序列终止
+197
+torch.Size([1, 197, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_5105-28233-0006
+generate
+  2%|▏         | 28/1232 [05:28<5:22:05, 16.05s/it]processing 28th semantic_sys file
+28
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: YES BUT THE MERIDIAN OF THE PALAIS ROYAL IS THE MOST EXACT
+2024-04-01 05:31:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:31:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([34], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0026.json
+tensor([383], device='cuda:0', dtype=torch.int32)
+text_len:383
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为232（包含终止符）
+所有序列终止
+230
+torch.Size([1, 230, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0026
+generate
+  2%|▏         | 29/1232 [05:35<4:29:43, 13.45s/it]processing 29th semantic_sys file
+29
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: MY REMARK PLEASES HIM BUT I SOON PROVE TO HIM THAT IT IS NOT THE RIGHT WAY TO SPEAK HOWEVER PERFECT MAY HAVE BEEN THE LANGUAGE OF THAT ANCIENT WRITER
+2024-04-01 05:31:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:31:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([38], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0023.json
+tensor([692], device='cuda:0', dtype=torch.int32)
+text_len:692
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为541（包含终止符）
+所有序列终止
+539
+torch.Size([1, 539, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0023
+generate
+  2%|▏         | 30/1232 [06:07<6:16:57, 18.82s/it]processing 30th semantic_sys file
+30
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I SEE A CROWD IN ONE CORNER OF THE GARDEN EVERYBODY STANDING STILL AND LOOKING UP
+2024-04-01 05:32:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:32:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0024.json
+tensor([434], device='cuda:0', dtype=torch.int32)
+text_len:434
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为283（包含终止符）
+所有序列终止
+281
+torch.Size([1, 281, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0024
+generate
+  3%|▎         | 31/1232 [06:17<5:25:38, 16.27s/it]processing 31th semantic_sys file
+31
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I ADDRESS HIM IN ITALIAN AND HE ANSWERS VERY WITTILY BUT HIS WAY OF SPEAKING MAKES ME SMILE AND I TELL HIM WHY
+2024-04-01 05:32:29 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:32:29 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([25], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0022.json
+tensor([638], device='cuda:0', dtype=torch.int32)
+text_len:638
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为487（包含终止符）
+所有序列终止
+485
+torch.Size([1, 485, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0022
+generate
+  3%|▎         | 32/1232 [06:43<6:23:10, 19.16s/it]processing 32th semantic_sys file
+32
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: MADAME QUINSON BESIDES CAN ANSWER YOUR ENQUIRIES
+2024-04-01 05:32:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:32:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([51], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0016.json
+tensor([302], device='cuda:0', dtype=torch.int32)
+text_len:302
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为151（包含终止符）
+所有序列终止
+149
+torch.Size([1, 149, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0016
+generate
+  3%|▎         | 33/1232 [06:47<4:54:55, 14.76s/it]processing 33th semantic_sys file
+33
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I SIT DOWN AT A SMALL TABLE A WAITER COMES IMMEDIATELY TO ENQUIRE MY WISHES
+2024-04-01 05:33:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:33:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([35], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0018.json
+tensor([378], device='cuda:0', dtype=torch.int32)
+text_len:378
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为227（包含终止符）
+所有序列终止
+225
+torch.Size([1, 225, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0018
+generate
+  3%|▎         | 34/1232 [06:55<4:12:06, 12.63s/it]processing 34th semantic_sys file
+34
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: ALL THESE HONEST PERSONS ARE WAITING THEIR TURN TO GET THEIR SNUFF BOXES FILLED
+2024-04-01 05:33:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:33:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([37], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0028.json
+tensor([347], device='cuda:0', dtype=torch.int32)
+text_len:347
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为196（包含终止符）
+所有序列终止
+194
+torch.Size([1, 194, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0028
+generate
+  3%|▎         | 35/1232 [07:01<3:31:04, 10.58s/it]processing 35th semantic_sys file
+35
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HERE GO AND GET ME CHANGE FOR A LOUIS I HAVE IT SIR
+2024-04-01 05:33:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:33:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([37], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0014.json
+tensor([358], device='cuda:0', dtype=torch.int32)
+text_len:358
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为207（包含终止符）
+所有序列终止
+205
+torch.Size([1, 205, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0014
+generate
+  3%|▎         | 36/1232 [07:07<3:06:13,  9.34s/it]processing 36th semantic_sys file
+36
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I HAD A NAME I BELIEVE IN MY YOUNG DAYS BUT I HAVE FORGOTTEN IT SINCE I HAVE BEEN IN SERVICE
+2024-04-01 05:33:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:33:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0011.json
+tensor([453], device='cuda:0', dtype=torch.int32)
+text_len:453
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为302（包含终止符）
+所有序列终止
+300
+torch.Size([1, 300, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0011
+generate
+  3%|▎         | 37/1232 [07:18<3:16:03,  9.84s/it]processing 37th semantic_sys file
+37
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I WILL MAKE YOU TRANSLATE THEM INTO FRENCH AND YOU NEED NOT BE AFRAID OF MY FINDING YOU INSATIABLE
+2024-04-01 05:33:31 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:33:31 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0044.json
+tensor([442], device='cuda:0', dtype=torch.int32)
+text_len:442
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为291（包含终止符）
+所有序列终止
+289
+torch.Size([1, 289, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0044
+generate
+  3%|▎         | 38/1232 [07:29<3:20:44, 10.09s/it]processing 38th semantic_sys file
+38
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: WHEN THE KING COMES TO PARIS EVERYBODY CALLS OUT VIVE LE ROI
+2024-04-01 05:33:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:33:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0036.json
+tensor([335], device='cuda:0', dtype=torch.int32)
+text_len:335
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为183（包含终止符）
+所有序列终止
+181
+torch.Size([1, 181, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0036
+generate
+  3%|▎         | 39/1232 [07:34<2:52:52,  8.69s/it]processing 39th semantic_sys file
+39
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IT IS SOLD EVERYWHERE BUT FOR THE LAST THREE WEEKS NOBODY WILL USE ANY SNUFF BUT THAT SOLD AT THE CIVET CAT
+2024-04-01 05:33:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:33:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([40], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0029.json
+tensor([599], device='cuda:0', dtype=torch.int32)
+text_len:599
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为448（包含终止符）
+所有序列终止
+446
+torch.Size([1, 446, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0029
+generate
+  3%|▎         | 40/1232 [07:57<4:14:57, 12.83s/it]processing 40th semantic_sys file
+40
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HE HIMSELF RECITED THE SAME PASSAGE IN FRENCH AND POLITELY POINTED OUT THE PARTS IN WHICH HE THOUGHT THAT I HAD IMPROVED ON THE ORIGINAL
+2024-04-01 05:34:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:34:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([36], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0039.json
+tensor([610], device='cuda:0', dtype=torch.int32)
+text_len:610
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为459（包含终止符）
+所有序列终止
+457
+torch.Size([1, 457, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0039
+generate
+  3%|▎         | 41/1232 [08:20<5:15:09, 15.88s/it]processing 41th semantic_sys file
+41
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: BUT HOW DID SHE MANAGE TO RENDER IT SO FASHIONABLE
+2024-04-01 05:34:32 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:34:32 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([49], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0031.json
+tensor([367], device='cuda:0', dtype=torch.int32)
+text_len:367
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为216（包含终止符）
+所有序列终止
+214
+torch.Size([1, 214, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0031
+generate
+  3%|▎         | 42/1232 [08:27<4:21:00, 13.16s/it]processing 42th semantic_sys file
+42
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IN ORDER TO PLEASE HER I SPOKE TO HER OF THE ABBE CONTI AND I HAD OCCASION TO QUOTE TWO LINES OF THAT PROFOUND WRITER
+2024-04-01 05:34:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:34:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([45], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0002.json
+tensor([433], device='cuda:0', dtype=torch.int32)
+text_len:433
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为282（包含终止符）
+所有序列终止
+280
+torch.Size([1, 280, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0002
+generate
+  3%|▎         | 43/1232 [08:37<4:01:29, 12.19s/it]processing 43th semantic_sys file
+43
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SHE INTRODUCED ME TO ALL HER GUESTS AND GAVE ME SOME PARTICULARS RESPECTING EVERY ONE OF THEM
+2024-04-01 05:34:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:34:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([28], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0037.json
+tensor([457], device='cuda:0', dtype=torch.int32)
+text_len:457
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为306（包含终止符）
+所有序列终止
+304
+torch.Size([1, 304, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0037
+generate
+  4%|▎         | 44/1232 [08:48<3:56:05, 11.92s/it]processing 44th semantic_sys file
+44
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I RESIDE IN THE MARAIS RUE DE DOUZE PORTES
+2024-04-01 05:35:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:35:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([36], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0043.json
+tensor([296], device='cuda:0', dtype=torch.int32)
+text_len:296
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为145（包含终止符）
+所有序列终止
+143
+torch.Size([1, 143, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0043
+generate
+  4%|▎         | 45/1232 [08:52<3:07:18,  9.47s/it]processing 45th semantic_sys file
+45
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: WHAT SIR I SAID TO HIM AM I FORTUNATE ENOUGH TO SEE YOU
+2024-04-01 05:35:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:35:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([34], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0038.json
+tensor([321], device='cuda:0', dtype=torch.int32)
+text_len:321
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为170（包含终止符）
+所有序列终止
+168
+torch.Size([1, 168, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_3729-6852-0038
+generate
+  4%|▎         | 46/1232 [08:56<2:38:31,  8.02s/it]processing 46th semantic_sys file
+46
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE RAFT WAS HEAVED UP ON A WATERY MOUNTAIN AND PITCHED DOWN AGAIN AT A DISTANCE OF TWENTY FATHOMS
+2024-04-01 05:35:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:35:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0023.json
+tensor([454], device='cuda:0', dtype=torch.int32)
+text_len:454
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为303（包含终止符）
+所有序列终止
+301
+torch.Size([1, 301, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0023
+generate
+  4%|▍         | 47/1232 [09:08<2:59:37,  9.10s/it]processing 47th semantic_sys file
+47
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: FLIGHT WAS OUT OF THE QUESTION NOW THE REPTILES ROSE THEY WHEELED AROUND OUR LITTLE RAFT WITH A RAPIDITY GREATER THAN THAT OF EXPRESS TRAINS
+2024-04-01 05:35:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:35:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([45], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0025.json
+tensor([499], device='cuda:0', dtype=torch.int32)
+text_len:499
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为348（包含终止符）
+所有序列终止
+346
+torch.Size([1, 346, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0025
+generate
+  4%|▍         | 48/1232 [09:22<3:30:33, 10.67s/it]processing 48th semantic_sys file
+48
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SUDDENLY THE ICHTHYOSAURUS AND THE PLESIOSAURUS DISAPPEAR BELOW LEAVING A WHIRLPOOL EDDYING IN THE WATER
+2024-04-01 05:35:35 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:35:35 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([40], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0030.json
+tensor([474], device='cuda:0', dtype=torch.int32)
+text_len:474
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为323（包含终止符）
+所有序列终止
+321
+torch.Size([1, 321, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0030
+generate
+  4%|▍         | 49/1232 [09:32<3:27:38, 10.53s/it]processing 49th semantic_sys file
+49
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: ALL MY DANGER AND SUFFERINGS WERE NEEDED TO STRIKE A SPARK OF HUMAN FEELING OUT OF HIM BUT NOW THAT I AM WELL HIS NATURE HAS RESUMED ITS SWAY
+2024-04-01 05:35:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:35:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([33], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0002.json
+tensor([543], device='cuda:0', dtype=torch.int32)
+text_len:543
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为392（包含终止符）
+所有序列终止
+390
+torch.Size([1, 390, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0002
+generate
+  4%|▍         | 50/1232 [09:50<4:06:52, 12.53s/it]processing 50th semantic_sys file
+50
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: WE ARE LOSING TIME AND THE FACT IS I HAVE NOT COME ALL THIS WAY TO TAKE A LITTLE SAIL UPON A POND ON A RAFT
+2024-04-01 05:36:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:36:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([33], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0006.json
+tensor([645], device='cuda:0', dtype=torch.int32)
+text_len:645
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为494（包含终止符）
+所有序列终止
+492
+torch.Size([1, 492, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0006
+generate
+  4%|▍         | 51/1232 [10:16<5:27:53, 16.66s/it]processing 51th semantic_sys file
+51
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: NOTHING NEW WEATHER UNCHANGED THE WIND FRESHENS
+2024-04-01 05:36:28 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:36:28 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([40], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0011.json
+tensor([307], device='cuda:0', dtype=torch.int32)
+text_len:307
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为156（包含终止符）
+所有序列终止
+154
+torch.Size([1, 154, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0011
+generate
+  4%|▍         | 52/1232 [10:21<4:16:40, 13.05s/it]processing 52th semantic_sys file
+52
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I CAN DISTINGUISH THE EYE OF THE ICHTHYOSAURUS GLOWING LIKE A RED HOT COAL AND AS LARGE AS A MAN'S HEAD
+2024-04-01 05:36:33 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:36:33 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([48], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0027.json
+tensor([484], device='cuda:0', dtype=torch.int32)
+text_len:484
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为333（包含终止符）
+所有序列终止
+331
+torch.Size([1, 331, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0027
+generate
+  4%|▍         | 53/1232 [10:34<4:16:47, 13.07s/it]processing 53th semantic_sys file
+53
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: YOU SEEM ANXIOUS MY UNCLE I SAID SEEING HIM CONTINUALLY WITH HIS GLASS TO HIS EYE ANXIOUS
+2024-04-01 05:36:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:36:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([33], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0003.json
+tensor([386], device='cuda:0', dtype=torch.int32)
+text_len:386
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为235（包含终止符）
+所有序列终止
+233
+torch.Size([1, 233, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0003
+generate
+  4%|▍         | 54/1232 [10:41<3:44:50, 11.45s/it]processing 54th semantic_sys file
+54
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THESE THOUGHTS AGITATED ME ALL DAY AND MY IMAGINATION SCARCELY CALMED DOWN AFTER SEVERAL HOURS SLEEP
+2024-04-01 05:36:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+An exception occurred: 'aɪʊɹ'
+processing 55th semantic_sys file
+55
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE SHADOW OF THE RAFT WAS CLEARLY OUTLINED UPON THE SURFACE OF THE WAVES
+2024-04-01 05:36:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:36:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0013.json
+tensor([392], device='cuda:0', dtype=torch.int32)
+text_len:392
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为241（包含终止符）
+所有序列终止
+239
+torch.Size([1, 239, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0013
+generate
+  5%|▍         | 56/1232 [10:49<2:35:34,  7.94s/it]processing 56th semantic_sys file
+56
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THOSE HUGE CREATURES ATTACKED EACH OTHER WITH THE GREATEST ANIMOSITY
+2024-04-01 05:37:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:37:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0029.json
+tensor([385], device='cuda:0', dtype=torch.int32)
+text_len:385
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为234（包含终止符）
+所有序列终止
+232
+torch.Size([1, 232, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0029
+generate
+  5%|▍         | 57/1232 [10:56<2:32:32,  7.79s/it]processing 57th semantic_sys file
+57
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SATURDAY AUGUST FIFTEENTH THE SEA UNBROKEN ALL ROUND NO LAND IN SIGHT
+2024-04-01 05:37:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:37:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+An exception occurred: 'aɪʊ'
+processing 58th semantic_sys file
+58
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I AM NOT COMPLAINING THAT THE RATE IS SLOW BUT THAT THE SEA IS SO WIDE
+2024-04-01 05:37:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:37:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([34], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0005.json
+tensor([415], device='cuda:0', dtype=torch.int32)
+text_len:415
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为264（包含终止符）
+所有序列终止
+262
+torch.Size([1, 262, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0005
+generate
+  5%|▍         | 59/1232 [11:05<2:05:07,  6.40s/it]processing 59th semantic_sys file
+59
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: TWO MONSTERS ONLY WERE CREATING ALL THIS COMMOTION AND BEFORE MY EYES ARE TWO REPTILES OF THE PRIMITIVE WORLD
+2024-04-01 05:37:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:37:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([40], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0026.json
+tensor([729], device='cuda:0', dtype=torch.int32)
+text_len:729
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为578（包含终止符）
+所有序列终止
+576
+torch.Size([1, 576, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0026
+generate
+  5%|▍         | 60/1232 [11:41<4:14:05, 13.01s/it]processing 60th semantic_sys file
+60
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HE CALLED THIS SEA A POND AND OUR LONG VOYAGE TAKING A LITTLE SAIL
+2024-04-01 05:37:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:37:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([38], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0007.json
+tensor([387], device='cuda:0', dtype=torch.int32)
+text_len:387
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为236（包含终止符）
+所有序列终止
+234
+torch.Size([1, 234, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0007
+generate
+  5%|▍         | 61/1232 [11:48<3:49:22, 11.75s/it]processing 61th semantic_sys file
+61
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: ITS JAW IS ENORMOUS AND ACCORDING TO NATURALISTS IT IS ARMED WITH NO LESS THAN ONE HUNDRED AND EIGHTY TWO TEETH
+2024-04-01 05:38:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:38:01 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0028.json
+tensor([524], device='cuda:0', dtype=torch.int32)
+text_len:524
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为373（包含终止符）
+所有序列终止
+371
+torch.Size([1, 371, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0028
+generate
+  5%|▌         | 62/1232 [12:05<4:11:54, 12.92s/it]processing 62th semantic_sys file
+62
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I TAKE THIS AS MY ANSWER AND I LEAVE THE PROFESSOR TO BITE HIS LIPS WITH IMPATIENCE
+2024-04-01 05:38:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:38:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([38], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0009.json
+tensor([408], device='cuda:0', dtype=torch.int32)
+text_len:408
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为256（包含终止符）
+所有序列终止
+254
+torch.Size([1, 254, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0009
+generate
+  5%|▌         | 63/1232 [12:13<3:48:06, 11.71s/it]processing 63th semantic_sys file
+63
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IT MUST BE AS WIDE AS THE MEDITERRANEAN OR THE ATLANTIC AND WHY NOT
+2024-04-01 05:38:26 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:38:26 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([43], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0015.json
+tensor([407], device='cuda:0', dtype=torch.int32)
+text_len:407
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为256（包含终止符）
+所有序列终止
+254
+torch.Size([1, 254, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0015
+generate
+  5%|▌         | 64/1232 [12:21<3:29:48, 10.78s/it]processing 64th semantic_sys file
+64
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I SAW AT THE HAMBURG MUSEUM THE SKELETON OF ONE OF THESE CREATURES THIRTY FEET IN LENGTH
+2024-04-01 05:38:34 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:38:34 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0018.json
+tensor([687], device='cuda:0', dtype=torch.int32)
+text_len:687
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为536（包含终止符）
+所有序列终止
+534
+torch.Size([1, 534, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0018
+generate
+  5%|▌         | 65/1232 [12:52<5:19:39, 16.43s/it]processing 65th semantic_sys file
+65
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: AS FOR THE ICHTHYOSAURUS HAS HE RETURNED TO HIS SUBMARINE CAVERN
+2024-04-01 05:39:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:39:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([33], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0031.json
+tensor([427], device='cuda:0', dtype=torch.int32)
+text_len:427
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为276（包含终止符）
+所有序列终止
+274
+torch.Size([1, 274, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123286-0031
+generate
+  5%|▌         | 66/1232 [13:02<4:41:31, 14.49s/it]processing 66th semantic_sys file
+66
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE ATMOSPHERE IS CHARGED WITH VAPOURS PERVADED WITH THE ELECTRICITY GENERATED BY THE EVAPORATION OF SALINE WATERS
+2024-04-01 05:39:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:39:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0002.json
+tensor([568], device='cuda:0', dtype=torch.int32)
+text_len:568
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为417（包含终止符）
+所有序列终止
+415
+torch.Size([1, 415, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123288-0002
+generate
+  5%|▌         | 67/1232 [13:21<5:09:49, 15.96s/it]processing 67th semantic_sys file
+67
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I REFER TO THE THERMOMETER IT INDICATES THE FIGURE IS OBLITERATED
+2024-04-01 05:39:34 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:39:34 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([35], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0016.json
+tensor([549], device='cuda:0', dtype=torch.int32)
+text_len:549
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为398（包含终止符）
+所有序列终止
+396
+torch.Size([1, 396, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123288-0016
+generate
+  6%|▌         | 68/1232 [13:39<5:21:30, 16.57s/it]processing 68th semantic_sys file
+68
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THERE'S A HEAVY STORM COMING ON I CRIED POINTING TOWARDS THE HORIZON
+2024-04-01 05:39:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:39:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([54], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0008.json
+tensor([334], device='cuda:0', dtype=torch.int32)
+text_len:334
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为183（包含终止符）
+所有序列终止
+181
+torch.Size([1, 181, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123288-0008
+generate
+  6%|▌         | 69/1232 [13:45<4:17:38, 13.29s/it]processing 69th semantic_sys file
+69
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE WEATHER IF WE MAY USE THAT TERM WILL CHANGE BEFORE LONG
+2024-04-01 05:39:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:39:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([37], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0001.json
+tensor([347], device='cuda:0', dtype=torch.int32)
+text_len:347
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为196（包含终止符）
+所有序列终止
+194
+torch.Size([1, 194, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123288-0001
+generate
+  6%|▌         | 70/1232 [13:51<3:34:00, 11.05s/it]processing 70th semantic_sys file
+70
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: ON THE MAST ALREADY I SEE THE LIGHT PLAY OF A LAMBENT SAINT ELMO'S FIRE THE OUTSTRETCHED SAIL CATCHES NOT A BREATH OF WIND AND HANGS LIKE A SHEET OF LEAD
+2024-04-01 05:40:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:40:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([36], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0010.json
+tensor([688], device='cuda:0', dtype=torch.int32)
+text_len:688
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为537（包含终止符）
+所有序列终止
+535
+torch.Size([1, 535, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123288-0010
+generate
+  6%|▌         | 71/1232 [14:21<5:23:36, 16.72s/it]processing 71th semantic_sys file
+71
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE ATMOSPHERE IS EVIDENTLY CHARGED AND SURCHARGED WITH ELECTRICITY
+2024-04-01 05:40:33 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:40:33 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([35], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0006.json
+tensor([388], device='cuda:0', dtype=torch.int32)
+text_len:388
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为237（包含终止符）
+所有序列终止
+235
+torch.Size([1, 235, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123288-0006
+generate
+  6%|▌         | 72/1232 [14:29<4:32:33, 14.10s/it]processing 72th semantic_sys file
+72
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: BUT IF WE HAVE NOW CEASED TO ADVANCE WHY DO WE YET LEAVE THAT SAIL LOOSE WHICH AT THE FIRST SHOCK OF THE TEMPEST MAY CAPSIZE US IN A MOMENT
+2024-04-01 05:40:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:40:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([32], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0011.json
+tensor([602], device='cuda:0', dtype=torch.int32)
+text_len:602
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为451（包含终止符）
+所有序列终止
+449
+torch.Size([1, 449, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123288-0011
+generate
+  6%|▌         | 73/1232 [14:51<5:20:57, 16.62s/it]processing 73th semantic_sys file
+73
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: A SUFFOCATING SMELL OF NITROGEN FILLS THE AIR IT ENTERS THE THROAT IT FILLS THE LUNGS
+2024-04-01 05:41:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:41:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0027.json
+tensor([419], device='cuda:0', dtype=torch.int32)
+text_len:419
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为268（包含终止符）
+所有序列终止
+266
+torch.Size([1, 266, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123288-0027
+generate
+  6%|▌         | 74/1232 [15:00<4:37:52, 14.40s/it]processing 74th semantic_sys file
+74
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE ELECTRIC LIGHT CAN SCARCELY PENETRATE THROUGH THE DENSE CURTAIN WHICH HAS DROPPED OVER THE THEATRE ON WHICH THE BATTLE OF THE ELEMENTS IS ABOUT TO BE WAGED
+2024-04-01 05:41:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:41:13 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0003.json
+tensor([600], device='cuda:0', dtype=torch.int32)
+text_len:600
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为449（包含终止符）
+所有序列终止
+447
+torch.Size([1, 447, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123288-0003
+generate
+  6%|▌         | 75/1232 [15:23<5:26:29, 16.93s/it]processing 75th semantic_sys file
+75
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IS THE ATMOSPHERIC CONDITION HAVING ONCE REACHED THIS DENSITY TO BECOME FINAL
+2024-04-01 05:41:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:41:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([39], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0017.json
+tensor([421], device='cuda:0', dtype=torch.int32)
+text_len:421
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为270（包含终止符）
+所有序列终止
+268
+torch.Size([1, 268, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123288-0017
+generate
+  6%|▌         | 76/1232 [15:33<4:43:47, 14.73s/it]processing 76th semantic_sys file
+76
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE AIR IS HEAVY THE SEA IS CALM
+2024-04-01 05:41:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:41:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0004.json
+tensor([299], device='cuda:0', dtype=torch.int32)
+text_len:299
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为148（包含终止符）
+所有序列终止
+146
+torch.Size([1, 146, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123288-0004
+generate
+  6%|▋         | 77/1232 [15:37<3:41:08, 11.49s/it]processing 77th semantic_sys file
+77
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I SHALL BE PUNISHED FOR IT NOW I SUPPOSE BY BEING DROWNED IN MY OWN TEARS
+2024-04-01 05:41:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:41:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([43], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123440-0016.json
+tensor([405], device='cuda:0', dtype=torch.int32)
+text_len:405
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为254（包含终止符）
+所有序列终止
+252
+torch.Size([1, 252, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123440-0016
+generate
+  6%|▋         | 78/1232 [15:45<3:23:13, 10.57s/it]processing 78th semantic_sys file
+78
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HOW CHEERFULLY HE SEEMS TO GRIN HOW NEATLY SPREAD HIS CLAWS AND WELCOME LITTLE FISHES IN WITH GENTLY SMILING JAWS
+2024-04-01 05:41:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:41:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([43], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123440-0010.json
+tensor([892], device='cuda:0', dtype=torch.int32)
+text_len:892
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为741（包含终止符）
+所有序列终止
+739
+torch.Size([1, 739, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123440-0010
+generate
+  6%|▋         | 79/1232 [16:29<6:34:33, 20.53s/it]processing 79th semantic_sys file
+79
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IT'LL BE NO USE THEIR PUTTING THEIR HEADS DOWN AND SAYING COME UP AGAIN DEAR
+2024-04-01 05:42:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:42:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([25], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123440-0012.json
+tensor([359], device='cuda:0', dtype=torch.int32)
+text_len:359
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为207（包含终止符）
+所有序列终止
+205
+torch.Size([1, 205, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123440-0012
+generate
+  6%|▋         | 80/1232 [16:33<5:00:42, 15.66s/it]processing 80th semantic_sys file
+80
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: NO I'VE MADE UP MY MIND ABOUT IT IF I'M MABEL I'LL STAY DOWN HERE
+2024-04-01 05:42:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:42:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([28], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123440-0011.json
+tensor([404], device='cuda:0', dtype=torch.int32)
+text_len:404
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为253（包含终止符）
+所有序列终止
+251
+torch.Size([1, 251, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123440-0011
+generate
+  7%|▋         | 81/1232 [16:39<4:01:51, 12.61s/it]processing 81th semantic_sys file
+81
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: WE WON'T TALK ABOUT HER ANY MORE IF YOU'D RATHER NOT WE INDEED
+2024-04-01 05:42:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:42:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([46], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123440-0020.json
+tensor([363], device='cuda:0', dtype=torch.int32)
+text_len:363
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为212（包含终止符）
+所有序列终止
+210
+torch.Size([1, 210, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123440-0020
+generate
+  7%|▋         | 82/1232 [16:43<3:13:23, 10.09s/it]processing 82th semantic_sys file
+82
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: CRIED ALICE AGAIN FOR THIS TIME THE MOUSE WAS BRISTLING ALL OVER AND SHE FELT CERTAIN IT MUST BE REALLY OFFENDED
+2024-04-01 05:42:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:42:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([39], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123440-0019.json
+tensor([552], device='cuda:0', dtype=torch.int32)
+text_len:552
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为401（包含终止符）
+所有序列终止
+399
+torch.Size([1, 399, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123440-0019
+generate
+  7%|▋         | 83/1232 [16:55<3:26:02, 10.76s/it]processing 83th semantic_sys file
+83
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I WISH I HADN'T CRIED SO MUCH SAID ALICE AS SHE SWAM ABOUT TRYING TO FIND HER WAY OUT
+2024-04-01 05:43:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:43:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123440-0015.json
+tensor([363], device='cuda:0', dtype=torch.int32)
+text_len:363
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为212（包含终止符）
+所有序列终止
+210
+torch.Size([1, 210, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_260-123440-0015
+generate
+  7%|▋         | 84/1232 [16:59<2:48:18,  8.80s/it]processing 84th semantic_sys file
+84
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: ANOTHER PREACHER AFTER REPROACHING HIM TO HIS FACE WITH HIS MISGOVERNMENT ORDERED THIS PSALM TO BE SUNG
+2024-04-01 05:43:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:43:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([31], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_8224-274384-0005.json
+tensor([406], device='cuda:0', dtype=torch.int32)
+text_len:406
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为255（包含终止符）
+所有序列终止
+253
+torch.Size([1, 253, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_8224-274384-0005
+generate
+  7%|▋         | 85/1232 [17:05<2:29:43,  7.83s/it]processing 85th semantic_sys file
+85
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HAVE MERCY LORD ON ME I PRAY FOR MEN WOULD ME DEVOUR
+2024-04-01 05:43:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+An exception occurred: 'aɪʊɹ'
+processing 86th semantic_sys file
+86
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE PARLIAMENT AND THE SCOTS LAID THEIR PROPOSALS BEFORE THE KING
+2024-04-01 05:43:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:43:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([29], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_8224-274384-0009.json
+tensor([367], device='cuda:0', dtype=torch.int32)
+text_len:367
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为216（包含终止符）
+所有序列终止
+214
+torch.Size([1, 214, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_8224-274384-0009
+generate
+  7%|▋         | 87/1232 [17:09<1:39:41,  5.22s/it]processing 87th semantic_sys file
+87
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HIS DEATH IN THIS CONJUNCTURE WAS A PUBLIC MISFORTUNE
+2024-04-01 05:43:22 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:43:22 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([33], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_8224-274384-0013.json
+tensor([325], device='cuda:0', dtype=torch.int32)
+text_len:325
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为174（包含终止符）
+所有序列终止
+172
+torch.Size([1, 172, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_8224-274384-0013
+generate
+  7%|▋         | 88/1232 [17:13<1:29:54,  4.72s/it]processing 88th semantic_sys file
+88
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE KING STOOD UP AND CALLED FOR THAT PSALM WHICH BEGINS WITH THESE WORDS
+2024-04-01 05:43:25 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:43:25 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_8224-274384-0006.json
+tensor([331], device='cuda:0', dtype=torch.int32)
+text_len:331
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为179（包含终止符）
+所有序列终止
+177
+torch.Size([1, 177, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_8224-274384-0006
+generate
+  7%|▋         | 89/1232 [17:16<1:22:47,  4.35s/it]processing 89th semantic_sys file
+89
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HE PASSED THROUGH HENLEY SAINT ALBANS AND CAME SO NEAR TO LONDON AS HARROW ON THE HILL
+2024-04-01 05:43:28 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:43:28 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_8224-274384-0000.json
+tensor([418], device='cuda:0', dtype=torch.int32)
+text_len:418
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为267（包含终止符）
+所有序列终止
+265
+torch.Size([1, 265, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_8224-274384-0000
+generate
+  7%|▋         | 90/1232 [17:22<1:31:17,  4.80s/it]processing 90th semantic_sys file
+90
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THEY INFORMED THE ENGLISH PARLIAMENT OF THIS UNEXPECTED INCIDENT AND ASSURED THEM THAT THEY HAD ENTERED INTO NO PRIVATE TREATY WITH THE KING
+2024-04-01 05:43:34 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:43:34 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([26], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_8224-274384-0002.json
+tensor([583], device='cuda:0', dtype=torch.int32)
+text_len:583
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为432（包含终止符）
+所有序列终止
+430
+torch.Size([1, 430, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_8224-274384-0002
+generate
+  7%|▋         | 91/1232 [17:36<2:19:44,  7.35s/it]processing 91th semantic_sys file
+91
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I BELIEVE IN THE TRAINING OF PEOPLE TO THEIR HIGHEST CAPACITY THE ENGLISHMAN HERE HEARTILY SECONDED HIM
+2024-04-01 05:43:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:43:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([49], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1836-0008.json
+tensor([405], device='cuda:0', dtype=torch.int32)
+text_len:405
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为254（包含终止符）
+所有序列终止
+252
+torch.Size([1, 252, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1836-0008
+generate
+  7%|▋         | 92/1232 [17:41<2:09:57,  6.84s/it]processing 92th semantic_sys file
+92
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SHE WAS THEREFORE MOST AGREEABLY SURPRISED TO HEAR MISTER CRESSWELL EXPRESS HIMSELF SO CORDIALLY AS APPROVING OF NEGRO EDUCATION
+2024-04-01 05:43:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:43:54 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1836-0006.json
+tensor([550], device='cuda:0', dtype=torch.int32)
+text_len:550
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为399（包含终止符）
+所有序列终止
+397
+torch.Size([1, 397, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1836-0006
+generate
+  8%|▊         | 93/1232 [17:54<2:40:35,  8.46s/it]processing 93th semantic_sys file
+93
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: BUT CRESSWELL ADDED SIGNIFICANTLY CAPACITY DIFFERS ENORMOUSLY BETWEEN RACES
+2024-04-01 05:44:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:44:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([51], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1836-0009.json
+tensor([462], device='cuda:0', dtype=torch.int32)
+text_len:462
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为311（包含终止符）
+所有序列终止
+309
+torch.Size([1, 309, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1836-0009
+generate
+  8%|▊         | 94/1232 [18:06<2:58:37,  9.42s/it]processing 94th semantic_sys file
+94
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE HON CHARLES SMITH MISS SARAH'S BROTHER WAS WALKING SWIFTLY UPTOWN FROM MISTER EASTERLY'S WALL STREET OFFICE AND HIS FACE WAS PALE
+2024-04-01 05:44:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:44:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([37], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1836-0000.json
+tensor([664], device='cuda:0', dtype=torch.int32)
+text_len:664
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为513（包含终止符）
+所有序列终止
+511
+torch.Size([1, 511, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1836-0000
+generate
+  8%|▊         | 95/1232 [18:34<4:46:28, 15.12s/it]processing 95th semantic_sys file
+95
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: AT LAST THE COTTON COMBINE WAS TO ALL APPEARANCES AN ASSURED FACT AND HE WAS SLATED FOR THE SENATE
+2024-04-01 05:44:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:44:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([34], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1836-0001.json
+tensor([443], device='cuda:0', dtype=torch.int32)
+text_len:443
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为292（包含终止符）
+所有序列终止
+290
+torch.Size([1, 290, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1836-0001
+generate
+  8%|▊         | 96/1232 [18:45<4:22:37, 13.87s/it]processing 96th semantic_sys file
+96
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: POSITIVELY HEROIC ADDED CRESSWELL AVOIDING HIS SISTER'S EYES
+2024-04-01 05:44:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:44:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([39], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1836-0011.json
+tensor([422], device='cuda:0', dtype=torch.int32)
+text_len:422
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为271（包含终止符）
+所有序列终止
+269
+torch.Size([1, 269, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1836-0011
+generate
+  8%|▊         | 97/1232 [18:55<3:58:37, 12.61s/it]processing 97th semantic_sys file
+97
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: FORTUNATELY SAID MISTER VANDERPOOL NORTHERNERS AND SOUTHERNERS ARE ARRIVING AT A BETTER MUTUAL UNDERSTANDING ON MOST OF THESE MATTERS
+2024-04-01 05:45:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:45:07 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([33], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1836-0014.json
+tensor([533], device='cuda:0', dtype=torch.int32)
+text_len:533
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为382（包含终止符）
+所有序列终止
+380
+torch.Size([1, 380, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1836-0014
+generate
+  8%|▊         | 98/1232 [19:11<4:21:19, 13.83s/it]processing 98th semantic_sys file
+98
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SHE WAS NOT HERSELF A NOTABLY INTELLIGENT WOMAN SHE GREATLY ADMIRED INTELLIGENCE OR WHATEVER LOOKED TO HER LIKE INTELLIGENCE IN OTHERS
+2024-04-01 05:45:24 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:45:24 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([50], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1836-0003.json
+tensor([525], device='cuda:0', dtype=torch.int32)
+text_len:525
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为374（包含终止符）
+所有序列终止
+372
+torch.Size([1, 372, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1836-0003
+generate
+  8%|▊         | 99/1232 [19:28<4:37:06, 14.67s/it]processing 99th semantic_sys file
+99
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: MARY TAYLOR HOWEVER RELATED THE TALE OF ZORA TO MISSUS GREY'S PRIVATE EAR LATER
+2024-04-01 05:45:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:45:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([38], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1836-0013.json
+tensor([446], device='cuda:0', dtype=torch.int32)
+text_len:446
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为295（包含终止符）
+所有序列终止
+293
+torch.Size([1, 293, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1836-0013
+generate
+  8%|▊         | 100/1232 [19:39<4:16:42, 13.61s/it]processing 100th semantic_sys file
+100
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE GLIMMERING SEA OF DELICATE LEAVES WHISPERED AND MURMURED BEFORE HER STRETCHING AWAY TO THE NORTHWARD
+2024-04-01 05:45:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:45:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([33], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0016.json
+tensor([536], device='cuda:0', dtype=torch.int32)
+text_len:536
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为385（包含终止符）
+所有序列终止
+383
+torch.Size([1, 383, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0016
+generate
+  8%|▊         | 101/1232 [19:56<4:35:33, 14.62s/it]processing 101th semantic_sys file
+101
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SO FOR THE HUNDREDTH TIME SHE WAS THINKING TODAY AS SHE WALKED ALONE UP THE LANE BACK OF THE BARN AND THEN SLOWLY DOWN THROUGH THE BOTTOMS
+2024-04-01 05:46:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:46:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([36], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0013.json
+tensor([610], device='cuda:0', dtype=torch.int32)
+text_len:610
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为459（包含终止符）
+所有序列终止
+457
+torch.Size([1, 457, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0013
+generate
+  8%|▊         | 102/1232 [20:20<5:25:35, 17.29s/it]processing 102th semantic_sys file
+102
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: GOOBERS DON'T GROW ON THE TOPS OF VINES BUT UNDERGROUND ON THE ROOTS LIKE YAMS IS THAT SO
+2024-04-01 05:46:32 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:46:32 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([45], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0023.json
+tensor([414], device='cuda:0', dtype=torch.int32)
+text_len:414
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为263（包含终止符）
+所有序列终止
+261
+torch.Size([1, 261, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0023
+generate
+  8%|▊         | 103/1232 [20:29<4:38:03, 14.78s/it]processing 103th semantic_sys file
+103
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: BUT JOHN THERE'S NO SOCIETY JUST ELEMENTARY WORK
+2024-04-01 05:46:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:46:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([30], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0005.json
+tensor([338], device='cuda:0', dtype=torch.int32)
+text_len:338
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为187（包含终止符）
+所有序列终止
+185
+torch.Size([1, 185, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0005
+generate
+  8%|▊         | 104/1232 [20:34<3:45:05, 11.97s/it]processing 104th semantic_sys file
+104
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: FIND SOME CRESSWELLS THERE BIG PLANTATIONS RATED AT TWO HUNDRED AND FIFTY THOUSAND DOLLARS
+2024-04-01 05:46:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:46:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([49], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0007.json
+tensor([485], device='cuda:0', dtype=torch.int32)
+text_len:485
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为334（包含终止符）
+所有序列终止
+332
+torch.Size([1, 332, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0007
+generate
+  9%|▊         | 105/1232 [20:48<3:53:01, 12.41s/it]processing 105th semantic_sys file
+105
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: JOHN TAYLOR WHO HAD SUPPORTED HER THROUGH COLLEGE WAS INTERESTED IN COTTON
+2024-04-01 05:47:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:47:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([45], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0002.json
+tensor([334], device='cuda:0', dtype=torch.int32)
+text_len:334
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为183（包含终止符）
+所有序列终止
+181
+torch.Size([1, 181, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0002
+generate
+  9%|▊         | 106/1232 [20:52<3:10:57, 10.18s/it]processing 106th semantic_sys file
+106
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE GOLDEN FLEECE IT'S THE SILVER FLEECE HE HARKENED
+2024-04-01 05:47:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:47:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([38], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0024.json
+tensor([317], device='cuda:0', dtype=torch.int32)
+text_len:317
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为166（包含终止符）
+所有序列终止
+164
+torch.Size([1, 164, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0024
+generate
+  9%|▊         | 107/1232 [20:57<2:38:36,  8.46s/it]processing 107th semantic_sys file
+107
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HERE SHE WAS TEACHING DIRTY CHILDREN AND THE SMELL OF CONFUSED ODORS AND BODILY PERSPIRATION WAS TO HER AT TIMES UNBEARABLE
+2024-04-01 05:47:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:47:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([38], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0011.json
+tensor([693], device='cuda:0', dtype=torch.int32)
+text_len:693
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为542（包含终止符）
+所有序列终止
+540
+torch.Size([1, 540, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0011
+generate
+  9%|▉         | 108/1232 [21:28<4:42:41, 15.09s/it]processing 108th semantic_sys file
+108
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: YOU OUGHT TO KNOW JOHN IF I TEACH NEGROES I'LL SCARCELY SEE MUCH OF PEOPLE IN MY OWN CLASS
+2024-04-01 05:47:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:47:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([31], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0009.json
+tensor([478], device='cuda:0', dtype=torch.int32)
+text_len:478
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为327（包含终止符）
+所有序列终止
+325
+torch.Size([1, 325, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0009
+generate
+  9%|▉         | 109/1232 [21:40<4:28:31, 14.35s/it]processing 109th semantic_sys file
+109
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: MISS TAYLOR DID NOT KNOW MUCH ABOUT COTTON BUT AT LEAST ONE MORE REMARK SEEMED CALLED FOR
+2024-04-01 05:47:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:47:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([36], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0020.json
+tensor([439], device='cuda:0', dtype=torch.int32)
+text_len:439
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为288（包含终止符）
+所有序列终止
+286
+torch.Size([1, 286, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0020
+generate
+  9%|▉         | 110/1232 [21:51<4:06:53, 13.20s/it]processing 110th semantic_sys file
+110
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HER REGARD SHIFTED TO THE GREEN STALKS AND LEAVES AGAIN AND SHE STARTED TO MOVE AWAY
+2024-04-01 05:48:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:48:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0018.json
+tensor([558], device='cuda:0', dtype=torch.int32)
+text_len:558
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为407（包含终止符）
+所有序列终止
+405
+torch.Size([1, 405, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0018
+generate
+  9%|▉         | 111/1232 [22:09<4:36:56, 14.82s/it]processing 111th semantic_sys file
+111
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IN THE DEBATE BETWEEN THE SENIOR SOCIETIES HER DEFENCE OF THE FIFTEENTH AMENDMENT HAD BEEN NOT ONLY A NOTABLE BIT OF REASONING BUT DELIVERED WITH REAL ENTHUSIASM
+2024-04-01 05:48:22 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:48:22 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([45], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0000.json
+tensor([629], device='cuda:0', dtype=torch.int32)
+text_len:629
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为478（包含终止符）
+所有序列终止
+476
+torch.Size([1, 476, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0000
+generate
+  9%|▉         | 112/1232 [22:34<5:31:49, 17.78s/it]processing 112th semantic_sys file
+112
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SHE WANTED A GLANCE OF THE NEW BOOKS AND PERIODICALS AND TALK OF GREAT PHILANTHROPIES AND REFORMS
+2024-04-01 05:48:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:48:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([49], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0012.json
+tensor([464], device='cuda:0', dtype=torch.int32)
+text_len:464
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为313（包含终止符）
+所有序列终止
+311
+torch.Size([1, 311, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0012
+generate
+  9%|▉         | 113/1232 [22:46<5:00:28, 16.11s/it]processing 113th semantic_sys file
+113
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I SUPPOSE THOUGH IT'S TOO EARLY FOR THEM THEN CAME THE EXPLOSION
+2024-04-01 05:48:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:48:59 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([19], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0022.json
+tensor([320], device='cuda:0', dtype=torch.int32)
+text_len:320
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为169（包含终止符）
+所有序列终止
+167
+torch.Size([1, 167, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0022
+generate
+  9%|▉         | 114/1232 [22:51<3:57:08, 12.73s/it]processing 114th semantic_sys file
+114
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: COTTON IS A WONDERFUL THING IS IT NOT BOYS SHE SAID RATHER PRIMLY
+2024-04-01 05:49:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:49:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([32], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0019.json
+tensor([353], device='cuda:0', dtype=torch.int32)
+text_len:353
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为202（包含终止符）
+所有序列终止
+200
+torch.Size([1, 200, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0019
+generate
+  9%|▉         | 115/1232 [22:57<3:20:43, 10.78s/it]processing 115th semantic_sys file
+115
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THERE MIGHT BE A BIT OF POETRY HERE AND THERE BUT MOST OF THIS PLACE WAS SUCH DESPERATE PROSE
+2024-04-01 05:49:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:49:10 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([30], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1826-0017.json
+tensor([469], device='cuda:0', dtype=torch.int32)
+text_len:469
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为318（包含终止符）
+所有序列终止
+316
+torch.Size([1, 316, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1826-0017
+generate
+  9%|▉         | 116/1232 [23:10<3:30:12, 11.30s/it]processing 116th semantic_sys file
+116
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HE DARTED THROUGH THE TREES AND PAUSED A TALL MAN STRONGLY BUT SLIMLY MADE
+2024-04-01 05:49:22 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:49:22 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([30], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1837-0029.json
+tensor([379], device='cuda:0', dtype=torch.int32)
+text_len:379
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为228（包含终止符）
+所有序列终止
+226
+torch.Size([1, 226, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1837-0029
+generate
+  9%|▉         | 117/1232 [23:17<3:06:09, 10.02s/it]processing 117th semantic_sys file
+117
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: ON SHE HURRIED UNTIL SWEEPING DOWN TO THE LAGOON AND THE ISLAND LO THE COTTON LAY BEFORE HER
+2024-04-01 05:49:29 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:49:29 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([34], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1837-0027.json
+tensor([481], device='cuda:0', dtype=torch.int32)
+text_len:481
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为330（包含终止符）
+所有序列终止
+328
+torch.Size([1, 328, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1837-0027
+generate
+ 10%|▉         | 118/1232 [23:30<3:23:07, 10.94s/it]processing 118th semantic_sys file
+118
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THEN OF A SUDDEN AT MIDDAY THE SUN SHOT OUT HOT AND STILL NO BREATH OF AIR STIRRED THE SKY WAS LIKE BLUE STEEL THE EARTH STEAMED
+2024-04-01 05:49:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:49:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1837-0007.json
+tensor([870], device='cuda:0', dtype=torch.int32)
+text_len:870
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为719（包含终止符）
+所有序列终止
+717
+torch.Size([1, 717, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1837-0007
+generate
+ 10%|▉         | 119/1232 [24:22<7:14:40, 23.43s/it]processing 119th semantic_sys file
+119
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HE SAT DOWN WEAK BEWILDERED AND ONE THOUGHT WAS UPPERMOST ZORA
+2024-04-01 05:50:35 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:50:35 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([48], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1837-0019.json
+tensor([371], device='cuda:0', dtype=torch.int32)
+text_len:371
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为220（包含终止符）
+所有序列终止
+218
+torch.Size([1, 218, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1837-0019
+generate
+ 10%|▉         | 120/1232 [24:29<5:42:27, 18.48s/it]processing 120th semantic_sys file
+120
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: FOR A WHILE SHE LAY IN HER CHAIR IN HAPPY DREAMY PLEASURE AT SUN AND BIRD AND TREE
+2024-04-01 05:50:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:50:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([38], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1837-0024.json
+tensor([440], device='cuda:0', dtype=torch.int32)
+text_len:440
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为289（包含终止符）
+所有序列终止
+287
+torch.Size([1, 287, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1837-0024
+generate
+ 10%|▉         | 121/1232 [24:37<4:42:25, 15.25s/it]processing 121th semantic_sys file
+121
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE SQUARES OF COTTON SHARP EDGED HEAVY WERE JUST ABOUT TO BURST TO BOLLS
+2024-04-01 05:50:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:50:50 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([45], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1837-0015.json
+tensor([403], device='cuda:0', dtype=torch.int32)
+text_len:403
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为252（包含终止符）
+所有序列终止
+250
+torch.Size([1, 250, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1837-0015
+generate
+ 10%|▉         | 122/1232 [24:43<3:47:56, 12.32s/it]processing 122th semantic_sys file
+122
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE REVELATION OF HIS LOVE LIGHTED AND BRIGHTENED SLOWLY TILL IT FLAMED LIKE A SUNRISE OVER HIM AND LEFT HIM IN BURNING WONDER
+2024-04-01 05:50:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:50:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1837-0003.json
+tensor([499], device='cuda:0', dtype=torch.int32)
+text_len:499
+prefix_len:151
+第0个序列meet end_token: 1024
+第0个序列end， 终止长度为348（包含终止符）
+所有序列终止
+346
+torch.Size([1, 346, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed/ar/no-prompt-tts-2stages__2024-04-01_13:25:52
+sys_file:gen_1995-1837-0003
+generate
+ 10%|▉         | 123/1232 [24:52<3:31:47, 11.46s/it]processing 123th semantic_sys file
+123
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HE PANTED TO KNOW IF SHE TOO KNEW OR KNEW AND CARED NOT OR CARED AND KNEW NOT
+2024-04-01 05:51:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-01 05:51:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([46], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_1995-1837-0004.json
+tensor([545], device='cuda:0', dtype=torch.int32)
+text_len:545
+prefix_len:151

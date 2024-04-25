@@ -1,0 +1,3938 @@
+Current working directory: /home/v-zhijunjia/CodecGen
+Failure while loading azureml_run_type_providers. Failed to load entrypoint automl = azureml.train.automl.run:AutoMLRun._from_run_dto with exception (numpy 1.24.0 (/home/v-zhijunjia/.local/lib/python3.10/site-packages), Requirement.parse('numpy!=1.19.3,<1.24; sys_platform == "linux"'), {'azureml-dataset-runtime'}).
+2024-04-05 05:15:16 | INFO | fairseq.tasks.text_to_speech | Please install tensorboardX: pip install tensorboardX
+/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator MiniBatchKMeans from version 0.24.0 when using version 1.2.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+only_antoregressive is True
+add_prenet is False
+self.ar_text_prenet : Identity()
+add_prenet：False
+self.encoder_layers:6
+self.decoder_layers：6
+only_antoregressive is True
+add_prenet is False
+self.ar_text_prenet : None
+add_prenet：False
+[]
+  0%|          | 0/1232 [00:00<?, ?it/s]processing 0th semantic_sys file
+0
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SHE IS UNDER SAIL BUT SHE IS COUNT TIMASCHEFF'S YACHT HE WAS RIGHT
+2024-04-05 05:15:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:15:37 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0003.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 275, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28240-0003
+generate
+  0%|          | 1/1232 [00:03<1:04:10,  3.13s/it]processing 1th semantic_sys file
+1
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SERVADAC TOOK IT FOR GRANTED THAT THE DOBRYNA WAS ENDEAVORING TO PUT IN
+2024-04-05 05:15:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:15:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([48], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0007.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 253, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28240-0007
+generate
+  0%|          | 2/1232 [00:04<43:33,  2.12s/it]  processing 2th semantic_sys file
+2
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IT WAS ON THE LAST DAY OF JANUARY THAT THE REPAIRS OF THE SCHOONER WERE COMPLETED
+2024-04-05 05:15:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:15:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([39], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0022.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 302, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28240-0022
+generate
+  0%|          | 3/1232 [00:06<38:06,  1.86s/it]processing 3th semantic_sys file
+3
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: FAST AS HIS LEGS COULD CARRY HIM SERVADAC HAD MADE HIS WAY TO THE TOP OF THE CLIFF
+2024-04-05 05:15:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:15:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0000.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 218, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28240-0000
+generate
+  0%|          | 4/1232 [00:07<34:05,  1.67s/it]processing 4th semantic_sys file
+4
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: NEVER MIND NOW INTERPOSED THE CAPTAIN WE WILL TALK OF THAT BY AND BY
+2024-04-05 05:15:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:15:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0012.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 351, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28240-0012
+generate
+  0%|          | 5/1232 [00:09<34:31,  1.69s/it]processing 5th semantic_sys file
+5
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IF THE COUNT WERE ON BOARD A STRANGE FATALITY WAS BRINGING HIM TO THE PRESENCE OF HIS RIVAL
+2024-04-05 05:15:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:15:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0004.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 271, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28240-0004
+generate
+  0%|          | 6/1232 [00:10<34:51,  1.71s/it]processing 6th semantic_sys file
+6
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: TO ALL THESE INQUIRIES THE COUNT RESPONDED IN THE AFFIRMATIVE
+2024-04-05 05:15:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:15:46 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([39], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0016.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 217, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28240-0016
+generate
+  1%|          | 7/1232 [00:12<32:47,  1.61s/it]processing 7th semantic_sys file
+7
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HE RECKONED THEREFORE NOT ONLY UPON ASCERTAINING THE EXTENT OF THE LATE CATASTROPHE BUT UPON LEARNING ITS CAUSE
+2024-04-05 05:15:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:15:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([40], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0005.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 314, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28240-0005
+generate
+  1%|          | 8/1232 [00:14<33:26,  1.64s/it]processing 8th semantic_sys file
+8
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SOME MYSTERIOUS FORCE SEEMED TO HAVE BROUGHT ABOUT A CONVULSION OF THE ELEMENTS
+2024-04-05 05:15:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:15:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([52], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0017.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 264, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28240-0017
+generate
+  1%|          | 9/1232 [00:15<31:51,  1.56s/it]processing 9th semantic_sys file
+9
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: MY YACHT IS AT YOUR SERVICE SIR EVEN SHOULD YOU REQUIRE TO MAKE A TOUR ROUND THE WORLD
+2024-04-05 05:15:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:15:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0019.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 234, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28240-0019
+generate
+  1%|          | 10/1232 [00:16<30:47,  1.51s/it]processing 10th semantic_sys file
+10
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I LEFT YOU ON A CONTINENT AND HERE I HAVE THE HONOR OF FINDING YOU ON AN ISLAND
+2024-04-05 05:15:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:15:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([57], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0011.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 592, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28240-0011
+generate
+  1%|          | 11/1232 [00:19<36:41,  1.80s/it]processing 11th semantic_sys file
+11
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: EXCLAIMED SERVADAC KEEPING HIS EYE UNMOVED AT HIS TELESCOPE
+2024-04-05 05:15:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:15:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([43], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0002.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 234, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28240-0002
+generate
+  1%|          | 12/1232 [00:20<34:02,  1.67s/it]processing 12th semantic_sys file
+12
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: DOUBTS NOW AROSE AND SOME DISCUSSION FOLLOWED WHETHER OR NOT IT WAS DESIRABLE FOR BEN ZOOF TO ACCOMPANY HIS MASTER
+2024-04-05 05:15:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:15:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0024.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 472, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28240-0024
+generate
+  1%|          | 13/1232 [00:22<37:18,  1.84s/it]processing 13th semantic_sys file
+13
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: FOR SOME MOMENTS HE SEEMED PERFECTLY STUPEFIED THEN RECOVERING HIMSELF HE BEGAN TO OVERWHELM THE COUNT WITH A TORRENT OF QUESTIONS
+2024-04-05 05:15:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:15:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28240-0015.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 474, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28240-0015
+generate
+  1%|          | 14/1232 [00:24<38:32,  1.90s/it]processing 14th semantic_sys file
+14
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE EARTH HAS UNDOUBTEDLY ENTERED UPON A NEW ORBIT BUT SHE IS NOT INCURRING ANY PROBABLE RISK OF BEING PRECIPITATED ONTO THE SUN
+2024-04-05 05:16:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([51], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0008.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 491, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28241-0008
+generate
+  1%|          | 15/1232 [00:27<40:35,  2.00s/it]processing 15th semantic_sys file
+15
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: AND WHAT DEMONSTRATION DO YOU OFFER ASKED SERVADAC EAGERLY THAT IT WILL NOT HAPPEN
+2024-04-05 05:16:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0009.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 286, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28241-0009
+generate
+  1%|▏         | 16/1232 [00:28<39:07,  1.93s/it]processing 16th semantic_sys file
+16
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: WOULD NOT THE LOFTIEST EMINENCES OF THE CITY AT LEAST BE VISIBLE
+2024-04-05 05:16:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:04 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([46], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0013.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 208, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28241-0013
+generate
+  1%|▏         | 17/1232 [00:30<36:05,  1.78s/it]processing 17th semantic_sys file
+17
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE LOG AND THE COMPASS THEREFORE WERE ABLE TO BE CALLED UPON TO DO THE WORK OF THE SEXTANT WHICH HAD BECOME UTTERLY USELESS
+2024-04-05 05:16:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([25], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0006.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 585, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28241-0006
+generate
+  1%|▏         | 18/1232 [00:32<40:54,  2.02s/it]processing 18th semantic_sys file
+18
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: FOR A FEW MILES SHE FOLLOWED THE LINE HITHERTO PRESUMABLY OCCUPIED BY THE COAST OF ALGERIA BUT NO LAND APPEARED TO THE SOUTH
+2024-04-05 05:16:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([37], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0005.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 527, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28241-0005
+generate
+  2%|▏         | 19/1232 [00:35<42:53,  2.12s/it]processing 19th semantic_sys file
+19
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IS IT NOT IMPOSSIBLE HE MURMURED ALOUD THAT ANY CITY SHOULD DISAPPEAR SO COMPLETELY
+2024-04-05 05:16:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:11 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([40], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0012.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 285, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28241-0012
+generate
+  2%|▏         | 20/1232 [00:36<38:38,  1.91s/it]processing 20th semantic_sys file
+20
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: YOU MUST SEE LIEUTENANT I SHOULD THINK THAT WE ARE NOT SO NEAR THE COAST OF ALGERIA AS YOU IMAGINED
+2024-04-05 05:16:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([49], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0016.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 285, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28241-0016
+generate
+  2%|▏         | 21/1232 [00:38<37:28,  1.86s/it]processing 21th semantic_sys file
+21
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: NOTHING WAS TO BE DONE BUT TO PUT ABOUT AND RETURN IN DISAPPOINTMENT TOWARDS THE NORTH
+2024-04-05 05:16:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0019.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 289, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28241-0019
+generate
+  2%|▏         | 22/1232 [00:39<34:43,  1.72s/it]processing 22th semantic_sys file
+22
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HER SEA GOING QUALITIES WERE EXCELLENT AND WOULD HAVE AMPLY SUFFICED FOR A CIRCUMNAVIGATION OF THE GLOBE
+2024-04-05 05:16:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([40], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28241-0000.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 338, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28241-0000
+generate
+  2%|▏         | 23/1232 [00:41<34:30,  1.71s/it]processing 23th semantic_sys file
+23
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: LENGTH OF SERVICE FOURTEEN YEARS THREE MONTHS AND FIVE DAYS
+2024-04-05 05:16:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:17 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([51], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28233-0000.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 207, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28233-0000
+generate
+  2%|▏         | 24/1232 [00:42<32:11,  1.60s/it]processing 24th semantic_sys file
+24
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HE SEEMED BORN TO PLEASE WITHOUT BEING CONSCIOUS OF THE POWER HE POSSESSED
+2024-04-05 05:16:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([45], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28233-0001.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 359, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28233-0001
+generate
+  2%|▏         | 25/1232 [00:44<31:58,  1.59s/it]processing 25th semantic_sys file
+25
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: ONCE IN ACTION HE WAS LEADING A DETACHMENT OF INFANTRY THROUGH AN INTRENCHMENT
+2024-04-05 05:16:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:20 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([35], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28233-0004.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 210, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28233-0004
+generate
+  2%|▏         | 26/1232 [00:45<31:19,  1.56s/it]processing 26th semantic_sys file
+26
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IT MUST BE OWNED AND NO ONE WAS MORE READY TO CONFESS IT THAN HIMSELF THAT HIS LITERARY ATTAINMENTS WERE BY NO MEANS OF A HIGH ORDER
+2024-04-05 05:16:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([38], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28233-0002.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 642, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28233-0002
+generate
+  2%|▏         | 27/1232 [00:48<37:07,  1.85s/it]processing 27th semantic_sys file
+27
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: NO CATHEDRAL NOT EVEN BURGOS ITSELF COULD VIE WITH THE CHURCH AT MONTMARTRE
+2024-04-05 05:16:24 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:24 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([50], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_5105-28233-0006.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 198, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_5105-28233-0006
+generate
+  2%|▏         | 28/1232 [00:49<34:22,  1.71s/it]processing 28th semantic_sys file
+28
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: YES BUT THE MERIDIAN OF THE PALAIS ROYAL IS THE MOST EXACT
+2024-04-05 05:16:25 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:25 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([34], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0026.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 230, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0026
+generate
+  2%|▏         | 29/1232 [00:51<36:32,  1.82s/it]processing 29th semantic_sys file
+29
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: MY REMARK PLEASES HIM BUT I SOON PROVE TO HIM THAT IT IS NOT THE RIGHT WAY TO SPEAK HOWEVER PERFECT MAY HAVE BEEN THE LANGUAGE OF THAT ANCIENT WRITER
+2024-04-05 05:16:27 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:27 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([38], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0023.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 539, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0023
+generate
+  2%|▏         | 30/1232 [00:56<49:59,  2.50s/it]processing 30th semantic_sys file
+30
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I SEE A CROWD IN ONE CORNER OF THE GARDEN EVERYBODY STANDING STILL AND LOOKING UP
+2024-04-05 05:16:31 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:31 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0024.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 281, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0024
+generate
+  3%|▎         | 31/1232 [00:58<51:49,  2.59s/it]processing 31th semantic_sys file
+31
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I ADDRESS HIM IN ITALIAN AND HE ANSWERS VERY WITTILY BUT HIS WAY OF SPEAKING MAKES ME SMILE AND I TELL HIM WHY
+2024-04-05 05:16:34 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:34 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([25], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0022.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 485, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0022
+generate
+  3%|▎         | 32/1232 [01:02<56:04,  2.80s/it]processing 32th semantic_sys file
+32
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: MADAME QUINSON BESIDES CAN ANSWER YOUR ENQUIRIES
+2024-04-05 05:16:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([51], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0016.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 149, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0016
+generate
+  3%|▎         | 33/1232 [01:04<53:10,  2.66s/it]processing 33th semantic_sys file
+33
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I SIT DOWN AT A SMALL TABLE A WAITER COMES IMMEDIATELY TO ENQUIRE MY WISHES
+2024-04-05 05:16:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:40 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([35], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0018.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 225, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0018
+generate
+  3%|▎         | 34/1232 [01:06<52:11,  2.61s/it]processing 34th semantic_sys file
+34
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: ALL THESE HONEST PERSONS ARE WAITING THEIR TURN TO GET THEIR SNUFF BOXES FILLED
+2024-04-05 05:16:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:42 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([37], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0028.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 194, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0028
+generate
+  3%|▎         | 35/1232 [01:09<51:37,  2.59s/it]processing 35th semantic_sys file
+35
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HERE GO AND GET ME CHANGE FOR A LOUIS I HAVE IT SIR
+2024-04-05 05:16:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([37], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0014.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 205, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0014
+generate
+  3%|▎         | 36/1232 [01:11<50:49,  2.55s/it]processing 36th semantic_sys file
+36
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I HAD A NAME I BELIEVE IN MY YOUNG DAYS BUT I HAVE FORGOTTEN IT SINCE I HAVE BEEN IN SERVICE
+2024-04-05 05:16:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0011.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 300, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0011
+generate
+  3%|▎         | 37/1232 [01:15<55:42,  2.80s/it]processing 37th semantic_sys file
+37
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I WILL MAKE YOU TRANSLATE THEM INTO FRENCH AND YOU NEED NOT BE AFRAID OF MY FINDING YOU INSATIABLE
+2024-04-05 05:16:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0044.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 289, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0044
+generate
+  3%|▎         | 38/1232 [01:18<55:27,  2.79s/it]processing 38th semantic_sys file
+38
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: WHEN THE KING COMES TO PARIS EVERYBODY CALLS OUT VIVE LE ROI
+2024-04-05 05:16:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:53 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0036.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 182, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0036
+generate
+  3%|▎         | 39/1232 [01:20<54:08,  2.72s/it]processing 39th semantic_sys file
+39
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IT IS SOLD EVERYWHERE BUT FOR THE LAST THREE WEEKS NOBODY WILL USE ANY SNUFF BUT THAT SOLD AT THE CIVET CAT
+2024-04-05 05:16:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:16:56 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([40], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0029.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 446, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0029
+generate
+  3%|▎         | 40/1232 [01:24<58:55,  2.97s/it]processing 40th semantic_sys file
+40
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HE HIMSELF RECITED THE SAME PASSAGE IN FRENCH AND POLITELY POINTED OUT THE PARTS IN WHICH HE THOUGHT THAT I HAD IMPROVED ON THE ORIGINAL
+2024-04-05 05:17:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:00 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([36], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0039.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 457, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0039
+generate
+  3%|▎         | 41/1232 [01:27<1:02:47,  3.16s/it]processing 41th semantic_sys file
+41
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: BUT HOW DID SHE MANAGE TO RENDER IT SO FASHIONABLE
+2024-04-05 05:17:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:03 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([49], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0031.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 214, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0031
+generate
+  3%|▎         | 42/1232 [01:30<58:15,  2.94s/it]  processing 42th semantic_sys file
+42
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IN ORDER TO PLEASE HER I SPOKE TO HER OF THE ABBE CONTI AND I HAD OCCASION TO QUOTE TWO LINES OF THAT PROFOUND WRITER
+2024-04-05 05:17:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:06 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([45], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0002.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 280, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0002
+generate
+  3%|▎         | 43/1232 [01:33<58:10,  2.94s/it]processing 43th semantic_sys file
+43
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SHE INTRODUCED ME TO ALL HER GUESTS AND GAVE ME SOME PARTICULARS RESPECTING EVERY ONE OF THEM
+2024-04-05 05:17:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([28], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0037.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 304, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0037
+generate
+  4%|▎         | 44/1232 [01:36<59:03,  2.98s/it]processing 44th semantic_sys file
+44
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I RESIDE IN THE MARAIS RUE DE DOUZE PORTES
+2024-04-05 05:17:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:12 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([36], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0043.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 143, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0043
+generate
+  4%|▎         | 45/1232 [01:38<53:31,  2.71s/it]processing 45th semantic_sys file
+45
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: WHAT SIR I SAID TO HIM AM I FORTUNATE ENOUGH TO SEE YOU
+2024-04-05 05:17:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([34], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_3729-6852-0038.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 168, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_3729-6852-0038
+generate
+  4%|▎         | 46/1232 [01:40<51:05,  2.58s/it]processing 46th semantic_sys file
+46
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE RAFT WAS HEAVED UP ON A WATERY MOUNTAIN AND PITCHED DOWN AGAIN AT A DISTANCE OF TWENTY FATHOMS
+2024-04-05 05:17:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:16 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0023.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 301, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0023
+generate
+  4%|▍         | 47/1232 [01:43<54:48,  2.78s/it]processing 47th semantic_sys file
+47
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: FLIGHT WAS OUT OF THE QUESTION NOW THE REPTILES ROSE THEY WHEELED AROUND OUR LITTLE RAFT WITH A RAPIDITY GREATER THAN THAT OF EXPRESS TRAINS
+2024-04-05 05:17:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([45], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0025.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 346, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0025
+generate
+  4%|▍         | 48/1232 [01:47<58:25,  2.96s/it]processing 48th semantic_sys file
+48
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SUDDENLY THE ICHTHYOSAURUS AND THE PLESIOSAURUS DISAPPEAR BELOW LEAVING A WHIRLPOOL EDDYING IN THE WATER
+2024-04-05 05:17:23 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:23 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([40], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0030.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 321, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0030
+generate
+  4%|▍         | 49/1232 [01:50<1:00:34,  3.07s/it]processing 49th semantic_sys file
+49
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: ALL MY DANGER AND SUFFERINGS WERE NEEDED TO STRIKE A SPARK OF HUMAN FEELING OUT OF HIM BUT NOW THAT I AM WELL HIS NATURE HAS RESUMED ITS SWAY
+2024-04-05 05:17:26 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:26 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([33], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0002.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 390, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0002
+generate
+  4%|▍         | 50/1232 [01:54<1:05:54,  3.35s/it]processing 50th semantic_sys file
+50
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: WE ARE LOSING TIME AND THE FACT IS I HAVE NOT COME ALL THIS WAY TO TAKE A LITTLE SAIL UPON A POND ON A RAFT
+2024-04-05 05:17:30 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:30 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([33], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0006.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 492, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0006
+generate
+  4%|▍         | 51/1232 [02:00<1:20:20,  4.08s/it]processing 51th semantic_sys file
+51
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: NOTHING NEW WEATHER UNCHANGED THE WIND FRESHENS
+2024-04-05 05:17:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([40], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0011.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 154, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0011
+generate
+  4%|▍         | 52/1232 [02:03<1:16:36,  3.89s/it]processing 52th semantic_sys file
+52
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I CAN DISTINGUISH THE EYE OF THE ICHTHYOSAURUS GLOWING LIKE A RED HOT COAL AND AS LARGE AS A MAN'S HEAD
+2024-04-05 05:17:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:39 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([48], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0027.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 331, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0027
+generate
+  4%|▍         | 53/1232 [02:08<1:18:46,  4.01s/it]processing 53th semantic_sys file
+53
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: YOU SEEM ANXIOUS MY UNCLE I SAID SEEING HIM CONTINUALLY WITH HIS GLASS TO HIS EYE ANXIOUS
+2024-04-05 05:17:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:43 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([33], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0003.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 233, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0003
+generate
+  4%|▍         | 54/1232 [02:11<1:16:41,  3.91s/it]processing 54th semantic_sys file
+54
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THESE THOUGHTS AGITATED ME ALL DAY AND MY IMAGINATION SCARCELY CALMED DOWN AFTER SEVERAL HOURS SLEEP
+2024-04-05 05:17:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+An exception occurred: 'aɪʊɹ'
+processing 55th semantic_sys file
+55
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE SHADOW OF THE RAFT WAS CLEARLY OUTLINED UPON THE SURFACE OF THE WAVES
+2024-04-05 05:17:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:47 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0013.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 239, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0013
+generate
+  5%|▍         | 56/1232 [02:15<58:43,  3.00s/it]  processing 56th semantic_sys file
+56
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THOSE HUGE CREATURES ATTACKED EACH OTHER WITH THE GREATEST ANIMOSITY
+2024-04-05 05:17:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:51 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0029.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 232, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0029
+generate
+  5%|▍         | 57/1232 [02:19<1:01:22,  3.13s/it]processing 57th semantic_sys file
+57
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: SATURDAY AUGUST FIFTEENTH THE SEA UNBROKEN ALL ROUND NO LAND IN SIGHT
+2024-04-05 05:17:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+An exception occurred: 'aɪʊ'
+processing 58th semantic_sys file
+58
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I AM NOT COMPLAINING THAT THE RATE IS SLOW BUT THAT THE SEA IS SO WIDE
+2024-04-05 05:17:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:55 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([34], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0005.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 262, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0005
+generate
+  5%|▍         | 59/1232 [02:22<51:07,  2.62s/it]  processing 59th semantic_sys file
+59
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: TWO MONSTERS ONLY WERE CREATING ALL THIS COMMOTION AND BEFORE MY EYES ARE TWO REPTILES OF THE PRIMITIVE WORLD
+2024-04-05 05:17:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:17:58 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([40], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0026.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 576, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0026
+generate
+  5%|▍         | 60/1232 [02:29<1:09:37,  3.56s/it]processing 60th semantic_sys file
+60
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HE CALLED THIS SEA A POND AND OUR LONG VOYAGE TAKING A LITTLE SAIL
+2024-04-05 05:18:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:18:05 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([38], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0007.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 234, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0007
+generate
+  5%|▍         | 61/1232 [02:33<1:10:01,  3.59s/it]processing 61th semantic_sys file
+61
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: ITS JAW IS ENORMOUS AND ACCORDING TO NATURALISTS IT IS ARMED WITH NO LESS THAN ONE HUNDRED AND EIGHTY TWO TEETH
+2024-04-05 05:18:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:18:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0028.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 371, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0028
+generate
+  5%|▌         | 62/1232 [02:38<1:16:30,  3.92s/it]processing 62th semantic_sys file
+62
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I TAKE THIS AS MY ANSWER AND I LEAVE THE PROFESSOR TO BITE HIS LIPS WITH IMPATIENCE
+2024-04-05 05:18:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:18:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([38], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0009.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 255, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0009
+generate
+  5%|▌         | 63/1232 [02:42<1:17:51,  4.00s/it]processing 63th semantic_sys file
+63
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IT MUST BE AS WIDE AS THE MEDITERRANEAN OR THE ATLANTIC AND WHY NOT
+2024-04-05 05:18:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:18:18 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([43], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0015.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 254, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0015
+generate
+  5%|▌         | 64/1232 [02:46<1:15:53,  3.90s/it]processing 64th semantic_sys file
+64
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I SAW AT THE HAMBURG MUSEUM THE SKELETON OF ONE OF THESE CREATURES THIRTY FEET IN LENGTH
+2024-04-05 05:18:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:18:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([44], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0018.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 534, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0018
+generate
+  5%|▌         | 65/1232 [02:51<1:26:23,  4.44s/it]processing 65th semantic_sys file
+65
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: AS FOR THE ICHTHYOSAURUS HAS HE RETURNED TO HIS SUBMARINE CAVERN
+2024-04-05 05:18:27 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:18:27 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([33], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123286-0031.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 274, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123286-0031
+generate
+  5%|▌         | 66/1232 [02:56<1:24:46,  4.36s/it]processing 66th semantic_sys file
+66
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE ATMOSPHERE IS CHARGED WITH VAPOURS PERVADED WITH THE ELECTRICITY GENERATED BY THE EVAPORATION OF SALINE WATERS
+2024-04-05 05:18:31 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:18:31 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0002.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 415, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123288-0002
+generate
+  5%|▌         | 67/1232 [03:00<1:27:28,  4.50s/it]processing 67th semantic_sys file
+67
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I REFER TO THE THERMOMETER IT INDICATES THE FIGURE IS OBLITERATED
+2024-04-05 05:18:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:18:36 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([35], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0016.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 396, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123288-0016
+generate
+  6%|▌         | 68/1232 [03:05<1:30:11,  4.65s/it]processing 68th semantic_sys file
+68
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THERE'S A HEAVY STORM COMING ON I CRIED POINTING TOWARDS THE HORIZON
+2024-04-05 05:18:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:18:41 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([54], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0008.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 181, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123288-0008
+generate
+  6%|▌         | 69/1232 [03:09<1:24:13,  4.35s/it]processing 69th semantic_sys file
+69
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE WEATHER IF WE MAY USE THAT TERM WILL CHANGE BEFORE LONG
+2024-04-05 05:18:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:18:45 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([37], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0001.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 194, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123288-0001
+generate
+  6%|▌         | 70/1232 [03:14<1:25:07,  4.40s/it]processing 70th semantic_sys file
+70
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: ON THE MAST ALREADY I SEE THE LIGHT PLAY OF A LAMBENT SAINT ELMO'S FIRE THE OUTSTRETCHED SAIL CATCHES NOT A BREATH OF WIND AND HANGS LIKE A SHEET OF LEAD
+2024-04-05 05:18:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:18:49 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([36], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0010.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 535, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123288-0010
+generate
+  6%|▌         | 71/1232 [03:21<1:45:09,  5.43s/it]processing 71th semantic_sys file
+71
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE ATMOSPHERE IS EVIDENTLY CHARGED AND SURCHARGED WITH ELECTRICITY
+2024-04-05 05:18:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:18:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([35], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0006.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 235, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123288-0006
+generate
+  6%|▌         | 72/1232 [03:26<1:40:26,  5.19s/it]processing 72th semantic_sys file
+72
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: BUT IF WE HAVE NOW CEASED TO ADVANCE WHY DO WE YET LEAVE THAT SAIL LOOSE WHICH AT THE FIRST SHOCK OF THE TEMPEST MAY CAPSIZE US IN A MOMENT
+2024-04-05 05:19:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:19:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([32], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0011.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 449, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123288-0011
+generate
+  6%|▌         | 73/1232 [03:33<1:47:51,  5.58s/it]processing 73th semantic_sys file
+73
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: A SUFFOCATING SMELL OF NITROGEN FILLS THE AIR IT ENTERS THE THROAT IT FILLS THE LUNGS
+2024-04-05 05:19:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:19:08 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0027.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 266, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123288-0027
+generate
+  6%|▌         | 74/1232 [03:39<1:50:36,  5.73s/it]processing 74th semantic_sys file
+74
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE ELECTRIC LIGHT CAN SCARCELY PENETRATE THROUGH THE DENSE CURTAIN WHICH HAS DROPPED OVER THE THEATRE ON WHICH THE BATTLE OF THE ELEMENTS IS ABOUT TO BE WAGED
+2024-04-05 05:19:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:19:15 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0003.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 447, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123288-0003
+generate
+  6%|▌         | 75/1232 [03:45<1:55:25,  5.99s/it]processing 75th semantic_sys file
+75
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IS THE ATMOSPHERIC CONDITION HAVING ONCE REACHED THIS DENSITY TO BECOME FINAL
+2024-04-05 05:19:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:19:21 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([39], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0017.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 268, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123288-0017
+generate
+  6%|▌         | 76/1232 [03:51<1:54:22,  5.94s/it]processing 76th semantic_sys file
+76
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE AIR IS HEAVY THE SEA IS CALM
+2024-04-05 05:19:27 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:19:27 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([42], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123288-0004.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 146, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123288-0004
+generate
+  6%|▋         | 77/1232 [03:56<1:47:51,  5.60s/it]processing 77th semantic_sys file
+77
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I SHALL BE PUNISHED FOR IT NOW I SUPPOSE BY BEING DROWNED IN MY OWN TEARS
+2024-04-05 05:19:32 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:19:32 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([43], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123440-0016.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 252, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123440-0016
+generate
+  6%|▋         | 78/1232 [04:02<1:49:51,  5.71s/it]processing 78th semantic_sys file
+78
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HOW CHEERFULLY HE SEEMS TO GRIN HOW NEATLY SPREAD HIS CLAWS AND WELCOME LITTLE FISHES IN WITH GENTLY SMILING JAWS
+2024-04-05 05:19:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:19:38 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([43], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123440-0010.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 739, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123440-0010
+generate
+  6%|▋         | 79/1232 [04:12<2:13:18,  6.94s/it]processing 79th semantic_sys file
+79
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: IT'LL BE NO USE THEIR PUTTING THEIR HEADS DOWN AND SAYING COME UP AGAIN DEAR
+2024-04-05 05:19:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:19:48 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([25], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123440-0012.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 206, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123440-0012
+generate
+  6%|▋         | 80/1232 [04:17<2:01:34,  6.33s/it]processing 80th semantic_sys file
+80
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: NO I'VE MADE UP MY MIND ABOUT IT IF I'M MABEL I'LL STAY DOWN HERE
+2024-04-05 05:19:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:19:52 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([28], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123440-0011.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 251, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123440-0011
+generate
+  7%|▋         | 81/1232 [04:21<1:52:26,  5.86s/it]processing 81th semantic_sys file
+81
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: WE WON'T TALK ABOUT HER ANY MORE IF YOU'D RATHER NOT WE INDEED
+2024-04-05 05:19:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:19:57 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([46], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123440-0020.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 210, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123440-0020
+generate
+  7%|▋         | 82/1232 [04:26<1:47:27,  5.61s/it]processing 82th semantic_sys file
+82
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: CRIED ALICE AGAIN FOR THIS TIME THE MOUSE WAS BRISTLING ALL OVER AND SHE FELT CERTAIN IT MUST BE REALLY OFFENDED
+2024-04-05 05:20:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:20:02 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([39], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123440-0019.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 399, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123440-0019
+generate
+  7%|▋         | 83/1232 [04:33<1:52:35,  5.88s/it]processing 83th semantic_sys file
+83
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: I WISH I HADN'T CRIED SO MUCH SAID ALICE AS SHE SWAM ABOUT TRYING TO FIND HER WAY OUT
+2024-04-05 05:20:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:20:09 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([41], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_260-123440-0015.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 210, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_260-123440-0015
+generate
+  7%|▋         | 84/1232 [04:38<1:46:39,  5.57s/it]processing 84th semantic_sys file
+84
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: ANOTHER PREACHER AFTER REPROACHING HIM TO HIS FACE WITH HIS MISGOVERNMENT ORDERED THIS PSALM TO BE SUNG
+2024-04-05 05:20:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:20:14 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([31], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_8224-274384-0005.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 253, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_8224-274384-0005
+generate
+  7%|▋         | 85/1232 [04:43<1:47:37,  5.63s/it]processing 85th semantic_sys file
+85
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HAVE MERCY LORD ON ME I PRAY FOR MEN WOULD ME DEVOUR
+2024-04-05 05:20:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+An exception occurred: 'aɪʊɹ'
+processing 86th semantic_sys file
+86
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: THE PARLIAMENT AND THE SCOTS LAID THEIR PROPOSALS BEFORE THE KING
+2024-04-05 05:20:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:20:19 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([29], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_8224-274384-0009.json
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+top_k_know_token:None
+torch.Size([1, 214, 16])
+output_dir is /home/v-zhijunjia/data/tts_test_librispeech/nar_test/converted_can_del_tts_first_top2_fixed_seed_v2/ours/update_gp_i_mask_True_g_in_m_rep_p_0.45_g_in_m_rep_al_p_0.05/base-line-no-prompt-tts-2stages_topk_stage1_2_topk_stage2_70_top_k_know_token_stage2_70_steps_32_known_token_update_True_2024-04-05_13:15:13
+sys_file:gen_8224-274384-0009
+generate
+  7%|▋         | 87/1232 [04:49<1:24:22,  4.42s/it]processing 87th semantic_sys file
+87
+args.target_mode==1 or args.target_mode==2
+semantic nums is 1
+synthesize text: HIS DEATH IN THIS CONJUNCTURE WAS A PUBLIC MISFORTUNE
+2024-04-05 05:20:25 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+2024-04-05 05:20:25 | WARNING | phonemizer | words count mismatch on 100.0% of the lines (1/1)
+enroll_x_lens:tensor([33], dtype=torch.int32)
+txt2semantic need not prompt
+/home/v-zhijunjia/data/tts_test_librispeech/nar_test/filtered_4s_10s-test-spk-wer_sem/sem_gen_8224-274384-0013.json
+  7%|▋         | 87/1232 [04:50<1:03:39,  3.34s/it]
+Traceback (most recent call last):
+  File "/home/v-zhijunjia/CodecGen/egs/libritts/bin/combine_ar_nar_vc_dir_onlyar.py", line 1700, in <module>
+    main()
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/v-zhijunjia/CodecGen/egs/libritts/bin/combine_ar_nar_vc_dir_onlyar.py", line 1557, in main
+    encoded_frames = tokenize_audio(audio_tokenizer, acoustic_prompts_file)
+  File "/home/v-zhijunjia/CodecGen/valle/data/tokenizer.py", line 366, in tokenize_audio
+    encoded_frames = tokenizer.encode(wav)
+  File "/home/v-zhijunjia/CodecGen/valle/data/tokenizer.py", line 345, in encode
+    _, indices, _ = self.codec(wav.to(self.device))
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-zhijunjia/CodecGen/tfnet/tfnet_models_mp/tfnet_v2i_vqvae.py", line 132, in forward
+    vq_result = self.vq_bottleneck(enc_feat, loss_mask=loss_mask if self.add_packet_loss else None, epo=epo)
+  File "/home/v-zhijunjia/CodecGen/tfnet/tfnet_models_mp/multiframe_vq_bottleneck.py", line 943, in vq_bottleneck
+    vq_out = self.quantize(enc_feat_r, bitrate=bitrate, epo=epo)
+  File "/home/v-zhijunjia/CodecGen/tfnet/tfnet_models_mp/multiframe_vq_bottleneck.py", line 1081, in quantize
+    vq_out = vq_layer(vq_in, target_entropy_per_vqlayer, fuzz_entropy_per_vqlayer)
+  File "/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-zhijunjia/CodecGen/tfnet/tfnet_models_mp/layers/vq_layer_gumbel.py", line 189, in forward
+    distances_map = distances_map.sum(-2)  # [BT, D]
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 116.00 MiB (GPU 0; 79.10 GiB total capacity; 5.48 GiB already allocated; 23.38 MiB free; 5.57 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

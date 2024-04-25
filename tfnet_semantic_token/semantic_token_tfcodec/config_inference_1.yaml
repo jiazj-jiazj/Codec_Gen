@@ -1,0 +1,572 @@
+#<-------- training related -------->#
+gpu: True
+learning_rate: 0.0004 # 0.0004 pyyaml has issues with scientific notation
+num_epochs: 2400
+sav_per_num_iter: 1000  # set sav_per_num_epochs=-1 when used sav_per_num_iter
+sav_per_num_epochs: -1  # set sav_per_num_iter=-1 when used sav_per_num_epochs
+tot_batch_size: 40 #160 #160 # 200 # total batch size for train_mproc
+tot_val_batch_size: 40 #64 #64 #40 #120  # total val batch size for train_mproc
+inference_batch_size: 200
+set_ddp: True  #
+frame_num: 300 # 500ms  600
+use_warmup: True
+
+total_iter_kmeans: 300
+max_grad_norm: 1.0 # 0.25
+disable_adaptive_grad_norm: true
+seed: null
+tags: null
+minlen: null
+maxlen: null
+log_step: 100
+save_dir: "debug/ckpt_models" # where to save the model checkpoint
+#dataset: 'lmdblibri' # lmdb890/lmdb150/raw890/rawlibri/TIMIT/lmdb890-label(mask label)
+
+## new optimizer config
+new_opt: true
+optimizer:
+  opt_G:
+    name: adam
+    betas: [0.9,0.999] # adam betas
+    lr: 0.0003  # GAN: 0.00003 (generator pretrained)
+    G_warmup_time: 0
+  opt_D:
+    name: adam
+    betas: [0.9,0.999]
+    weight_decay:  0.000001
+    lr: 0.0003 #0.0003
+
+#<----GAN related---->#
+#generator_pretrained: true
+use_adv_loss: false
+disc_gt_aug: false
+disc_input_mfcc: false
+load_old_gan_models: false
+use_disc_each_bitrate: false
+load_disc_para: false
+adversarial_loss: 'MSE'  #hinge/MSE/wasserstein/BCE
+clip_value: 0.01
+n_disc: 1      # at 1kbps/3kbps/6kbps, set n_disc=1, n_generator=1
+n_generator: 2    # at 0.256kbps/0.512kbps, set n_disc=1, n_generator=10
+D_warmup_time: 0
+freeze_gen: False
+use_disc_feat_loss: True
+disc_feat_loss_weight: 0.1
+adv_loss_weight: 0.001 #0.001
+use_condition_input: False
+use_freq_disc: true
+use_time_disc: False
+use_spk_disc: false
+freq_disc_type: 'v6'
+d_freq_weight: 1
+g_freq_weight: 1
+time_disc_type: 'v1'
+d_time_weight: 1
+g_time_weight: 1
+spk_disc_type: 'v3'
+d_spk_weight: 1
+g_spk_weight: 1
+
+### soundstream's STFTDiscriminator
+use_freq_sd_disc: False
+D_sd_loss_weight: 1.0
+G_sd_loss_weight: 0.01
+adv_sd_fm_loss_weight: 0.1
+### soundstream's WaveDiscriminator
+use_time_sd_disc: False
+
+
+load_encoder_para: True
+load_decoder_para: True
+load_spk_codebook: True
+load_phn_codebook: True
+
+#<-------- network structure related --------># tfnet_v2i_vqvae_disentangle_u2u2/tfnetv2_vqvae_lm/tfnet_v2i_vqvae_disentangle_cascade/tfnetv2_vqvae_lm_generation
+model_type: "tfnetv2_vqvae_lm2"  #tfnet_v2i_vqvae/tfnet_v0i_vqvae_scalable/tfnet_v2i_vqvae_timedomain/tfnet_v2i_vqvae_scalable/tfnet_v2i_vqvae_disentangle/tfnetv2_interleave_vqvae
+model_type_main: "tfnetv0_48khz_25ms_interleave_groupGRU2_2"
+model_type_refine: "tfnetv0_48khz_25ms_interleave_groupGRU2_2"
+# "tfnetv4_interleave_groupGRU2"
+# "tfnetv4_interleave_groupTSA"
+# "tfnetv0_interleave"
+# "tfnetv0_interleave_groupGRU2"
+# "tfnetv0_interleave_groupTSA_noncausal"
+
+# "tfnetv2_interleave_vqvae"
+# "tfnetv4_interleave_vqvae"
+# "tfnetv4_interleave_gTSA_vqvae"
+# "tfnetv4_interleave_vqvae_48khz_scalable"
+# 'tfnetv2_interleave_groupGRU2_large_vqvae'
+# 'tfnetv2_interleave_groupGRU2_large2_vqvae'
+# 'tfnetv0_interleave_groupGRU2_vqvae'
+
+# "tfnetv2_interleave_multiraterps_vqvae"  # for representation learning with multi-bitrate VQVAE
+# "wavLM_vqvae"
+# "tfnet_v2i_vqvae_disentangle"
+# "tfnet_v2i_vqvae_disentangle_mbart"
+
+# "tfnetv2_interleave_vqvae_withpre"
+# "tfnetv2_interleave_vqvae_twodec"
+# "tfnetv2_interleave_vqvae_controldns_twodec"
+# "tfnetv2_interleave_vqvae_withprepost"
+
+# "tfnetv0_48khz_25ms_interleave_groupGRU2"
+# "tfnetv0_48khz_25ms_interleave_groupGRU2_2"
+# "tfnetv0_48khz_25ms_interleave_groupTSA"
+# "tfnetv0_48khz_25ms_interleave_groupTSA_2"
+# "tfnetv0_48khz_20ms_interleave_groupGRU2"
+# "tfnetv0_48khz_twostage_dns"
+
+# 'tfnetv2_tcm_vqvae'
+# 'tfnetv2_gru_vqvae'
+# 'tfnetv2_groupGRU2_vqvae'
+# 'tfnetv2_interleave_gru_vqvae'
+# 'tfnetv2_interleave_groupGRU2_vqvae'
+# 'tfnetv2_interleave_groupTSA2_vqvae'
+# 'tfnetv2_interleave_groupTSA_vqvae'
+# 'tfnetv2_interleave_TSA_vqvae'
+# 'tfnetv2_tcm_vqvae_symm'
+# 'tfnetv2_gru_vqvae_symm'
+# 'tfnetv2_interleave_gru_vqvae_symm'
+# 'tfnetv2_interleave_groupGRU2_vqvae_symm'
+# 'tfnetv2_interleave_groupTSA2_vqvae_symm'
+# 'tfnetv2_interleave_groupTSA_vqvae_symm'
+# 'tfnetv2_interleave_TSA_vqvae_symm'
+
+# 'tfnetv2_tcm_vqvae_symm_twodec'
+# 'tfnetv2_gru_vqvae_symm_twodec'
+# 'tfnetv2_interleave_gru_vqvae_symm_twodec'
+# 'tfnetv2_interleave_groupGRU2_vqvae_symm_twodec'
+# 'tfnetv2_interleave_groupTSA2_vqvae_symm_twodec'
+# 'tfnetv2_interleave_groupTSA_vqvae_symm_twodec'
+# 'tfnetv2_interleave_TSA_vqvae_symm_twodec'
+bn: True
+activation: PRELU # ELU/PRELU
+use_encoder_tcm: True
+use_encoder_gru: True
+use_timedomain_output: False
+pre_model_type: 'v4' # for "tfnetv2_interl_codec_4d_lowga_withpre"
+tcm_prelu_fix: True
+use_scale_float16: False
+use_online_feature_norm: False
+use_less_dilations: False
+use_complete_latent: False  # not used in disentangle (fixed)
+
+use_learnable_compression: True # disable so that disentangle decoder can use 1kbps
+use_learnable_feat_cprs: False
+input_cprs_power: 0.3
+
+use_random_sampled_decoder: False
+random_sampling_type: 'uniform' # 'uniform', 'entropy'
+
+#use_learned_reshape_bottleneck: True
+
+#<---predictive-------------->#
+use_predictive: False
+prediction_type: 'conv-two' # 'conv', 'gru', 'adaptive', 'conv-two'
+use_learnable_alpha: False  # used only when prediction_type is 'adaptive'
+use_affine_adaptive: True  # used only when prediction_type is 'adaptive'
+prediction_stage: '3' # '1': teacher forcing using corrupted uncompressed features, '2': use real compressed features (propagation through time), '3': teacher forcing using last model output
+fuse_type: 'conv' # 'res', 'conv'
+use_BPTT: True  # used only when prediction_stage is '2'
+use_context_detach: False # detach context for reconstruction loss, only BP for prediction loss
+use_sparse_loss: False
+sparse_loss_weight: 0.005
+use_predictive_loss: True
+use_detached_pred_loss: True  # True
+pred_loss_weight: 0.02 #0.25 0.01
+use_parallelvq: True
+use_compressed_channels: True
+use_tanh_before_vq: False
+use_tanh_features: False
+
+
+#<---autoregressive-------------->#
+autoregressive: False #
+autoregressive_merge: 'transformer' # 'concat' or 'transformer'
+autoregressive_stage: '1' # '1': teacher forcing, '2': use last model output
+
+#<-------- vq related -------->#
+bitrate: '0.256k'  #0.256k/0.512k/1k/3k/6k/12k/all4
+bitrates_selected: ['0.256k','0.512k','1k','3k'] # ['3k','6k','9k','12k']
+bitrate_enh_layer: '1k'
+6k_type: '2' # 1/2  different vq types
+#use_EMA: True
+decay: 0.99 # used for EMA
+combineVQ_frames: 4
+#use_subcodebook_residue: True # combineVQ_frames must be 1 when it is true
+vq_rate: 'redundant' # 'complete', 'redundant'
+vq_type: 'Gumbel' # 'EMA', 'Gumbel'
+vq_initial: true   # set to false if loading codebook from model, default true, for EMA only
+
+use_vq_loss: False   # set to False for Gumbel, commitment loss
+vq_loss_weight: 0.01 #0.25
+
+#<----Gumbel related---->#
+groups: 1
+combine_groups: False
+temperature: [2, 0.5, 0.9999995]  # max(2*0.999999^iter, 0.5)
+dist_to_logits_alpha: -5 # -5, -1
+#<----entropy related---->#
+use_entropy_loss: False
+entropy_loss_type: '2'
+entropy_loss_weight: 0.4 #0.04 # 0.01 # 0.04
+entropy_fuzz: 0 # bit/frame
+use_defined_gumbelsoftmax: True  # True
+
+#<-------- representation related -------->#
+pretrained_path: None #.\WavLM\WavLM-Base+.pt
+use_weighted_rep: True
+dvector_path: ./d-vector
+use_dvector: False
+
+#<-------- disentangle related -------->#
+disen_scheme: 'global_spk' # 'global_spk': use global spk feature  'rate1': spk/phn bitrate = 1/3
+merge_type: 'multicondition1'  #'concat'/'condition'/'multicondition1'/'multicondition2'
+disable_disen: False
+disen_type: 'ins' # 'grl'/'ins'
+spk_grl: False
+phn_grl: False
+use_InsNorm_enc: True
+use_InsNorm_dec: False
+use_InsNorm_input: False
+disable_spk_vq: True
+disable_phn_vq: False
+auto_rate_allocation: False
+use_noncausal_spk: False
+use_temporal_aggregator: False # causal spk embedding
+tap_rate: 10
+max_pooling_len: 10 #-1 # -1: global causal pooling
+transmit_rate: 10
+train_downstream_model_noVQ: False
+use_nomodulated_code: True
+use_xuemodel_bias: True
+use_channel_attention: False
+use_causalIN: False
+use_modified_adaIN_network: False
+use_groupTSA: False
+
+
+# supervision related
+suprv_position: 'vq_in'
+disable_classify: False # todo
+disable_phn_classify: True
+disable_spk_classify: True
+spk_loss_weight1: 0.1
+spk_loss_weight2: 0.01
+phn_loss_weight1: 0.05
+phn_loss_weight2: 0.01
+
+# data augmentation related
+data_aug: False
+do_peq: True
+do_formant: True
+do_pitch: True
+use_contrastive_loss: False
+neg_num: 10
+contrastive_loss_weight: 10
+
+# dns supervision related
+use_spk_pearson_dns: False
+spk_peason_loss_weight: 0.1
+use_gt_rec_dns: False
+
+use_KD_dns: False
+use_phn_pearson_dns: False
+phn_peason_loss_weight: 0.1
+use_codebook_gt_dns: True
+
+use_2dec_dns: False
+
+
+#<-------- multistage related -------->#
+multistage: False
+stage: stage3
+decoder_initial: False
+freeze_decoder: False
+freeze_encoder: False
+freeze_content_encoder: False
+freeze_codebook: False
+freeze_spk_codebook: False
+freeze_phn_codebook: False
+train_best_quality : False
+
+
+#<-------- scalable model related -------->#
+base_codec_path: 1.ckpt
+freeze_base_codec: False
+
+#<-------- PLC related -------->#
+add_packet_loss: false
+plc_unit_type: 'none' # 'full', 'low', 'none'  # 'none' means no concealment capability for codec part (only set received features as zero)
+
+load_sender_only: false
+tune_g_s_only: false
+freeze_pre_dns: false
+freeze_codec: false
+
+#<-------- DNS related -------->#
+#add_implicit_dns: true
+input_data_idx: 1   # 0: noisy, 1: clean
+target_data_idx: 1
+mask_data_idx: 2  # for PLC training with useZeroInPLC=False
+cleanonly_data: false
+control_encoder_only: false
+control_decoder_only: false
+freeze_main_dns: false  # for two-stage dns model training
+
+use_pretrained_auxinput: False
+pretrained_feat_type: 'vq_in' # 'vq_out', 'vq_in'
+
+use_speaker_separation: False
+use_singlespeaker_disturb: False
+
+# "tfnetv0_interl"/"tfnetv0_interl_enc_merge"/"tfnetv0_interl_tcm_merge"/'tfnetv2'/'tfnetv2_interl'/'tfnetv4'/
+# "tfnetv6"/"tfnetv6_enc_merge"/"tfnetv6_tcm_merge"/"tfnetv0_tsa"
+tcm_merge_type: 'concat'  # 'concat' or 'transformer'. Used when "tcm_merge" in model_type.
+
+#<-------- input and target representation related -------->#
+f_min: 60    # 20 for 16khz, 30 for 24khz, 60 for 48khz
+f_max: 24000 # 8000 for 16khz, 12000 for 24khz, 24000 for 48khz
+
+# sampling_rate: 16000
+# hop_vqvae: 0.25
+# hop_fraction: 0.5
+# dft_size: 320  #20ms/10ms
+# frame_dur: 0.02
+
+sampling_rate: 16000
+hop_vqvae: 0.25
+hop_fraction: 0.5
+dft_size: 640   #40ms/10ms
+frame_dur: 0.04
+vq_in_dur: 0.01
+# sampling_rate: 48000
+# hop_vqvae: 0.25
+# hop_fraction: 0.5
+# dft_size: 1920   #40ms/10ms/48khz
+# frame_dur: 0.04
+
+# sampling_rate: 16000
+# hop_vqvae: 0.5
+# hop_fraction: 0.5
+# dft_size: 640   #40ms/20ms
+# frame_dur: 0.04
+
+# sampling_rate: 16000
+# hop_vqvae: 0.2
+# hop_fraction: 0.4
+# dft_size: 400   #25ms/5ms
+# frame_dur: 0.025
+
+# sampling_rate: 24000
+# hop_vqvae: 0.25
+# hop_fraction: 0.5
+# dft_size: 960   #40ms/10ms/24khz
+# frame_dur: 0.04
+
+# sampling_rate: 48000
+# hop_vqvae: 0.4
+# hop_fraction: 0.4  # 0.4 for non-AR, 0.25 for AR
+# dft_size: 1200    #25ms/10ms/48khz
+# frame_dur: 0.025
+
+# sampling_rate: 48000
+# hop_vqvae: 0.5
+# hop_fraction: 0.5
+# dft_size: 960   #20ms/10ms/48khz
+# frame_dur: 0.02
+
+feature: "stft" # "stft"
+feature_norm: false #'const'
+disable_stft_out_mask: False
+use_compressed_input: True
+#learn_uncompressed_gain: False
+learn_uncompressed_amp: False
+use_complex_gain: False
+
+use_pre_filter_inbandCprs: True
+use_post_filter_inbandCprs: True
+
+#<-------- loss function related -------->#
+use_bin_loss: False
+loss_type: "power-compressed-mse" # Options: "power-compressed-mse"
+weight_amplitude: 0.5  # default is 0.5
+power: 0.3
+bin_loss_weight: 1.0
+feat_loss_weight: 0.01
+different_feat_loss: 'type1'
+use_err_recon2: False
+
+use_perceptual_loss: False
+perceptual_model_type: 'hubert' #'wav2vec' 'hubert'
+perceptual_loss_type: '1'#
+perceptual_loss_weight: 1  # 0.1 for dns, 1 for codec, 0.1 for codec with GAN
+wav2vec_path: losses\wav2vec\wav2vec_large.pt  # debug only
+
+use_multiscale_mel_loss: False
+mel_loss_type: 'multi_window' # /multi_window/multi_band/
+mel_loss_weight: 0.25 #0.25  # codec only: 0.1/0.25
+use_log_L2_term: False
+mel_L2_term_weight: 0.05
+
+add_intermediate_loss: false
+weight_intermediate_loss: 10.0
+
+weight_aux_rec_loss: 1.0
+
+
+use_framewise_compress: False
+frame_by_frame_inference: False
+
+
+#<-------- evaluation and inference related -------->#
+dnsmos_model_path: "dnsmos/model_v8.onnx"
+pick_model: 'v2' # 'v1'(default): rank, 'v2': rank + val recon error top5.
+decmos_version: 'v2'  # 'v1' or 'v2'
+test_data: 'v3'  # used for pick_model='v1'. 'v1': v1/v2/v3/icassp2021_dns_challenge/clean_nest, 'v2': dns_test_set, 'v3': v4/icassp2021_dns_challenge.
+save_raw_signal: False  # set to true to save the updated lpb and mic when doing inference
+
+#<-------- others -------->#
+global_stats: null
+use_global_stats: False
+
+
+#<-------- translation related -------->#
+s2s_data: "960lmdb"  #voxpopuli/cvss/thchs30/cvss_t_zh_en/cvss_t_es_en/fisher/890lmdb/libritts/speechmatrix
+use_langIDs: False
+sort_by_len: False
+dynamic_bsample: False
+batch_duration: 60
+pretraining_s2s: False
+s2s_mask_prob: 0.3
+pretraining_style: 'enc_only'
+finetuning_s2s: True
+use_dec_only_transformer: True
+freeze_s2s_codec: True
+use_codec_tokens: 'vqin' # false/'vqin'/'vqout'
+unique_consecutive: False
+freeze_transformer_enc: False
+cascade_mode: 'ASR'
+tts_model: 'tts/model_file.pth'
+tts_config: 'tts/config.json'
+se_model: 'tts/model_se.pth'
+se_config: 'tts/config_se.json'
+MT: 'marianMT'
+ASR: 'es' # ch,en,es
+mbart_config: '1'
+use_mbart_dec: False
+#longest_duration: 12
+#longest_duration: 12
+#use_disen_tfcodec: True
+use_grad_accumule: False
+accumulate_grad_steps: 5
+
+#<-------- speech translation related -------->#
+s2s_model_type: 'u2hubert' #'u2u', 'u2hubert','s2u_mBART'
+pretrained_model_root: tfnet_semantic_token/semantic_token_resynt
+pretrained_model_ckpt_path: /home/v-zhijunjia/zhijundata_small_v2/data_local/data/valle-tensorboard-models/other_models/tfnet_semantic_tokens/semantic_token_resynt/tfcodec_256bps_disen/tfcodec_256bps_disen_gan_80000.ckpt
+hubert_model_path: hubert_pretrained_model/mhubert_base_vp_en_es_fr_it3.pt #hubert_pretrained_model/mhubert_base_vp_en_es_fr_it3.pt #hubert_pretrained_model/hubert_base_ls960.pt # hubert_pretrained_model/mhubert_base_vp_en_es_fr_it3.pt
+kmeans_model_path: hubert_pretrained_model/mhubert_base_vp_en_es_fr_it3_L11_km1000.bin # hubert_pretrained_model/mhubert_base_vp_en_es_fr_it3_L11_km1000.bin #hubert_unit100/km.bin   #hubert_pretrained_model/mhubert_base_vp_en_es_fr_it3_L11_km1000.bin
+hubert_model_path_libri: hubert_pretrained_model/hubert_base_ls960.pt
+unit_vocoder_path: HifiGAN_unit_vocoder/mhubert_vp_en_es_fr_it3_400k_layer11_km1000_lj #HifiGAN_unit_vocoder/mhubert_vp_en_es_fr_it3_400k_layer11_km1000_lj #hubert_unit100/g_00500000   #HifiGAN_unit_vocoder/mhubert_vp_en_es_fr_it3_400k_layer11_km1000_lj
+w2v_model_path: wav2vec_model/conformer_L_es.pt  #wav2vec_model/conformer_L_es.pt
+InputCode: 'disen_tfnet256' #disen_tfnet256/tfnet256_LM
+TargetCode: 'disen_tfnet256'
+do_not_translate: False
+use_label_smoothing: False
+enhance_enc: '6' #'6'  # '1': transformer from scratch '2': pretrained w2v-large '4':multilingual '5': w2v2-base
+drop_transformer_head: False
+src_ASR: False
+src_aux_task: 'unit'
+ASR_dec: 'transformer_dec' ## transformer/bilstm/linear/transformer_dec
+src_ASR_loss_weight: 8
+use_lstm_for_asr: False
+tgt_ASR: False
+tgt_aux_task: 'unit'
+tgt_ASR_dec: 'transformer_dec' ## transformer/bilstm/linear/transformer_dec
+tgt_ASR_loss_weight: 8
+tgt_ASR_pos: 'enc_8'
+tgt_ASR2: False
+tgt_aux_task2: 'text'
+tgt_ASR2_pos: 'dec_6'
+tgt_ASR_dec2: 'linear' ## transformer/bilstm/linear/transformer_dec
+tgt_ASR_loss_weight2: 1.6
+
+
+#<--------lmcodec related -------->#
+#<-------- lm codec related -------->#
+freeze_lmencoder: True
+tune_TransEnc_layer: True
+freeze_semantic_tokenizer: False
+#freeze_recon_lmdecoder: False
+lm_encoder_type: "tfnet_v2i_vqvae_lm2" # "tfnet_v2i_vqvae_disentangle", "tfnet_v2i_vqvae", "tfnet_v2i_vqvae_disentangle_u2u_hubert, "tfnet_v2i_vqvae_lm2" "tfcodec_newtoken_256bps/tfcodec_lm2_256bps_716000.ckpt
+lm_enc_pretrain_path: tfcodec_256bps_disen/tfcodec_256bps_disen_gan_80000.ckpt      #semantic_tfcodec_256bps/semantic_tfcodec_308000.ckpt tfcodec_256bps_disen_777000/tfcodec_256bps_disen_777000.ckpt  tfcodec_256bps_disen/tfcodec_256bps_disen_gan_80000.ckpt tfcodec_256bps_disen_semantic/tfcodec_256bps_disen_semantic_855000.ckpt tfcodec_1kbps_disen/tfcodec_1k_disen_gan_623000.ckpt
+lm_decoder_type: 'LM+TFNet'  # 'TFNet'/None
+lm_dec_pretrain_path: tfcodec_6kbps_40ms/tfcodec_6k_2064000.ckpt  #"tfcodec_6kbps_40ms/tfcodec_6k_2064000.ckpt"  / tfcodec_6kbps/tfcodec_6k_514000.ckpt / tfcodec_6kbps_40ms/tfcodec_6k_2064000.ckpt
+#lm_codec_pretrain_path: semantic_tfcodec_256bps/semantic_tfcodec_308000.ckpt
+
+
+#<-------- transformer encoder related -------->#
+transformer_enc: 'SMALL'
+load_pretrained_hubert: False
+transformer_enc_cfg:
+    SMALL:
+      encoder_layers: 6 # base:12 large:24 small:6
+      encoder_embed_dim: 512  # base:768 large:1024 small:512
+      encoder_ffn_embed_dim: 2048 # base:3072 large:4096 small:2048
+      encoder_attention_heads: 8 # base:12 large:16 small:8
+      final_dim: 256 # base:256 large:768 small:256
+      dropout: 0
+      attention_dropout: 0
+    BASE:
+      encoder_layers: 12 # base:12 large:24 small:6
+      encoder_embed_dim: 768  # base:768 large:1024 small:512
+      encoder_ffn_embed_dim: 3072 # base:3072 large:4096 small:2048
+      encoder_attention_heads: 12 # base:12 large:16 small:8
+      final_dim: 256 # base:256 large:768 small:256
+      dropout: 0
+      attention_dropout: 0
+    LARGE:
+      encoder_layers: 24 # base:12 large:24 small:6
+      encoder_embed_dim: 1024  # base:768 large:1024 small:512
+      encoder_ffn_embed_dim: 4096 # base:3072 large:4096 small:2048
+      encoder_attention_heads: 16 # base:12 large:16 small:8
+      final_dim: 768 # base:256 large:768 small:256
+      dropout: 0
+      attention_dropout: 0
+    S2ST:
+      encoder_layers: 12 # base:12 large:24 small:6
+      encoder_embed_dim: 512  # base:768 large:1024 small:512
+      encoder_ffn_embed_dim: 2048 # base:3072 large:4096 small:2048
+      encoder_attention_heads: 4 # base:12 large:16 small:8
+      final_dim: 256 # base:256 large:768 small:256
+      dropout: 0.1
+      activation_dropout: 0.1
+      attention_dropout: 0.1
+contrastive_learning: False
+
+#<-------- transformer decoder related -------->#
+transformer_dec: 'BASE'
+pred_mode: 'joint_VQ' ##sequential_VQ/parallel_VQ/joint_VQ/seperate_VQ
+cond_drop_prob: 0
+attn_dropout: 0
+ff_dropout: 0
+mask_prob: 0.3
+#transformer: 'BASE'
+token_dim: 512
+share_eos: True
+share_special_tokens: True
+cond_as_self_attn_prefix: True
+rel_pos_bias_prefix: True
+cond_wind_size: 0
+cond_bugfix: True
+#<-------- semantic tokenized related -------->#
+semantic_tokenize:  True
+semantic_combineVQ_frames: 4
+semantic_1codebook: False
+fold_mode: '1' #
+fusion_type: 'AdaIN'  # AdaIN/Concat
+
+
+## tts
+freeze_t5_embs: False

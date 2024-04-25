@@ -1,0 +1,54 @@
+2024-01-28 12:37:33 | INFO | fairseq.tasks.text_to_speech | Please install tensorboardX: pip install tensorboardX
+num_jobs:3
+2024-01-28 12:37:40 | INFO | root | dataset_parts: ['all'] manifests 1
+2024-01-28 12:37:45 | INFO | fairseq.tasks.hubert_pretraining | current directory is /home/v-zhijunjia/CodecGen
+2024-01-28 12:37:45 | INFO | fairseq.tasks.hubert_pretraining | HubertPretrainingTask Config {'_name': 'hubert_pretraining', 'data': '/checkpoint/wnhsu/data/librispeech/960h/iter/250K_50hz_km100_mp0_65_v2', 'fine_tuning': False, 'labels': ['layer6.km500'], 'label_dir': None, 'label_rate': 50.0, 'sample_rate': 16000, 'normalize': False, 'enable_padding': False, 'max_keep_size': None, 'max_sample_size': 250000, 'min_sample_size': 32000, 'single_target': False, 'random_crop': True, 'pad_audio': False}
+2024-01-28 12:37:45 | INFO | fairseq.models.hubert.hubert | HubertModel Config: {'_name': 'hubert', 'label_rate': 50.0, 'extractor_mode': default, 'encoder_layers': 12, 'encoder_embed_dim': 768, 'encoder_ffn_embed_dim': 3072, 'encoder_attention_heads': 12, 'activation_fn': gelu, 'layer_type': transformer, 'dropout': 0.1, 'attention_dropout': 0.1, 'activation_dropout': 0.0, 'encoder_layerdrop': 0.05, 'dropout_input': 0.1, 'dropout_features': 0.1, 'final_dim': 256, 'untie_final_proj': False, 'layer_norm_first': False, 'conv_feature_layers': '[(512,10,5)] + [(512,3,2)] * 4 + [(512,2,2)] * 2', 'conv_bias': False, 'logit_temp': 0.1, 'target_glu': False, 'feature_grad_mult': 0.1, 'mask_length': 10, 'mask_prob': 0.8, 'mask_selection': static, 'mask_other': 0.0, 'no_mask_overlap': False, 'mask_min_space': 1, 'mask_channel_length': 10, 'mask_channel_prob': 0.0, 'mask_channel_selection': static, 'mask_channel_other': 0.0, 'no_mask_channel_overlap': False, 'mask_channel_min_space': 1, 'conv_pos': 128, 'conv_pos_groups': 16, 'latent_temp': [2.0, 0.5, 0.999995], 'skip_masked': False, 'skip_nomask': False, 'checkpoint_activations': False, 'required_seq_len_multiple': 2, 'depthwise_conv_kernel_size': 31, 'attn_type': '', 'pos_enc_type': 'abs', 'fp16': True}
+/home/v-zhijunjia/miniconda3/envs/valle-4-23/lib/python3.10/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator MiniBatchKMeans from version 0.24.0 when using version 1.2.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2024-01-28 12:37:47 | INFO | root | Processing partition: all CUDA: True
+Cut statistics:
+╒═══════════════════════════╤═══════════╕
+│ Cuts count:               │ 151640    │
+├───────────────────────────┼───────────┤
+│ Total duration (hh:mm:ss) │ 251:05:15 │
+├───────────────────────────┼───────────┤
+│ mean                      │ 6.0       │
+├───────────────────────────┼───────────┤
+│ std                       │ 3.5       │
+├───────────────────────────┼───────────┤
+│ min                       │ 0.4       │
+├───────────────────────────┼───────────┤
+│ 25%                       │ 3.9       │
+├───────────────────────────┼───────────┤
+│ 50%                       │ 5.2       │
+├───────────────────────────┼───────────┤
+│ 75%                       │ 7.1       │
+├───────────────────────────┼───────────┤
+│ 99%                       │ 19.2      │
+├───────────────────────────┼───────────┤
+│ 99.5%                     │ 24.6      │
+├───────────────────────────┼───────────┤
+│ 99.9%                     │ 39.1      │
+├───────────────────────────┼───────────┤
+│ max                       │ 71.2      │
+├───────────────────────────┼───────────┤
+│ Recordings available:     │ 151640    │
+├───────────────────────────┼───────────┤
+│ Features available:       │ 0         │
+├───────────────────────────┼───────────┤
+│ Supervisions available:   │ 151640    │
+╘═══════════════════════════╧═══════════╛
+SUPERVISION custom fields:
+Speech duration statistics:
+╒══════════════════════════════╤═══════════╤══════════════════════╕
+│ Total speech duration        │ 251:05:15 │ 100.00% of recording │
+├──────────────────────────────┼───────────┼──────────────────────┤
+│ Total speaking time duration │ 251:05:15 │ 100.00% of recording │
+├──────────────────────────────┼───────────┼──────────────────────┤
+│ Total silence duration       │ 00:00:01  │ 0.00% of recording   │
+╘══════════════════════════════╧═══════════╧══════════════════════╛
+  0%|          | 0/151640 [00:00<?, ?it/s]2024-01-28 12:37:55 | WARNING | phonemizer | words count mismatch on 200.0% of the lines (2/1)
+MonoCut(id='indictts_phase2_hindi_male_speaker1_english-train_hindifullmale_03870-0', start=0, duration=7.2024791666666665, channel=0, supervisions=[SupervisionSegment(id='indictts_phase2_hindi_male_speaker1_english-train_hindifullmale_03870', recording_id='indictts_phase2_hindi_male_speaker1_english-train_hindifullmale_03870', start=0, duration=7.2024791666666665, channel=0, text='Tenaliraman assured Thimmarusu, I will give out the best solution to this problem in the VijayaNagar tomorrow.', language='English', speaker='indictts_phase2_hindi_male_speaker1_english', gender=None, custom={'accent': 'Hindi', 'tokens': {'text': ['t', 'ɛ', 'n', 'ɐ', 'l', 'ɜː', 'ɹ', 'æ', 'm', 'ə', 'n', '_', 'ə', 'ʃ', 'j', 'ʊɹ', 'd', '_', 'θ', 'ɪ', 'm', 'ɑː', 'ɹ', 'uː', 's', 'uː', ',', '_', 'aɪ', '_', 'w', 'ɪ', 'l', '_', 'ɡ', 'ɪ', 'v', '_', 'aʊ', 't', '_', 'ð', 'ə', '_', 'b', 'ɛ', 's', 't', '_', 's', 'ə', 'l', 'uː', 'ʃ', 'ə', 'n', '_', 't', 'ə', '_', 'ð', 'ɪ', 's', '_', 'p', 'ɹ', 'ɑː', 'b', 'l', 'ə', 'm', '_', 'ɪ', 'n', 'ð', 'ə', '_', 'v', 'ɪ', 'dʒ', 'eɪ', 'ə', '_', 'n', 'æ', 'ɡ', 'ɚ', '_', 't', 'ə', 'm', 'ɔː', 'ɹ', 'oʊ', '.'], 'semantic_tokens': [17, 17, 17, 17, 296, 296, 392, 392, 184, 184, 392, 392, 127, 114, 0, 0, 0, 330, 94, 479, 331, 331, 284, 284, 460, 240, 175, 175, 81, 41, 324, 324, 324, 256, 325, 256, 256, 284, 319, 203, 53, 70, 65, 65, 242, 348, 94, 94, 199, 255, 255, 255, 99, 99, 338, 338, 395, 395, 106, 106, 153, 153, 153, 387, 387, 372, 396, 313, 24, 131, 404, 225, 414, 414, 80, 80, 80, 80, 82, 127, 119, 351, 278, 278, 203, 399, 70, 65, 256, 256, 256, 256, 285, 285, 256, 256, 256, 274, 186, 162, 54, 54, 224, 256, 256, 256, 256, 375, 375, 98, 98, 98, 13, 229, 82, 140, 187, 391, 82, 289, 73, 289, 140, 412, 287, 287, 111, 111, 111, 438, 438, 378, 43, 345, 389, 389, 389, 389, 389, 389, 122, 32, 32, 239, 445, 485, 278, 278, 278, 173, 173, 280, 280, 106, 113, 113, 113, 113, 113, 274, 413, 122, 314, 314, 198, 198, 22, 283, 283, 455, 455, 32, 32, 32, 32, 354, 470, 443, 443, 443, 443, 169, 169, 150, 86, 238, 6, 82, 131, 472, 472, 66, 66, 172, 172, 115, 273, 494, 494, 278, 251, 251, 219, 485, 485, 374, 374, 132, 132, 99, 99, 99, 436, 60, 60, 298, 298, 298, 195, 195, 195, 117, 76, 76, 36, 36, 377, 123, 123, 123, 216, 32, 198, 114, 258, 258, 258, 31, 54, 9, 142, 221, 336, 82, 74, 190, 380, 488, 488, 488, 481, 215, 215, 8, 29, 359, 359, 81, 459, 134, 203, 203, 381, 381, 381, 117, 404, 229, 82, 312, 187, 187, 391, 80, 140, 289, 82, 188, 188, 340, 340, 340, 67, 212, 212, 22, 283, 455, 455, 4, 4, 280, 280, 278, 278, 278, 310, 310, 395, 395, 180, 256, 256, 256, 330, 116, 10, 479, 331, 256, 256, 416, 416, 416, 192, 256, 256, 256, 256, 313, 314, 401, 401, 82, 108, 377, 494, 256, 399, 70, 65, 65, 65, 284, 481, 206, 206, 285, 467, 84, 84, 375, 375, 98, 98, 98, 421, 392, 392, 392, 392, 392, 392, 392, 392, 128, 193, 193, 17]}}, alignment=None)], features=None, recording=Recording(id='indictts_phase2_hindi_male_speaker1_english-train_hindifullmale_03870', sources=[AudioSource(type='file', channels=[0], source='/scratch/indian_accent_datasets/indictts-english/IndicTTS/IndicTTS_Phase2_Hindi_male_Speaker1_english/english/wav/train_hindifullmale_03870.wav')], sampling_rate=16000, num_samples=115240, duration=7.2025, channel_ids=[0], transforms=[{'name': 'Resample', 'kwargs': {'source_sampling_rate': 48000, 'target_sampling_rate': 16000}}]), custom=None)
+  0%|          | 0/151640 [00:00<?, ?it/s]
